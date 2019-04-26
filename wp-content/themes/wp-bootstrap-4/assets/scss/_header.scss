@@ -1,0 +1,30 @@
+.site-header{
+	background: #0000004d;
+	.main-navigation{
+		padding:0 1rem;
+		img{
+			height: 77px;
+			width: auto;
+			max-height: none;
+		}
+		.navbar-collapse{
+			.navbar-nav{
+				.nav-item{
+					padding: 30px 15px;
+					.nav-link{
+						color: #fff;
+						font-weight: 600;
+						text-transform: uppercase;
+						font-size: 14px;
+						&:hover{
+							 color: white;	
+						}	 
+					}
+					&:hover{
+						background-color: rgba(0, 0, 0, 0.33) !important;
+					}
+				}
+			}
+		}
+	}
+}

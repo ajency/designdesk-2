@@ -33,69 +33,71 @@ get_header(); ?>
 	<?php endif; ?>
 <?php endif; ?>
 
-	<div class="container">
-		<div class="row">
-
-			<?php if ( $default_sidebar_position === 'no' ) : ?>
-				<div class="col-md-12 wp-bp-content-width">
-			<?php else : ?>
-				<div class="col-md-8 wp-bp-content-width">
-			<?php endif; ?>
-				<div id="primary" class="content-area">
-					<main id="main" class="site-main">
-
-					<?php
-					if ( have_posts() ) :
-
-						if ( is_home() && ! is_front_page() ) : ?>
-							<header>
-								<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-							</header>
-
-						<?php
-						endif;
-
-						if( get_theme_mod( 'blog_display_posts_slider', '1' ) && is_home() && !is_paged() ) {
-							get_template_part( 'template-parts/posts-slider' );
-						}
-
-						/* Start the Loop */
-						while ( have_posts() ) : the_post();
-
-							// Include the Post-Format-specific template for the content.
-							get_template_part( 'template-parts/content', get_post_format() );
-
-						endwhile;
-
-						the_posts_navigation( array(
-							'next_text' => esc_html__( 'Newer Posts', 'wp-bootstrap-4' ),
-							'prev_text' => esc_html__( 'Older Posts', 'wp-bootstrap-4' ),
-						) );
-
-					else :
-
-						get_template_part( 'template-parts/content', 'none' );
-
-					endif; ?>
-
-					</main><!-- #main -->
-				</div><!-- #primary -->
-			</div>
-			<!-- /.col-md-8 -->
-
-			<?php if ( $default_sidebar_position != 'no' ) : ?>
-				<?php if ( $default_sidebar_position === 'right' ) : ?>
-					<div class="col-md-4 wp-bp-sidebar-width">
-				<?php elseif ( $default_sidebar_position === 'left' ) : ?>
-					<div class="col-md-4 order-md-first wp-bp-sidebar-width">
-				<?php endif; ?>
-						<?php get_sidebar(); ?>
+<!-- /.our approach -->
+		<div class="our_approach">
+		<div class="container">
+			<h2 class="section_title">Our Approach</h2>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 approach_block">
+						<img src="wp-content/themes/wp-bootstrap-4/assets/images/approach_img1.png" alt="">
+						<h2 class="listen-text">We Listen</h2>
+							<p class="info_one"> Dedicated &</p>
+							<p class="info_two">highly responsive</p>
+							<p class="info_three"> Client Service</p>
 					</div>
-					<!-- /.col-md-4 -->
-			<?php endif; ?>
+					<div class="col-lg-4 col-md-4 col-sm-12 approach_block">
+						<img src="wp-content/themes/wp-bootstrap-4/assets/images/approach_img2.png" alt="">
+						<h2 class="design-text">We Design</h2>
+							<p class="info_one"> A winning combination of</p>
+							<p class="info_two">expertise & experience</p>
+							<p class="info_three"> Design & Layout</p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 approach_block">
+						<img src="wp-content/themes/wp-bootstrap-4/assets/images/approach_img3.png" alt="">
+						<h2 class="deliver-text">We Deliver</h2>
+							<p class="info_one"> Reputed for best</p>
+							<p class="info_two"> quality & service</p>
+							<p class="info_three"> Project Execution</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- /.row -->
-	</div>
+		<!-- /.our approach -->
+
+		<!-- /.our why-choose-us -->
+		<div class="why_choose_us">
+			<div class="left-side"></div>
+					<div class="right-side">
+					<div class="opacity">
+					 <h2 class="choose_us_title"> 4 Reasons to choose us </h2>
+						<div class="choose_reason item1">
+							<h6 class="item_heading">Business focused Design</h6>
+							<p class="item_text">We consider a Design successful only when it meets your marketing & brand objectives.<br>
+								<a href="#">Read more</a>
+							</p>
+						</div>
+						<div class="choose_reason item2">
+							<h6 class="item_heading">Responsive Service</h6>
+							<p class="item_text">Our dedicated service managers work closely with you to deliver the perfect exhibit. <br>
+								<a href="#">Read more</a>
+							</p>
+						</div>
+						<div class="choose_reason item3">
+							<h6 class="item_heading">Immaculate Execution</h6>
+							<p class="item_text">The quality of a booth is said to reflect the standard of the company & its products. <br>
+								<a href="#">Read more</a><br>
+							</p>
+						</div>
+						<div class="choose_reason item4">
+							<h6 class="item_heading">100% Reliable Partner</h6>
+							<p class="item_text">When you don’t want to take chances with your exhibition stand, you need a capable & experienced partner.
+								<a href="#">Read more</a><br>
+							</p>
+						</div>
+					</div>
+				</div>
+				</div>
+
 	<!-- /.container -->
 
 <?php
