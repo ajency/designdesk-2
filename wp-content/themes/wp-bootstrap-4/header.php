@@ -18,55 +18,47 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
+
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-4' ); ?></a>
 
-	<header id="masthead" class="site-header <?php if ( get_theme_mod( 'sticky_header', 0 ) ) : echo 'sticky-top'; endif; ?>">
-		<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg navbar-dark bg-dark">
-			<?php if( get_theme_mod( 'header_within_container', 0 ) ) : ?><div class="container"><?php endif; ?>
-				<?php the_custom_logo(); ?>
+	<header id="masthead" class="site-header">
+		<div class="container">
+			<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg">
 
-				<div class="site-branding-text">
-					<?php
-						if ( is_front_page() && is_home() ) : ?>
-		                    <h1 class="site-title h3 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand mb-0"><?php bloginfo( 'name' ); ?></a></h1>
-		                <?php else : ?>
-		                    <h2 class="site-title h3 mb-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand mb-0"><?php bloginfo( 'name' ); ?></a></h2>
-		                <?php
-						endif;
-
-						if ( get_theme_mod( 'show_site_description', 1 ) ) {
-		                    $description = get_bloginfo( 'description', 'display' );
-		                    if ( $description || is_customize_preview() ) : ?>
-		                        <p class="site-description"><?php echo esc_html( $description ); ?></p>
-		                    <?php
-		                    endif;
-		                }
-					?>
+				<div id="logo">
+					<a href="#" class="image-logo">
+						<img src="wp-content/themes/wp-bootstrap-4/assets/images/design_desk_logo_white_new.png" class="alt-logo" alt="">
+					</a>
 				</div>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primary-menu-wrap" aria-controls="primary-menu-wrap" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
 				</button>
-				<?php
-					wp_nav_menu( array(
-						'theme_location'  => 'menu-1',
-						'menu_id'         => 'primary-menu',
-						'container'       => 'div',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'primary-menu-wrap',
-						'menu_class'      => 'navbar-nav ml-auto',
-			            'fallback_cb'     => '__return_false',
-			            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-			            'depth'           => 2,
-			            'walker'          => new WP_bootstrap_4_walker_nav_menu()
-					) );
-				?>
-			<?php if( get_theme_mod( 'header_within_container', 0 ) ) : ?></div><!-- /.container --><?php endif; ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav navbar-nav ml-auto navbar-right">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"> Home </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Expertise </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Gallery </a>
+						</li>					
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Contact </a>
+						</li>
+					</ul>
+				</div>
+			</nav> 
+		</div>
+	</header>
+
+	
 
 	<div id="content" class="site-content">
