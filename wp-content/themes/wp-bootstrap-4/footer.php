@@ -91,11 +91,11 @@
 	</section>
 	<section class="footer-widgets action_block">
 		<span class="email_text"><i class="far fa-envelope"></i>  &nbsp india@designdesk.in</span>
-		<span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +91 97699 14770 </span>
+		<span class="num_text ml-4"> <i class="fas fa-mobile-alt"></i>  &nbsp +91 97699 14770 </span>
 
 		<h2 class="contact_title"> Get a quote</h2>
 
-		<?php echo do_shortcode('[formidable id=2]'); ?>
+		
 
 	</section>
 </footer>

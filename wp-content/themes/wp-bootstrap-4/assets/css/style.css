@@ -20,7 +20,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
   top: 32px;
   background: transparent; }
   .fixed-top.headerbg {
-    background: #fff; }
+    background: #fff;
+    top: 32px; }
   .fixed-top .main-navigation {
     padding: 0; }
     .fixed-top .main-navigation img {
@@ -123,6 +124,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
           font-weight: 500; }
           .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
             background-color: #333; }
+
+.section_title {
+  font-szie: 20px; }
 
 .carousel img {
   max-width: 100%; }
@@ -369,6 +373,41 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     content: '';
     display: block;
     clear: both; }
+
+.counter_in_home {
+  background: #dc3545;
+  color: #fff;
+  padding: 1rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold; }
+  .counter_in_home:hover {
+    transition: all 0.5s ease-in-out; }
+  .counter_in_home .timer {
+    line-height: 1;
+    font-size: 72px;
+    font-weight: bold; }
+
+.card {
+  border: 1px solid #fff; }
+  .card .card-header {
+    background: #e4e2e2;
+    border-bottom: 0; }
+    .card .card-header a {
+      color: #000; }
+      .card .card-header a:focus {
+        color: #000; }
+      .card .card-header a:hover {
+        color: #000;
+        text-decoration: none; }
+      .card .card-header a .faq_title {
+        font-size: 14px;
+        line-height: 22px; }
+    .card .card-header:hover {
+      background: #f9f9f9; }
+  .card .card-body {
+    border: solid 1px #ebebeb;
+    font-size: 14px; }
 
 .site-footer {
   height: auto;
