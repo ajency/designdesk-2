@@ -17,11 +17,11 @@ WP Bootstrap 4 is based on Underscores https://underscores.me/, (C) 2012-2017 Au
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
 .fixed-top {
-  top: 32px;
-  background: transparent; }
+  background: transparent;
+  top: 0; }
   .fixed-top.headerbg {
     background: #fff;
-    top: 32px; }
+    top: 0; }
   .fixed-top .main-navigation {
     padding: 0; }
     .fixed-top .main-navigation img {
@@ -37,8 +37,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     .fixed-top .main-navigation .toggler .top-line,
     .fixed-top .main-navigation .toggler .mid-line,
     .fixed-top .main-navigation .toggler .bot-line {
-      background: #fff;
-      color: #fff;
+      background: #cccccc;
+      color: #cccccc;
       width: 2rem;
       height: 2px;
       margin: 7px; }
@@ -94,7 +94,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
   .responsive-menu input[type="text"] {
     background: #333;
     border-radius: 0;
-    border: none; }
+    border: none;
+    width: 100%;
+    padding: 8px 20px; }
   .responsive-menu .mobilemenu .navbar-nav {
     line-height: 40px;
     margin-left: auto; }
@@ -125,8 +127,19 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
           .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
             background-color: #333; }
 
+body {
+  background: #f5f5f5; }
+
 .section_title {
-  font-szie: 20px; }
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 32px;
+  text-align: center;
+  color: #424242; }
+
+#angle {
+  position: absolute;
+  right: 30px; }
 
 .carousel img {
   max-width: 100%; }
@@ -158,13 +171,84 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
       font-size: 2.5rem; } }
   @media (max-width: 498px) and (min-width: 320px) {
     .carousel .carousel-caption .display-4 {
-      font-szie: 1.5rem; } }
+      font-size: 1.5rem; } }
   @media (max-width: 768px) {
     .carousel .carousel-caption {
       bottom: 40px; } }
   @media (max-width: 475px) {
     .carousel .carousel-caption {
-      bottom: 0; } }
+      bottom: 0;
+      line-height: 0.5; } }
+
+.exhibition_stand {
+  margin: 3rem; }
+  .exhibition_stand .sticky-title {
+    text-align: center;
+    border: 2px solid #2471b5;
+    position: relative;
+    top: 11px;
+    border-bottom: 0;
+    font-size: 18px; }
+    .exhibition_stand .sticky-title span {
+      color: #fff;
+      background-color: #2471b5;
+      padding: 11px;
+      display: inline-block;
+      position: relative;
+      top: -45px;
+      min-width: 350px;
+      left: 0;
+      right: 0;
+      margin: 20px auto;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center; }
+    @media (max-width: 768px) {
+      .exhibition_stand .sticky-title {
+        border: none; } }
+  .exhibition_stand .exhibit {
+    padding: 0.5rem;
+    background: #f5f5f5; }
+    .exhibition_stand .exhibit .design_stand {
+      margin-top: -1.9em;
+      margin-bottom: 2.5rem;
+      text-align: center; }
+      .exhibition_stand .exhibit .design_stand img {
+        max-width: 100%; }
+      .exhibition_stand .exhibit .design_stand .info-text {
+        background: #efefef;
+        position: relative;
+        padding: 1rem; }
+        .exhibition_stand .exhibit .design_stand .info-text .info-title {
+          text-align: center;
+          padding: 12px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #454545;
+          line-height: 24px; }
+        .exhibition_stand .exhibit .design_stand .info-text p {
+          text-align: center;
+          font-size: 14px;
+          line-height: 22px; }
+        .exhibition_stand .exhibit .design_stand .info-text:second-child {
+          left: -10px; }
+        @media (max-width: 768px) {
+          .exhibition_stand .exhibit .design_stand .info-text {
+            background: #f5f5f5; } }
+  @media (max-width: 768px) {
+    .exhibition_stand {
+      margin: 0; } }
+
+.main_block {
+  text-align: center; }
+  .main_block .block_heading {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    text-align: center; }
+    .main_block .block_heading .block_subheading {
+      font-size: 14px;
+      text-align: center; }
 
 .why_choose_us {
   margin: 1.5rem 0 0 0; }
@@ -185,19 +269,18 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     background: #f8f8f8;
     position: relative;
     float: left;
-    width: 50%; }
-    @media (max-width: 991px) and (min-width: 638px) {
+    width: 50%;
+    height: 718px;
+    box-shadow: 0px 0px 2px 0px #b9b7b7; }
+    @media (max-width: 991px) and (min-width: 575px) {
       .why_choose_us .right-side {
-        height: 60rem; } }
-    @media (max-width: 637px) and (min-width: 575px) {
-      .why_choose_us .right-side {
-        height: 67rem; } }
+        height: 61rem; } }
     @media (max-width: 574px) and (min-width: 399px) {
       .why_choose_us .right-side {
-        height: 75rem; } }
+        height: 67rem; } }
     @media (max-width: 398px) and (min-width: 320px) {
       .why_choose_us .right-side {
-        height: 88rem; } }
+        height: 84rem; } }
     .why_choose_us .right-side .opacity {
       position: absolute;
       top: 0;
@@ -216,7 +299,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
         margin-bottom: 2rem; }
         @media (max-width: 991px) and (min-width: 699px) {
           .why_choose_us .right-side .opacity .choose_us_title {
-            font-size: 40px; } }
+            font-size: 32px; } }
       .why_choose_us .right-side .opacity .item1 {
         padding: 15px; }
         .why_choose_us .right-side .opacity .item1 .num {
@@ -232,6 +315,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
           @media (min-width: 991px) {
             .why_choose_us .right-side .opacity .item1 .num {
               display: none; } }
+        @media (max-width: 640px) {
+          .why_choose_us .right-side .opacity .item1 {
+            padding: 8px; } }
         .why_choose_us .right-side .opacity .item1:before {
           content: "1";
           position: absolute;
@@ -263,6 +349,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
           @media (min-width: 991px) {
             .why_choose_us .right-side .opacity .item2 .num {
               display: none; } }
+        @media (max-width: 640px) {
+          .why_choose_us .right-side .opacity .item2 {
+            padding: 8px; } }
         .why_choose_us .right-side .opacity .item2:before {
           content: "2";
           position: absolute;
@@ -294,6 +383,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
           @media (min-width: 991px) {
             .why_choose_us .right-side .opacity .item3 .num {
               display: none; } }
+        @media (max-width: 640px) {
+          .why_choose_us .right-side .opacity .item3 {
+            padding: 8px; } }
         .why_choose_us .right-side .opacity .item3:before {
           content: "3";
           position: absolute;
@@ -325,6 +417,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
           @media (min-width: 991px) {
             .why_choose_us .right-side .opacity .item4 .num {
               display: none; } }
+        @media (max-width: 640px) {
+          .why_choose_us .right-side .opacity .item4 {
+            padding: 8px; } }
         .why_choose_us .right-side .opacity .item4:before {
           content: "4";
           position: absolute;
@@ -350,7 +445,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
         font-size: 14px; }
       @media (max-width: 991px) {
         .why_choose_us .right-side .opacity {
-          padding: 0px 100px; } }
+          padding: 0px 80px; } }
       @media (max-width: 575px) {
         .why_choose_us .right-side .opacity {
           padding: 30px; } }
@@ -375,18 +470,85 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     clear: both; }
 
 .counter_in_home {
-  background: #dc3545;
-  color: #fff;
-  padding: 1rem;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold; }
-  .counter_in_home:hover {
-    transition: all 0.5s ease-in-out; }
-  .counter_in_home .timer {
-    line-height: 1;
-    font-size: 72px;
-    font-weight: bold; }
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+  .counter_in_home .counter {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px; }
+    .counter_in_home .counter .count-title {
+      font-size: 50px;
+      letter-spacing: -2px;
+      line-height: 55px;
+      text-align: center;
+      color: #f48e0c; }
+    .counter_in_home .counter .count-separator {
+      margin-top: -5px; }
+      .counter_in_home .counter .count-separator .bottom-line {
+        width: 40px;
+        background: #ddd none repeat scroll 0 0;
+        display: inline-block;
+        height: 1px;
+        text-align: center; }
+    .counter_in_home .counter .count-text {
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 0;
+      text-align: center;
+      color: #999999;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+
+#scroller {
+  display: flex;
+  padding-left: 0; }
+  #scroller li {
+    list-style-type: none;
+    background: #fff;
+    margin-right: 3rem; }
+    #scroller li img {
+      height: 100px;
+      margin: 0 1.5rem; }
+
+.simply-scroll-container {
+  position: relative; }
+
+.simply-scroll-clip {
+  position: relative;
+  overflow: hidden; }
+
+.simply-scroll-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .simply-scroll-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .simply-scroll-list li img {
+      border: none;
+      display: block; }
+
+.simply-scroll {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1em; }
+  .simply-scroll .simply-scroll-clip {
+    width: auto;
+    height: 200px; }
+  .simply-scroll .simply-scroll-list li {
+    float: left;
+    width: 290px;
+    height: 100px;
+    background: #fff;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: 0.3s; }
+    .simply-scroll .simply-scroll-list li:hover {
+      filter: none;
+      opacity: 1; }
 
 .card {
   border: 1px solid #fff; }
@@ -437,16 +599,16 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
       display: block;
       background: rgba(17, 17, 17, 0.93);
       width: 100%;
-      height: 38%;
+      height: 39%;
       position: absolute;
       left: 0;
       right: 0; }
       @media (max-width: 768px) {
         .site-footer .address:before {
-          height: 72%; } }
+          height: 74%; } }
       @media (max-width: 496px) {
         .site-footer .address:before {
-          height: 80%; } }
+          height: 81%; } }
   .site-footer .action_block {
     padding: 20px; }
     .site-footer .action_block span {
@@ -466,7 +628,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
       height: 40px;
       position: absolute;
       right: 0;
-      left: 52%; }
+      left: 51.6%; }
       @media (max-width: 768px) {
         .site-footer .action_block:before {
           display: none; } }
@@ -474,6 +636,11 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     margin-top: 40px;
     text-transform: uppercase;
     color: #fff; }
+
+.members-of {
+  background: #efefef;
+  margin-top: 2rem;
+  padding: 1rem; }
 
 #form_d3ymj {
   margin: 0 25%; }
@@ -492,4 +659,25 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
     padding: 6px 5rem; }
   @media (max-width: 768px) {
     #form_d3ymj .frm_required {
+      display: none; } }
+
+.frm-show-form {
+  margin: 0 25%; }
+  @media (min-with: 768px) {
+    .frm-show-form {
+      margin: 0; } }
+  .frm-show-form .frm_submit {
+    text-align: center; }
+  .frm-show-form #field_qgctn, .frm-show-form #field_cnhl7, .frm-show-form #field_c3xmb, .frm-show-form #field_ipizv, .frm-show-form #field_t9z9j {
+    background: transparent; }
+  .frm-show-form #field_qgctn_label, .frm-show-form #field_cnhl7_label, .frm-show-form #field_c3xmb_label, .frm-show-form #field_ipizv_label, .frm-show-form #field_t9z9j_label {
+    color: #fff; }
+  .frm-show-form .frm_button_submit {
+    background: #f39100;
+    color: #252525;
+    padding: 6px 5rem;
+    font-weight: 600;
+    border: none; }
+  @media (max-width: 768px) {
+    .frm-show-form .frm_required {
       display: none; } }

@@ -1,9 +1,9 @@
 .fixed-top{
-	top: 32px;
 	background: transparent;
+	top: 0;
 	&.headerbg{
 		background: #fff;
-		top:32px;
+		top: 0;
 	}
 	.main-navigation{
 		padding:0;
@@ -24,8 +24,8 @@
 			.top-line,
 			.mid-line,
 			.bot-line{
-				background: #fff;
-				color: #fff;
+				background: #cccccc;
+				color: #cccccc;
 				width: 2rem;
 				height: 2px;
 				margin: 7px;
@@ -101,6 +101,8 @@
     	background: #333;
 		border-radius: 0;
 		border: none;
+		width: 100%;
+		padding: 8px 20px;
     }
 	.mobilemenu{
 		.navbar-nav{

@@ -137,6 +137,57 @@ get_header(); ?>
     </a>
 </div>
 
+<!-- Exhibition Stand -->
+<div class="exhibition_stand">
+	<div class="container">
+			<div class="sticky-title">
+				<span> Exhibition Stand Design & Build</span>
+			</div>
+			<div class="row exhibit">
+				<div class="col-lg-6 col-md-6 design_stand">
+					<img src="wp-content/themes/wp-bootstrap-4/assets/images/Exhibition-Design-India.jpg" alt="">
+					<div class="info-text">
+						<h4 class="info-title">AT EXHIBITIONS ACROSS INDIA</h4>
+						<p>Need a quality Exhibition stand in Mumbai, New Delhi, <br>Bengaluru or any other corner of India? <br> We've got you covered</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 design_stand">
+					<img src="wp-content/themes/wp-bootstrap-4/assets/images/Exhibition-Design-Germany.jpg" alt="">
+					<div class="info-text">
+						<h4 class="info-title">AT EXHIBITIONS WORLDWIDE</h4>
+						<p>Experienced in over 26 countries, we are your reliable<br>partner for exhibitions across Europe, Middle East,<br>Asia &amp; other major exhibition venues 
+						</p>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<!-- End Exhibition Stand -->
+			
+<!-- <div class="our_approach">
+	<div class="container">
+		<h2 class="section_title"> Our Approach</h2>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
+					<i class="fas fa-assistive-listening-systems"></i>
+					<div class="block_heading"> We Listen </div>
+					<p class="block_subheading"> Dedicated & highly responsive client service</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
+					<i class="fas fa-cogs"></i>
+					<div class="block_heading"> We Design </div>
+					<p class="block_subheading"> A winning combination of expertise & experience deisgn layout</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
+					<i class="fas fa-assistive-listening-systems"></i>
+					<div class="block_heading"> We Deliver </div>
+					<p class="block_subheading"> Reputed for best quality and service project execution</p>
+				</div>
+			</div>
+	</div>
+</div> -->
+
+
 
 <!-- /.our why-choose-us -->
 <div class="why_choose_us">
@@ -176,11 +227,208 @@ get_header(); ?>
 <!-- end -why-choose-us -->
 
 <!-- Counter -->
+<div class="counter_in_home">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-lg-3 col-md-12">
+				<div class="counter">
+		    		<h2 class="timer count-title count-number" data-to="13" data-speed="1200"></h2>
+		    		<div class="count-separator"><span class="bottom-line"></span></div>
+		       		<p class="count-text ">YEARS IN BUSINESS</p>
+		    	</div>
+		    </div>
+	        <div class="col-lg-3 col-md-12">
+	            <div class="counter">
+	    		    <h2 class="timer count-title count-number" data-to="1200" data-speed="1200"></h2>
+		    		<div class="count-separator"><span class="bottom-line"></span></div> <p class="count-text ">PROJECTS DELIVERED</p>
+	    		</div>
+	        </div>
+	         <div class="col-lg-3 col-md-12">
+	            <div class="counter">
+	    			<h2 class="timer count-title count-number" data-to="45" data-speed="1200"></h2>
+		    		<div class="count-separator"><span class="bottom-line"></span></div>
+		    		<p class="count-text ">MEMBER TEAM</p>
+	    		</div>
+	    	</div>
+	        <div class="col-lg-3 col-md-12">
+	            <div class="counter">
+	    			<h2 class="timer count-title count-number" data-to="26" data-speed="1200"></h2>
+	   	    		<div class="count-separator"><span class="bottom-line"></span></div>
+					<p class="count-text ">COUNTRIES COVERED</p>
+	    		</div>
+	        </div>
+	    </div>
+	</div>
+</div>
 
 <!-- end of Counter -->
 
+<!-- Auto Scroll --> 
 
-			
+
+<div class="clients-logo">
+	<div class="container position-relative">
+		<h2 class="section_title"> Trusted by Brands like </h2>
+			<ul id="scroller">
+				<li ><img src="wp-content/themes/wp-bootstrap-4/assets/images/swarovski.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/acg.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/reliance.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/aditya-birla-group.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/Mitsubishi_Electric.png"></li>
+
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/cisco.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/raychem-rpg.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/siyaram.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/uber.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/airbus.png"></li>
+
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/gea.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/decor.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/portico.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/gmmco.png"></li>
+				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/hitachi.png"></li>
+			</ul>
+	</div>
+</div>
+<!-- Auto Scroll -->
+
+
+
+
+<!-- FAQ -->
+
+<!--Accordion wrapper-->
+<div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+<div class="container">
+	<h2 class="section_title"> Frequently asked questions </h2>
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingOne1">
+      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+        aria-controls="collapseOne1">
+        <h5 class="faq_title mb-0">
+          How will you design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        Your stand will be designed on a cutting edge 3d software at our design studio – you will get to see a life like visualization of your booth. The design team includes architects, interior designers, 3d visualizers & graphic artists – an eco system that produces amazing designs!
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingTwo2">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+        aria-expanded="false" aria-controls="collapseTwo2">
+        <h5 class="faq_title mb-0">
+         What do you need to design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        We need the hall layout showing your stand space & your requirements list. If you have not developed a requirement list, our Relationship Managers are happy to share a Design Brief Form which will help you structure your requirements.
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingThree3">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+        aria-expanded="false" aria-controls="collapseThree3">
+        <h5 class="faq_title mb-0">
+          Will you only create the design - or handle the production & installation as well?<i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        We are your one point solution provider & take the responsibility including Design, Installation & Dismantling. Once you have us on board, we will take care of everything leaving you to focus on your business & other exhibition planning!
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingFour4">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4"
+        aria-expanded="false" aria-controls="collapseFour4">
+        <h5 class=" faq_title mb-0">
+         Which countries & cities can Design Desk help at? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        With over 125 projects every year, we are present at several key exhibitions across India & the World. Whatever is the location of your exhibition – do not hesitate to check with us!
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingFive5">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive5"
+        aria-expanded="false" aria-controls="collapseFive5">
+        <h5 class="faq_title mb-0">
+        How do I get started? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
+      data-parent="#accordionEx">
+      <div class="card-body">
+      Just drop us an email on india@designdesk.in & we will get back to you within 24hours! Or call on +91 97699 14770
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+</div>
+
+</div>
+<!-- Accordion wrapper -->
+<!-- end of FAQ -->
+
+
 
 
 <?php

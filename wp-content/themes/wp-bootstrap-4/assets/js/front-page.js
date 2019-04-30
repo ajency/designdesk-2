@@ -132,3 +132,4 @@ function closeNav() {
   document.getElementById("page").style.marginLeft = "0";
   document.getElementById("page").style.opacity = "1";
 }
+

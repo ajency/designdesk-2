@@ -66,8 +66,21 @@
 		</div>  -->
 		<!-- /.container -->
 	</footer><!-- #colophon -->
+
+
+<div class="pre-footer-area">
+	<!-- Member of -->
+	<div class="members-of text-center mt-4">
+		<h6 class="text-center text-muted pt-2">Members of</h6>
+		<a href="#">
+		<img src="wp-content/themes/wp-bootstrap-4/assets/images/IFES-logo.png" alt=""></a>
+		<a href="#">
+		<img src="wp-content/themes/wp-bootstrap-4/assets/images/EDPA-logo.png" alt=""></a>
+	</div>
+	<!-- end of Member -->
+</div>
     
-<footer id="colophon" class="site-footer text-center mt-4">
+<footer id="colophon" class="site-footer text-center">
 	<section  class="footer-widgets address">
 		<div class="container">
 			<div class="row">
@@ -91,12 +104,11 @@
 	</section>
 	<section class="footer-widgets action_block">
 		<span class="email_text"><i class="far fa-envelope"></i>  &nbsp india@designdesk.in</span>
-		<span class="num_text ml-4"> <i class="fas fa-mobile-alt"></i>  &nbsp +91 97699 14770 </span>
+		<span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +91 97699 14770 </span>
 
 		<h2 class="contact_title"> Get a quote</h2>
 
-		
-
+		<?php echo do_shortcode("[formidable id=2]"); ?>
 	</section>
 </footer>
 

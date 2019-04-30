@@ -33,15 +33,15 @@
 		    display:block;
 		    background: rgba(17,17,17,.93);
 		    width:100%;
-		    height:38%;
+		    height:39%;
 			position:absolute;
 			left:0;
 			right:0;
 			@media (max-width: 768px){
-				height:72%;
+				height:74%;
 			}
 			@media (max-width: 496px){
-				height:80%;
+				height:81%;
 			}
 		}
 	}
@@ -65,7 +65,7 @@
 			height:40px;
 			position:absolute;
 			right:0;
-			left:52%;
+			left:51.6%;
 			@media (max-width: 768px){
 				display:none;
 			}
@@ -78,7 +78,17 @@
 	}
 }
 
-#form_d3ymj{
+
+//Memberof
+
+.members-of{
+	background: #efefef;
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+
+.frm-show-form{
 	margin: 0 25%;
 		@media (min-with: 768px){
 		margin: 0;
@@ -92,12 +102,41 @@
 	#field_55u9h_label, #field_sxq15_label, #field_nqbir_label, #field_ipizv_label , #field_6to4e_label{
 		color: #fff;
 	}
-	input [type="submit"]{
+	.frm_button_submit{
 	    background: transparent;
 	    color: #fff;
 	    padding: 6px 5rem;
 	}
 
+	.frm_required{
+		@media (max-width: 768px){
+			display: none;
+		}
+	}
+}
+
+
+.frm-show-form {
+	margin: 0 25%;
+		@media (min-with: 768px){
+		margin: 0;
+	}
+	.frm_submit{
+		text-align: center;
+	}
+	#field_qgctn, #field_cnhl7, #field_c3xmb, #field_ipizv, #field_t9z9j {
+		background: transparent;
+	}
+	#field_qgctn_label, #field_cnhl7_label, #field_c3xmb_label, #field_ipizv_label , #field_t9z9j_label{
+		color: #fff;
+	}
+	.frm_button_submit{
+		background: #f39100;
+    	color: #252525;
+   		padding: 6px 5rem;
+    	font-weight: 600;
+    	border: none;
+	}
 	.frm_required{
 		@media (max-width: 768px){
 			display: none;
