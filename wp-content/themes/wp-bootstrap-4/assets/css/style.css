@@ -203,11 +203,15 @@ body {
       text-transform: uppercase;
       font-weight: 700;
       text-align: center; }
+      @media (max-width: 399px) {
+        .exhibition_stand .sticky-title span {
+          min-width: auto; } }
     @media (max-width: 768px) {
       .exhibition_stand .sticky-title {
-        border: none; } }
+        border: none;
+        top: 7px; } }
   .exhibition_stand .exhibit {
-    padding: 0.5rem;
+    padding: 0;
     background: #f5f5f5; }
     .exhibition_stand .exhibit .design_stand {
       margin-top: -1.9em;
@@ -230,25 +234,35 @@ body {
           text-align: center;
           font-size: 14px;
           line-height: 22px; }
-        .exhibition_stand .exhibit .design_stand .info-text:second-child {
-          left: -10px; }
         @media (max-width: 768px) {
           .exhibition_stand .exhibit .design_stand .info-text {
             background: #f5f5f5; } }
+      .exhibition_stand .exhibit .design_stand .block_1 {
+        right: -15px; }
+        @media (max-width: 768px) {
+          .exhibition_stand .exhibit .design_stand .block_1 {
+            right: 0; } }
+      .exhibition_stand .exhibit .design_stand .block_2 {
+        left: -15px; }
+        @media (max-width: 768px) {
+          .exhibition_stand .exhibit .design_stand .block_2 {
+            left: 0; } }
   @media (max-width: 768px) {
     .exhibition_stand {
-      margin: 0; } }
+      margin: 5rem 0 0 0; } }
 
 .main_block {
   text-align: center; }
+  .main_block fa {
+    margin: 22px 0; }
   .main_block .block_heading {
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.1px;
     text-align: center; }
-    .main_block .block_heading .block_subheading {
-      font-size: 14px;
-      text-align: center; }
+  .main_block .block_subheading {
+    font-size: 14px;
+    text-align: center; }
 
 .why_choose_us {
   margin: 1.5rem 0 0 0; }
@@ -642,23 +656,23 @@ body {
   margin-top: 2rem;
   padding: 1rem; }
 
-#form_d3ymj {
+.frm-show-form {
   margin: 0 25%; }
   @media (min-with: 768px) {
-    #form_d3ymj {
+    .frm-show-form {
       margin: 0; } }
-  #form_d3ymj .frm_submit {
+  .frm-show-form .frm_submit {
     text-align: center; }
-  #form_d3ymj #field_55u9h, #form_d3ymj #field_sxq15, #form_d3ymj #field_nqbir, #form_d3ymj #field_ipizv, #form_d3ymj #field_6to4e {
+  .frm-show-form #field_55u9h, .frm-show-form #field_sxq15, .frm-show-form #field_nqbir, .frm-show-form #field_ipizv, .frm-show-form #field_6to4e {
     background: transparent; }
-  #form_d3ymj #field_55u9h_label, #form_d3ymj #field_sxq15_label, #form_d3ymj #field_nqbir_label, #form_d3ymj #field_ipizv_label, #form_d3ymj #field_6to4e_label {
+  .frm-show-form #field_55u9h_label, .frm-show-form #field_sxq15_label, .frm-show-form #field_nqbir_label, .frm-show-form #field_ipizv_label, .frm-show-form #field_6to4e_label {
     color: #fff; }
-  #form_d3ymj input [type="submit"] {
+  .frm-show-form .frm_button_submit {
     background: transparent;
     color: #fff;
     padding: 6px 5rem; }
   @media (max-width: 768px) {
-    #form_d3ymj .frm_required {
+    .frm-show-form .frm_required {
       display: none; } }
 
 .frm-show-form {

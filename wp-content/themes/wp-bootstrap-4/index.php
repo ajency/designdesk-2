@@ -146,14 +146,14 @@ get_header(); ?>
 			<div class="row exhibit">
 				<div class="col-lg-6 col-md-6 design_stand">
 					<img src="wp-content/themes/wp-bootstrap-4/assets/images/Exhibition-Design-India.jpg" alt="">
-					<div class="info-text">
+					<div class="info-text block_1">
 						<h4 class="info-title">AT EXHIBITIONS ACROSS INDIA</h4>
 						<p>Need a quality Exhibition stand in Mumbai, New Delhi, <br>Bengaluru or any other corner of India? <br> We've got you covered</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 design_stand">
 					<img src="wp-content/themes/wp-bootstrap-4/assets/images/Exhibition-Design-Germany.jpg" alt="">
-					<div class="info-text">
+					<div class="info-text block_2">
 						<h4 class="info-title">AT EXHIBITIONS WORLDWIDE</h4>
 						<p>Experienced in over 26 countries, we are your reliable<br>partner for exhibitions across Europe, Middle East,<br>Asia &amp; other major exhibition venues 
 						</p>
@@ -169,23 +169,23 @@ get_header(); ?>
 		<h2 class="section_title"> Our Approach</h2>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-assistive-listening-systems"></i>
+					<i class="fas fa-assistive-listening-systems fa-5x"></i>
 					<div class="block_heading"> We Listen </div>
-					<p class="block_subheading"> Dedicated & highly responsive client service</p>
+					<p class="block_subheading"> Dedicated & highly responsive <br> client service</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-cogs"></i>
+					<i class="fas fa-cogs fa-5x"></i>
 					<div class="block_heading"> We Design </div>
-					<p class="block_subheading"> A winning combination of expertise & experience deisgn layout</p>
+					<p class="block_subheading"> A winning combination of expertise & <br>experience deisgn layout</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-assistive-listening-systems"></i>
+					<i class="fas fa-assistive-listening-systems fa-5x"></i>
 					<div class="block_heading"> We Deliver </div>
-					<p class="block_subheading"> Reputed for best quality and service project execution</p>
+					<p class="block_subheading"> Reputed for best quality and <br> service project execution</p>
 				</div>
 			</div>
 	</div>
-</div> -->
+</div>  -->
 
 
 
