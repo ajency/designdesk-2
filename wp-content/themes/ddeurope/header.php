@@ -10,12 +10,18 @@
 
 <body <?php body_class(); ?>>
   <div id="page" class="site">
-
+	<div class="top-bar">
+		<div class="container">
+			<span class="top-left"> EXHIBITION STAND DESIGN & BUILD</span>
+			<span class="top-right"><i class="fas fa-phone-square"> +49 123456789 </i> &nbsp <i class="fas fa-envelope-square"> hello@dd-europe.com </i>
+			</span>
+		</div>
+	</div>
 	<header id="masthead" class="site-header fixed-top">
 		<div class="container">
 			<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg">
 				<div id="logo">
-          <a href="#" class="image-logo">
+          <a href="<?php echo get_site_url(); ?>/" class="image-logo">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/design_desk_logo_white_new.png" class="alt-logo" alt="">
           </a>
         </div>
@@ -35,7 +41,7 @@
 								<a class="nav-link" href="#"> Video Gallery </a>
 							</li>
 							<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <a class="nav-link dropdown-toggle" href="<?php echo get_site_url(); ?>/about-us" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="#">Overview</a>
                   <a class="dropdown-item" href="#">Capabilities</a>
@@ -56,7 +62,7 @@
                   </div>
 						    </li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"> Contact </a>
+								<a class="nav-link" href="<?php echo get_site_url(); ?>/contact-us"> Contact </a>
 							</li>
 						</ul>						  
 					</div>
@@ -99,7 +105,7 @@
 						        </div>
 						    </li>
 							<li class="nav-item">
-								<a class="nav-link" href="Contact.php"> Contact </a>
+								<a class="nav-link" href="href="<?php echo get_site_url(); ?>/contact-us">"> Contact </a>
 							</li>
 						</ul>
 						    
