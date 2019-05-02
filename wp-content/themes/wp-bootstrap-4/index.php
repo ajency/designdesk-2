@@ -44,18 +44,17 @@ get_header(); ?>
 		<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
 		<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
 		<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
 	</ol>
     <div class="carousel-inner" role="listbox">
-		<div class="carousel-item active">
+<!-- 		<div class="carousel-item active">
 			<img src="wp-content/themes/wp-bootstrap-4/assets/images/firstbanner-1.jpg">
 			<div class="carousel-caption">
 				<p class="lead-1">You Have Reached The Experts For</p>
 				<h2 class="display">Top notch exhibition stands!</h2>
 			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/achema.jpg">
+		</div> -->
+		<div class="carousel-item active">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/achema.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 				<h2 class="display-4">Modern design concepts</h2>
 				<p class="lead">ACHEMA, Germany</p>
@@ -63,7 +62,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/airbus.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/airbus.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 		    	<h2 class="display-4">Customized Approach</h2>
 		  		<p class="lead">Defexpo, New Delhi</p>
@@ -71,7 +70,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/reliance.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/reliance.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 			    <h2 class="display-4">Impeccable Quality</h2>
 			    <p class="lead">Chinaplas, China</p>
@@ -79,7 +78,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/otm.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/otm.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 		 	    <h2 class="display-4">Award Winning Creativity</h2>
 		        <p class="lead">OTM, Mumbai</p>
@@ -87,7 +86,7 @@ get_header(); ?>
 		    </div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/birla-1.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/birla-1.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 			    <h2 class="display-4">Worldwide Services</h2>
 			    <p class="lead">Anex, Japan</p>
@@ -95,7 +94,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/Latest_Swaroski.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/Latest_Swaroski.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 		  		<h2 class="display-4">Attention To Details</h2>
 		  		<p class="lead">IIJS, Mumbai</p>
@@ -103,7 +102,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/Mitsubishi.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/Mitsubishi.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 				<h2 class="display-4">100% Reliable Services</h2>
 			    <p class="lead">Elecrama, Bengaluru</p>
@@ -111,7 +110,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/RPG-Office.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/RPG-Office.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 				<h2 class="display-4">Optimum Space Planning</h2>
 				<p class="lead">Office Lobby Display, Mumbai</p>
@@ -119,7 +118,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="wp-content/themes/wp-bootstrap-4/assets/images/Uber.jpg">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/Uber.jpg'; ?>" alt="" />
 			<div class="carousel-caption">
 		 		<h2 class="display-4">Hassle Free Working</h2>
 				<p class="lead">Office Revamp, Pune</p>
@@ -137,6 +136,21 @@ get_header(); ?>
     </a>
 </div>
 
+<!-- Welcome text -->
+<div class="main-text">
+	<div class="container">
+		<div class="main-text-header">
+			LOOKING FOR A STAND DESIGN & BUILD PARTNER IN EUROPE? 
+		</div>
+		<div class="main-text-subtext">
+			Design Desk specialises in Design & Build of world-class exhibition stands across Europe & the World. 
+			With our offices in Germany & India, we bring together a winning combination of expertise, professionalism & cost effectiveness.
+		</div>
+	</div>
+</div>
+
+<!-- End of Text -->
+
 <!-- Exhibition Stand -->
 <div class="exhibition_stand">
 	<div class="container">
@@ -145,14 +159,14 @@ get_header(); ?>
 			</div>
 			<div class="row exhibit">
 				<div class="col-lg-6 col-md-6 design_stand">
-					<img src="wp-content/themes/wp-bootstrap-4/assets/images/Exhibition-Design-India.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() . '/assets/images/Exhibition-Design-India.jpg'; ?>" alt="" />
 					<div class="info-text block_1">
 						<h4 class="info-title">AT EXHIBITIONS ACROSS INDIA</h4>
 						<p>Need a quality Exhibition stand in Mumbai, New Delhi, <br>Bengaluru or any other corner of India? <br> We've got you covered</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 design_stand">
-					<img src="wp-content/themes/wp-bootstrap-4/assets/images/Exhibition-Design-Germany.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri() . '/assets/images/Exhibition-Design-Germany.jpg'; ?>" alt="" />
 					<div class="info-text block_2">
 						<h4 class="info-title">AT EXHIBITIONS WORLDWIDE</h4>
 						<p>Experienced in over 26 countries, we are your reliable<br>partner for exhibitions across Europe, Middle East,<br>Asia &amp; other major exhibition venues 
@@ -164,28 +178,28 @@ get_header(); ?>
 </div>
 <!-- End Exhibition Stand -->
 			
-<!-- <div class="our_approach">
+<div class="our_approach">
 	<div class="container">
 		<h2 class="section_title"> Our Approach</h2>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-assistive-listening-systems fa-5x"></i>
+					<i class="fas fa-assistive-listening-systems fa-5x" id="icons-appr"></i>
 					<div class="block_heading"> We Listen </div>
 					<p class="block_subheading"> Dedicated & highly responsive <br> client service</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-cogs fa-5x"></i>
+					<i class="fas fa-cogs fa-5x" id="icons-appr"></i>
 					<div class="block_heading"> We Design </div>
 					<p class="block_subheading"> A winning combination of expertise & <br>experience deisgn layout</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-assistive-listening-systems fa-5x"></i>
+					<i class="fas fa-handshake fa-5x" id="icons-appr"></i>
 					<div class="block_heading"> We Deliver </div>
 					<p class="block_subheading"> Reputed for best quality and <br> service project execution</p>
 				</div>
 			</div>
 	</div>
-</div>  -->
+</div> 
 
 
 
@@ -197,27 +211,27 @@ get_header(); ?>
 		<div class="opacity">
 			<h2 class="choose_us_title"> 4 Reasons to choose us </h2>
 					<div class="item1">
-						<p class="num"> 1 </p>
+						<p class="num"><i class="fas fa-draw-polygon"></i> </p>
 						<h6 class="item_heading"> Business focused Design</h6>
-						<p class="item_text">We consider a Design successful only when it meets your marketing & brand objectives. Our customised Designs always keep your key requirements at the core.
+						<p class="item_text">Believe in creativity with a purpose? Supporting your marketing objectives is also at the core of our design approach!
 						</p>
 					</div>
 					<div class="item2">
-						<p class="num"> 2 </p>
+						<p class="num"> <i class="fas fa-dice-d20"></i> </p>
 						<h6 class="item_heading"> Responsive Service</h6>
-						<p class="item_text">Our dedicated service managers work closely with you to deliver the perfect exhibit. You will know you are in safe hands & can focus on other aspects of your business.
+						<p class="item_text"> Count on us as a proactive partner to deliver the perfect exhibit; leaving you room to focus on other aspects of your business.
 						</p>
 					</div>
 					<div class="item3">
-						<p class="num"> 3 </p>
+						<p class="num"> <i class="fas fa-project-diagram"></i> </p>
 						<h6 class="item_heading"> Immaculate Execution</h6>
-						<p class="item_text">The quality of a booth is said to reflect the standard of the company & its products. We understand this & are reputed for some of the highest levels of Quality Stands.
+						<p class="item_text"> Do you also believe that a high quality stand is an important reflection of your company & products? Welcome aboard!
 						</p>
 					</div>
 					<div class="item4">
-						<p class="num"> 4 </p>
+						<p class="num"> <i class="fas fa-thumbs-up"></i> </p>
 						<h6 class="item_heading"> 100% Reliable Partner</h6>
-						<p class="item_text">When you don’t want to take chances with your exhibition stand, you need a capable & experienced partner. We have been in the business since 2005 & trusted by some of the biggest brands.
+						<p class="item_text"> In the time-bound scenario of exhibitions, most important is a competent & dependable partner to guarantee your success!
 						</p>
 					</div>
 			</div>
@@ -232,7 +246,7 @@ get_header(); ?>
 		<div class="row text-center">
 			<div class="col-lg-3 col-md-12">
 				<div class="counter">
-		    		<h2 class="timer count-title count-number" data-to="13" data-speed="1200"></h2>
+		    		<h2 class="timer count-title count-number" data-to="14" data-speed="1200"></h2>
 		    		<div class="count-separator"><span class="bottom-line"></span></div>
 		       		<p class="count-text ">YEARS IN BUSINESS</p>
 		    	</div>
@@ -270,23 +284,22 @@ get_header(); ?>
 	<div class="container position-relative">
 		<h2 class="section_title"> Trusted by Brands like </h2>
 			<ul id="scroller">
-				<li ><img src="wp-content/themes/wp-bootstrap-4/assets/images/swarovski.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/acg.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/reliance.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/aditya-birla-group.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/Mitsubishi_Electric.png"></li>
-
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/cisco.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/raychem-rpg.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/siyaram.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/uber.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/airbus.png"></li>
-
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/gea.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/decor.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/portico.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/gmmco.png"></li>
-				<li><img src="wp-content/themes/wp-bootstrap-4/assets/images/hitachi.png"></li>
+				<li ><img src="<?php echo get_template_directory_uri() . '/assets/images/swarovski.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/acg.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/reliance.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/aditya-birla-group.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/Mitsubishi_Electric.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/cisco.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/raychem-rpg.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/siyaram.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/uber.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/raychem-rpg.png'; ?>" alt="" />
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/airbus.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/gea.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/decor.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/portico.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/gmmco.png'; ?>" alt="" /></li>
+				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/hitachi.png'; ?>" alt="" /></li>
 			</ul>
 	</div>
 </div>
@@ -366,7 +379,7 @@ get_header(); ?>
     <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
       data-parent="#accordionEx">
       <div class="card-body">
-        We are your one point solution provider & take the responsibility including Design, Installation & Dismantling. Once you have us on board, we will take care of everything leaving you to focus on your business & other exhibition planning!
+        We are your one-point solution provider & take the responsibility including Design, Production, Installation & Dismantling. We also take care of important co-ordinations such as filling up of various forms & applications with organisers on your behalf. Once you have us on board, we will take care of everything leaving you to focus on your business & planning other aspects of your trade show!
       </div>
     </div>
 
@@ -390,7 +403,7 @@ get_header(); ?>
     <div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4"
       data-parent="#accordionEx">
       <div class="card-body">
-        With over 125 projects every year, we are present at several key exhibitions across India & the World. Whatever is the location of your exhibition – do not hesitate to check with us!
+        With over 125 projects every year, we are present at several key exhibitions across Europe & the World. Whatever is the location of your exhibition – do not hesitate to check with us!
       </div>
     </div>
 
@@ -415,7 +428,7 @@ get_header(); ?>
     <div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
       data-parent="#accordionEx">
       <div class="card-body">
-      Just drop us an email on india@designdesk.in & we will get back to you within 24hours! Or call on +91 97699 14770
+      Just drop us an email with your requirements on hello@dd-europe.com & we will get back to you within 24hours! Or call on +49 123456789
       </div>
     </div>
 

@@ -102,10 +102,10 @@ jQuery(function ($) {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $(".fixed-top").addClass("headerbg");
+        $("#masthead").addClass("headerbg");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $(".fixed-top").removeClass("headerbg");
+       $("#masthead").removeClass("headerbg");
     }
 });
 
