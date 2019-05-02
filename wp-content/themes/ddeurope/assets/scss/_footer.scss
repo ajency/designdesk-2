@@ -1,0 +1,145 @@
+
+.site-footer{
+	height: auto;
+	background-color: #111111; 
+	.address{
+		background: url('../images/footer-image.jpg');
+		.address_block1{
+			color: #fff;
+			padding:30px;
+			.main-info{
+				text-transform: uppercase;
+				color: #f39100;
+				font-weight: bold;
+				.sub-info{
+					font-size: 14px;
+				}
+			}
+		}
+		.address_block2{
+			color: #fff;
+			padding:30px;
+			.main-info{
+				text-transform: uppercase;
+				color: #f39100;
+				font-weight: bold;
+				.sub-info{
+					font-size: 14px;
+				}
+			}
+		}
+		&:before{
+			content:'';
+		    display:block;
+		    background: rgba(17,17,17,.93);
+		    width:100%;
+		    height:39%;
+			position:absolute;
+			left:0;
+			right:0;
+			@media (max-width: 768px){
+				height:74%;
+			}
+			@media (max-width: 496px){
+				height:81%;
+			}
+		}
+	}
+	.action_block{
+		padding: 20px;
+		span{
+			color: #fff;
+			padding: 20px;
+    		font-size: 22px;
+    	    margin-top:10px;
+    	    width: 100%;
+    		margin: auto;
+    		@media (max-width: 768px){
+    			display: block;
+    		}
+		}
+		&:before{
+			content:'';
+			background: #f39100;
+			width:4px;
+			height:40px;
+			position:absolute;
+			right:0;
+			left:51.6%;
+			@media (max-width: 768px){
+				display:none;
+			}
+		}
+	}
+	.contact_title{
+		margin-top:40px;
+		text-transform: uppercase;
+		color: #fff;
+	}
+}
+
+
+//Memberof
+
+.members-of{
+	background: #efefef;
+	margin-top: 2rem;
+	padding: 1rem;
+}
+
+
+.frm-show-form{
+	margin: 0 25%;
+		@media (min-with: 768px){
+		margin: 0;
+	}
+	.frm_submit{
+		text-align: center;
+	}
+	#field_55u9h, #field_sxq15, #field_nqbir, #field_ipizv, #field_6to4e {
+		background: transparent;
+	}
+	#field_55u9h_label, #field_sxq15_label, #field_nqbir_label, #field_ipizv_label , #field_6to4e_label{
+		color: #fff;
+	}
+	.frm_button_submit{
+	    background: transparent;
+	    color: #fff;
+	    padding: 6px 5rem;
+	}
+
+	.frm_required{
+		@media (max-width: 768px){
+			display: none;
+		}
+	}
+}
+
+
+.frm-show-form {
+	margin: 0 25%;
+		@media (min-with: 768px){
+		margin: 0;
+	}
+	.frm_submit{
+		text-align: center;
+	}
+	#field_qgctn, #field_cnhl7, #field_c3xmb, #field_ipizv, #field_t9z9j {
+		background: transparent;
+	}
+	#field_qgctn_label, #field_cnhl7_label, #field_c3xmb_label, #field_ipizv_label , #field_t9z9j_label{
+		color: #fff;
+	}
+	.frm_button_submit{
+		background: #f39100;
+    	color: #252525;
+   		padding: 6px 5rem;
+    	font-weight: 600;
+    	border: none;
+	}
+	.frm_required{
+		@media (max-width: 768px){
+			display: none;
+		}
+	}
+}

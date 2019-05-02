@@ -55,7 +55,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>assets/images/otm.jpg">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/otm.jpg">
 			<div class="carousel-caption">
 		 	    <h2 class="display-4">Award Winning Creativity</h2>
 		        <p class="lead">OTM, Mumbai</p>
@@ -71,7 +71,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>assets/images/Latest_Swaroski.jpg">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Latest_Swaroski.jpg">
 			<div class="carousel-caption">
 		  		<h2 class="display-4">Attention To Details</h2>
 		  		<p class="lead">IIJS, Mumbai</p>
@@ -128,7 +128,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6 design_stand">
-				<img src="<?php echo get_template_directory_uri(); ?>assets/images/Exhibition-Design-Germany.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Exhibition-Design-Germany.jpg" alt="">
 				<div class="info-text block_2">
 					<h4 class="info-title">AT EXHIBITIONS WORLDWIDE</h4>
 					<p>Experienced in over 26 countries, we are your reliable<br>partner for exhibitions across Europe, Middle East,<br>Asia &amp; other major exhibition venues 
