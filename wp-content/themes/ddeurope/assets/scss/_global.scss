@@ -7,12 +7,16 @@ body{
 	font-size: 32px;
 	text-align: center;
 	color: #424242;
+	font-weight: 900;
 }
 #angle{
 	position: absolute;
     right: 30px;
 }
 
+//
+// Home Page
+//
 
 // Slider
 .carousel{
@@ -58,6 +62,22 @@ body{
 			bottom: 0;
 			line-height: 0.5;
 		}
+	}
+}
+
+// Welcome Text
+
+.main-text{
+	.main-text-header{
+		text-align: center;
+    	color: #ff0707;
+   		margin: 2rem 0;
+    	font-size: 38px;
+    	font-weight: 900;
+	}
+	.main-text-subtext{
+		text-align: center;
+    	font-size: 16px;
 	}
 }
 
@@ -145,19 +165,25 @@ body{
 	}
 }
 
-// our approach
+// Our Approach
 
 
 .main_block{
 	text-align:center;
+	padding: 2rem;
 	fa{
     	margin: 22px 0;
+    	color: #f39100;
+	}
+	#icons-appr{
+		color: #495057;
 	}
 	.block_heading{
-		font-size: 18px;
+		font-size: 34px;
 		font-weight:600;
 		letter-spacing: 0.1px;
 		text-align:center;
+		margin: 1.5rem 0;
 	}
 	.block_subheading{
 		font-size: 14px;
@@ -174,11 +200,11 @@ body{
 .why_choose_us{
  	margin: 1.5rem 0 0 0;
  	.left-side{
- 		background: url('../images/choose_us.jpg') no-repeat center;
+ 		background: url('../images/4reasons-banner.jpg') no-repeat;
  		background-size:cover;
  		float: left;
  		width: 50%;
- 		height: 718px;
+ 		height: 614px;
  		&:after{
  			content:'';
  			display:block;
@@ -193,13 +219,13 @@ body{
 	    position: relative;
 	    float: left;
  		width: 50%;
- 		height: 718px;
+ 		height: 614px;
  		box-shadow: 0px 0px 2px 0px #b9b7b7;
  		@media(max-width: 991px) and(min-width: 575px){
- 			height:61rem;
+ 			height:63rem;
  		}
  		@media(max-width: 574px) and(min-width: 399px){
- 			height:67rem;
+ 			height:69rem;
  		}
  		@media(max-width: 398px) and(min-width: 320px){
  			height:84rem;
@@ -211,13 +237,13 @@ body{
 		    width: 100%;
 		    height: 100%;
 		    padding-top: 25px;
-		    padding-right: 35px;
+		    padding-right: 20px;
 		    padding-bottom: 0px;
-		    padding-left: 35px;
+		    padding-left: 60px;
     		.choose_us_title{
-			    font-size: 28px;
-			    font-weight: 400;
-			    color: #424242;
+			    font-size: 25px;
+    			font-weight: 900;
+    			color: #454545;
 			    text-transform: uppercase;
 			    margin-bottom: 2rem;
 			    @media(max-width: 991px) and (min-width: 699px){
@@ -225,13 +251,13 @@ body{
 			    }
     		}
 				.item1{
-					padding: 15px;
+					margin-bottom: 3rem;
 					.num{
-					    background: $red;
+					    background: #ff0707;
 					    border-radius: 50%;
-					    width: 40px;
-					    height: 40px;
-					    padding: 0px;
+					    width: 50px;
+					    height: 50px;
+					    padding: 5px;
 					    font-size: 28px;
 					    font-weight: bold;
 					    color: #fff;
@@ -241,34 +267,37 @@ body{
 					    }
 					}
 					@media(max-width: 640px){
-						padding: 8px;
+						padding: 3px;
+
 					}
 					&:before{
-				  	    content: "1";
+						font-family: "Font Awesome 5 Free";
+  						font-weight: 900;
+  						content: "\f5ee";
 					    position: absolute;
-					    width: 32px;
-					    height: 32px;
-					    left: -13px;
-					    background-color: #dc3545;
-					    top: 97px;
+					    width: 60px;
+					    height: 60px;
+					    left: -28px;
+					    background-color: #ff0707;
+					    top: 82px;
 					    border-radius: 50%;
 					    z-index: 1;
 					    color: #fff;
-					    padding: 4px 12px;
-					    font-weight: bolder;
+					    padding: 0px 13px;
+					    font-size: 40px;
 						@media (max-width: 991px){
 					    	display: none;
 					    }
 					}
 				}
 				.item2{
-					padding: 15px;
+					margin-bottom: 3rem;
 					.num{
-					    background: $red;
+					    background: #ff0707;
 					    border-radius: 50%;
-					    width: 40px;
-					    height: 40px;
-					    padding: 0px;
+					    width: 50px;
+					    height: 50px;
+					    padding: 5px;
 					    font-size: 28px;
 					    font-weight: bold;
 					    color: #fff;
@@ -278,21 +307,23 @@ body{
 					    }
 					}
 					@media(max-width: 640px){
-						padding: 8px;
+						padding: 3px;
 					}
 					&:before{
-				  		content: "2";
+						font-family: "Font Awesome 5 Free";
+				  		content: "\f6cf";
+					    font-weight: 900;
 					    position: absolute;
-					    width: 32px;
-					    height: 32px;
-					    left: -13px;
-					    background-color: #dc3545;
-						top: 253px;
-				  		border-radius: 50%;
-				  		z-index: 1;
-				  		color: #fff;
-					    padding: 4px 12px;
-					    font-weight: bolder;
+					    width: 60px;
+					    height: 60px;
+						left: -28px;
+						background-color: #ff0707;
+						top: 210px;
+					    border-radius: 50%;
+						z-index: 1;
+						color: #fff;
+						padding: 2px 13px;
+						font-size: 38px;
 					    @media (max-width: 991px){
 					    	display: none;
 					    }
@@ -300,13 +331,13 @@ body{
 				}
 				
 				.item3{
-					padding: 15px;
+					margin-bottom: 3rem;
 					.num{
-					    background: $red;
+					    background: #ff0707;
 					    border-radius: 50%;
-					    width: 40px;
-					    height: 40px;
-					    padding: 0px;
+					    width: 50px;
+					    height: 50px;
+					    padding: 5px;
 					    font-size: 28px;
 					    font-weight: bold;
 					    color: #fff;
@@ -316,21 +347,23 @@ body{
 					    }
 					}
 					@media(max-width: 640px){
-						padding: 8px;
+						padding: 3px;
 					}
 					&:before{
-					  	content: "3";
+						font-family: "Font Awesome 5 Free";
+					  	content: "\f542";
+					  	font-weight: 900;
 					    position: absolute;
-					    width: 32px;
-						height: 32px;
-						left: -13px;
-					    background-color: #dc3545;					 
-				  		top: 403px;
-						border-radius: 50%;
-				  		z-index: 1;
-				  		color: #fff;
-					    padding: 4px 12px;
-					    font-weight: bolder;
+					    width: 60px;
+					    height: 60px;
+					    left: -28px;
+					    background-color: #ff0707;
+					    top: 338px;
+					    border-radius: 50%;
+					    z-index: 1;
+					    color: #fff;
+						padding: 8px 10px;
+    					font-size: 33px;
 					    @media (max-width: 991px){
 					    	display: none;
 					 
@@ -338,13 +371,13 @@ body{
 					}
 				}
 				.item4{
-					padding: 15px;
+					margin-bottom: 3rem;
 					.num{
-					    background: $red;
+					    background: #ff0707;
 					    border-radius: 50%;
-					    width: 40px;
-					    height: 40px;
-					    padding: 0px;
+					    width: 50px;
+					    height: 50px;
+					    padding: 5px;
 					    font-size: 28px;
 					    font-weight: bold;
 					    color: #fff;
@@ -354,21 +387,23 @@ body{
 					    }
 					}
 					@media(max-width: 640px){
-						padding: 8px;
+						padding: 3px;
 					}
 					&:before{
-					  	content: "4";
+						font-family: "Font Awesome 5 Free";
+					  	content: "\f164";
+					  	font-weight: 900;
 					    position: absolute;
-					    width: 32px;
-						height: 32px;
-						left: -13px;
-					    background-color: #dc3545;	
-					  	top: 554px;
-					  	border-radius: 50%;
-					  	z-index: 1;
-					  	color: #fff;
-					    padding: 4px 12px;
-					    font-weight: bolder;
+					    width: 60px;
+					    height: 60px;
+					    left: -28px;
+					    background-color: #ff0707;
+					    top: 460px;
+					    border-radius: 50%;
+					    z-index: 1;
+					    color: #fff;
+					    padding: 0px 12px;
+					    font-size: 38px;
 					    @media (max-width: 991px){
 					    	display: none;
 					    }
@@ -401,8 +436,8 @@ body{
 	&:before{
 		content: '';
 	    width: 4px;
-	    height: 110%;
-	    background: $red;
+	    height: 94%;
+	    background: #ff0707;
 	    position: absolute;
 	    left: 50%;
 	    z-index: 1;
@@ -415,7 +450,9 @@ body{
 	display:block;
 	clear:both;
 	}
-}	
+}
+
+// Counter	
 
 .counter_in_home{
 	margin-top: 2rem;
@@ -457,6 +494,7 @@ body{
 
 
 // Clients Logo
+
 #scroller{
 	display: flex;
 	padding-left: 0;
@@ -470,8 +508,6 @@ body{
     	}
 	}
 }
-
-
 .simply-scroll-container {
 	position: relative;
 }
@@ -521,6 +557,7 @@ body{
 
 
 //FAQ
+
 .card{
     border: 1px solid #fff;
 	.card-header{
@@ -547,6 +584,62 @@ body{
 	.card-body{
 		border: solid 1px #ebebeb;
 		font-size: 14px;
+	}
+}
+
+//
+// Contact Us
+//
+
+.contact_us{
+	margin: 6rem 0;
+	.header{
+		background: #2e2928;
+		height: 250px;
+		.title{
+			text-transform: uppercase;
+			color: $c_orange;
+			font-weight: bolder;
+			font-size: 84px;
+			padding-top: 3rem;
+			text-align: center;
+		}
+		.subtitle{
+			color: #fff; 
+			display: block;
+    		font-size: 28px;
+    		font-weight: 500;
+    		text-align: center;
+		}
+	}
+	.contact_us_content{
+		text-align:center;
+		.icon_block_1{
+			margin-left: 10%;
+			@media (max-width: 991px){
+				margin-left: 0;
+			}
+		}
+		.num_header,
+		.email_header{
+			text-transform: uppercase;
+			font-weight: 700;
+			color: #454545;
+			font-size: 22px;
+			margin: 1rem 0;
+		}
+		.fa-phone,
+		.fa-envelope{
+			margin: 0.5rem;
+			color: $c_orange;
+			font-size: 60px;
+		}
+		.form_header{
+			font-size: 20px;
+			margin-top: 4rem;
+			font-weight: bolder;
+    		text-transform: capitalize;
+		}
 	}
 }
 

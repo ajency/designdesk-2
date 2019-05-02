@@ -23,14 +23,14 @@ get_header(); ?>
 		<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
 	</ol>
     <div class="carousel-inner" role="listbox">
-		<div class="carousel-item active">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/firstbanner-1.jpg">
+		<!--div class="carousel-item active">
+			<img src="<?php //echo get_template_directory_uri(); ?>/assets/images/firstbanner-1.jpg">
 			<div class="carousel-caption">
 				<p class="lead-1">You Have Reached The Experts For</p>
 				<h2 class="display">Top notch exhibition stands!</h2>
 			</div>
-		</div>
-		<div class="carousel-item">
+		</div -->
+		<div class="carousel-item active">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/achema.jpg">
 			<div class="carousel-caption">
 				<h2 class="display-4">Modern design concepts</h2>
@@ -113,6 +113,20 @@ get_header(); ?>
     </a>
 </div>
 
+<!-- Welcome text -->
+<div class="main-text">
+	<div class="container">
+		<div class="main-text-header">
+			LOOKING FOR A STAND DESIGN & BUILD PARTNER IN EUROPE? 
+		</div>
+		<div class="main-text-subtext">
+			Design Desk specialises in Design & Build of world-class exhibition stands across Europe & the World. 
+			With our offices in Germany & India, we bring together a winning combination of expertise, professionalism & cost effectiveness.
+		</div>
+	</div>
+</div>
+<!-- End of Text -->
+
 <!-- Exhibition Stand -->
 <div class="exhibition_stand">
 	<div class="container">
@@ -121,14 +135,14 @@ get_header(); ?>
 		</div>
 		<div class="row exhibit">
 			<div class="col-lg-6 col-md-6 design_stand">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Exhibition-Design-India.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri() . '/assets/images/Exhibition-Design-India.jpg'; ?>" alt="" />
 				<div class="info-text block_1">
 					<h4 class="info-title">AT EXHIBITIONS ACROSS INDIA</h4>
 					<p>Need a quality Exhibition stand in Mumbai, New Delhi, <br>Bengaluru or any other corner of India? <br> We've got you covered</p>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6 design_stand">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Exhibition-Design-Germany.jpg" alt="">
+				<img src="<?php echo get_template_directory_uri() . '/assets/images/Exhibition-Design-Germany.jpg'; ?>" alt="" />
 				<div class="info-text block_2">
 					<h4 class="info-title">AT EXHIBITIONS WORLDWIDE</h4>
 					<p>Experienced in over 26 countries, we are your reliable<br>partner for exhibitions across Europe, Middle East,<br>Asia &amp; other major exhibition venues 
@@ -140,28 +154,28 @@ get_header(); ?>
 </div>
 <!-- End Exhibition Stand -->
 			
-<!-- <div class="our_approach">
+<div class="our_approach">
 	<div class="container">
 		<h2 class="section_title"> Our Approach</h2>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-assistive-listening-systems fa-5x"></i>
+					<i class="fas fa-assistive-listening-systems fa-5x" id="icons-appr"></i>
 					<div class="block_heading"> We Listen </div>
 					<p class="block_subheading"> Dedicated & highly responsive <br> client service</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-cogs fa-5x"></i>
+					<i class="fas fa-cogs fa-5x" id="icons-appr"></i>
 					<div class="block_heading"> We Design </div>
 					<p class="block_subheading"> A winning combination of expertise & <br>experience deisgn layout</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
-					<i class="fas fa-assistive-listening-systems fa-5x"></i>
+					<i class="fas fa-handshake fa-5x" id="icons-appr"></i>
 					<div class="block_heading"> We Deliver </div>
 					<p class="block_subheading"> Reputed for best quality and <br> service project execution</p>
 				</div>
 			</div>
 	</div>
-</div>  -->
+</div> 
 
 
 
@@ -170,32 +184,32 @@ get_header(); ?>
 	<div class="container">
 		<div class="left-side"></div>
 		<div class="right-side">
-			<div class="opacity">
-				<h2 class="choose_us_title"> 4 Reasons to choose us </h2>
-				<div class="item1">
-					<p class="num"> 1 </p>
-					<h6 class="item_heading"> Business focused Design</h6>
-					<p class="item_text">We consider a Design successful only when it meets your marketing & brand objectives. Our customised Designs always keep your key requirements at the core.
-					</p>
-				</div>
-				<div class="item2">
-					<p class="num"> 2 </p>
-					<h6 class="item_heading"> Responsive Service</h6>
-					<p class="item_text">Our dedicated service managers work closely with you to deliver the perfect exhibit. You will know you are in safe hands & can focus on other aspects of your business.
-					</p>
-				</div>
-				<div class="item3">
-					<p class="num"> 3 </p>
-					<h6 class="item_heading"> Immaculate Execution</h6>
-					<p class="item_text">The quality of a booth is said to reflect the standard of the company & its products. We understand this & are reputed for some of the highest levels of Quality Stands.
-					</p>
-				</div>
-				<div class="item4">
-					<p class="num"> 4 </p>
-					<h6 class="item_heading"> 100% Reliable Partner</h6>
-					<p class="item_text">When you don’t want to take chances with your exhibition stand, you need a capable & experienced partner. We have been in the business since 2005 & trusted by some of the biggest brands.
-					</p>
-				</div>
+		<div class="opacity">
+			<h2 class="choose_us_title"> 4 Reasons to choose us </h2>
+			<div class="item1">
+				<p class="num"><i class="fas fa-draw-polygon"></i> </p>
+				<h6 class="item_heading"> Business focused Design</h6>
+				<p class="item_text">Believe in creativity with a purpose? Supporting your marketing objectives is also at the core of our design approach!
+				</p>
+			</div>
+			<div class="item2">
+				<p class="num"> <i class="fas fa-dice-d20"></i> </p>
+				<h6 class="item_heading"> Responsive Service</h6>
+				<p class="item_text"> Count on us as a proactive partner to deliver the perfect exhibit; leaving you room to focus on other aspects of your business.
+				</p>
+			</div>
+			<div class="item3">
+				<p class="num"> <i class="fas fa-project-diagram"></i> </p>
+				<h6 class="item_heading"> Immaculate Execution</h6>
+				<p class="item_text"> Do you also believe that a high quality stand is an important reflection of your company & products? Welcome aboard!
+				</p>
+			</div>
+			<div class="item4">
+				<p class="num"> <i class="fas fa-thumbs-up"></i> </p>
+				<h6 class="item_heading"> 100% Reliable Partner</h6>
+				<p class="item_text"> In the time-bound scenario of exhibitions, most important is a competent & dependable partner to guarantee your success!
+				</p>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -208,7 +222,7 @@ get_header(); ?>
 		<div class="row text-center">
 			<div class="col-lg-3 col-md-12">
 				<div class="counter">
-		    		<h2 class="timer count-title count-number" data-to="13" data-speed="1200"></h2>
+		    		<h2 class="timer count-title count-number" data-to="14" data-speed="1200"></h2>
 		    		<div class="count-separator"><span class="bottom-line"></span></div>
 		       		<p class="count-text ">YEARS IN BUSINESS</p>
 		    	</div>
@@ -271,133 +285,139 @@ get_header(); ?>
 
 
 
+
 <!-- FAQ -->
 
 <!--Accordion wrapper-->
 <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-	<div class="container">
-		<h2 class="section_title"> Frequently asked questions </h2>
-		<!-- Accordion card -->
-		<div class="card">
-			<!-- Card header -->
-			<div class="card-header" role="tab" id="headingOne1">
-			<a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-				aria-controls="collapseOne1">
-				<h5 class="faq_title mb-0">
-				How will you design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
-				</h5>
-			</a>
-			</div>
+<div class="container">
+	<h2 class="section_title"> Frequently asked questions </h2>
+  <!-- Accordion card -->
+  <div class="card">
 
-			<!-- Card body -->
-			<div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
-			data-parent="#accordionEx">
-			<div class="card-body">
-				Your stand will be designed on a cutting edge 3d software at our design studio – you will get to see a life like visualization of your booth. The design team includes architects, interior designers, 3d visualizers & graphic artists – an eco system that produces amazing designs!
-			</div>
-			</div>
-		</div>
-		<!-- Accordion card -->
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingOne1">
+      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+        aria-controls="collapseOne1">
+        <h5 class="faq_title mb-0">
+          How will you design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
 
-		<!-- Accordion card -->
-		<div class="card">
+    <!-- Card body -->
+    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        Your stand will be designed on a cutting edge 3d software at our design studio – you will get to see a life like visualization of your booth. The design team includes architects, interior designers, 3d visualizers & graphic artists – an eco system that produces amazing designs!
+      </div>
+    </div>
 
-			<!-- Card header -->
-			<div class="card-header" role="tab" id="headingTwo2">
-			<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
-				aria-expanded="false" aria-controls="collapseTwo2">
-				<h5 class="faq_title mb-0">
-				What do you need to design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
-				</h5>
-			</a>
-			</div>
+  </div>
+  <!-- Accordion card -->
 
-			<!-- Card body -->
-			<div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
-			data-parent="#accordionEx">
-			<div class="card-body">
-				We need the hall layout showing your stand space & your requirements list. If you have not developed a requirement list, our Relationship Managers are happy to share a Design Brief Form which will help you structure your requirements.
-			</div>
-			</div>
+  <!-- Accordion card -->
+  <div class="card">
 
-		</div>
-		<!-- Accordion card -->
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingTwo2">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+        aria-expanded="false" aria-controls="collapseTwo2">
+        <h5 class="faq_title mb-0">
+         What do you need to design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
 
-		<!-- Accordion card -->
-		<div class="card">
+    <!-- Card body -->
+    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        We need the hall layout showing your stand space & your requirements list. If you have not developed a requirement list, our Relationship Managers are happy to share a Design Brief Form which will help you structure your requirements.
+      </div>
+    </div>
 
-			<!-- Card header -->
-			<div class="card-header" role="tab" id="headingThree3">
-			<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
-				aria-expanded="false" aria-controls="collapseThree3">
-				<h5 class="faq_title mb-0">
-				Will you only create the design - or handle the production & installation as well?<i id="angle" class="fas fa-angle-down rotate-icon"></i>
-				</h5>
-			</a>
-			</div>
+  </div>
+  <!-- Accordion card -->
 
-			<!-- Card body -->
-			<div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
-			data-parent="#accordionEx">
-			<div class="card-body">
-				We are your one point solution provider & take the responsibility including Design, Installation & Dismantling. Once you have us on board, we will take care of everything leaving you to focus on your business & other exhibition planning!
-			</div>
-			</div>
+  <!-- Accordion card -->
+  <div class="card">
 
-		</div>
-		<!-- Accordion card -->
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingThree3">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+        aria-expanded="false" aria-controls="collapseThree3">
+        <h5 class="faq_title mb-0">
+          Will you only create the design - or handle the production & installation as well?<i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
 
-		<!-- Accordion card -->
-		<div class="card">
+    <!-- Card body -->
+    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        We are your one-point solution provider & take the responsibility including Design, Production, Installation & Dismantling. We also take care of important co-ordinations such as filling up of various forms & applications with organisers on your behalf. Once you have us on board, we will take care of everything leaving you to focus on your business & planning other aspects of your trade show!
+      </div>
+    </div>
 
-			<!-- Card header -->
-			<div class="card-header" role="tab" id="headingFour4">
-			<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4"
-				aria-expanded="false" aria-controls="collapseFour4">
-				<h5 class=" faq_title mb-0">
-				Which countries & cities can Design Desk help at? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
-				</h5>
-			</a>
-			</div>
+  </div>
+  <!-- Accordion card -->
 
-			<!-- Card body -->
-			<div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4"
-			data-parent="#accordionEx">
-			<div class="card-body">
-				With over 125 projects every year, we are present at several key exhibitions across India & the World. Whatever is the location of your exhibition – do not hesitate to check with us!
-			</div>
-			</div>
+  <!-- Accordion card -->
+  <div class="card">
 
-		</div>
-		<!-- Accordion card -->
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingFour4">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4"
+        aria-expanded="false" aria-controls="collapseFour4">
+        <h5 class=" faq_title mb-0">
+         Which countries & cities can Design Desk help at? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingFour4"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        With over 125 projects every year, we are present at several key exhibitions across Europe & the World. Whatever is the location of your exhibition – do not hesitate to check with us!
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
 
 
-		<!-- Accordion card -->
-		<div class="card">
+  <!-- Accordion card -->
+  <div class="card">
 
-			<!-- Card header -->
-			<div class="card-header" role="tab" id="headingFive5">
-			<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive5"
-				aria-expanded="false" aria-controls="collapseFive5">
-				<h5 class="faq_title mb-0">
-				How do I get started? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
-				</h5>
-			</a>
-			</div>
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingFive5">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive5"
+        aria-expanded="false" aria-controls="collapseFive5">
+        <h5 class="faq_title mb-0">
+        How do I get started? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
 
-			<!-- Card body -->
-			<div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
-			data-parent="#accordionEx">
-			<div class="card-body">
-			Just drop us an email on india@designdesk.in & we will get back to you within 24hours! Or call on +91 97699 14770
-			</div>
-			</div>
+    <!-- Card body -->
+    <div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
+      data-parent="#accordionEx">
+      <div class="card-body">
+      Just drop us an email with your requirements on hello@dd-europe.com & we will get back to you within 24hours! Or call on +49 123456789
+      </div>
+    </div>
 
-		</div>
-		<!-- Accordion card -->
-	</div>
+  </div>
+  <!-- Accordion card -->
 
 </div>
+
+</div>
+<!-- Accordion wrapper -->
+<!-- end of FAQ -->
 
 <?php
 get_footer();
