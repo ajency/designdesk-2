@@ -16,129 +16,124 @@ Use it to make something cool, have fun, and share what you've learned with othe
 WP Bootstrap 4 is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
-.fixed-top {
-  top: 32px;
-  background: transparent; }
-  .fixed-top.headerbg {
-    background: #fff; }
-  .fixed-top .main-navigation {
-    padding: 0; }
-    .fixed-top .main-navigation img {
+.site-header {
+  background: #0000004d; }
+  .site-header .main-navigation {
+    padding: 0 1rem; }
+    .site-header .main-navigation img {
       height: 77px;
       width: auto;
       max-height: none; }
-    .fixed-top .main-navigation .toggler:hover, .fixed-top .main-navigation .toggler:focus {
-      cursor: pointer; }
-    .fixed-top .main-navigation .toggler .top-line,
-    .fixed-top .main-navigation .toggler .mid-line,
-    .fixed-top .main-navigation .toggler .bot-line {
-      background: #fff;
-      color: #fff;
-      width: 2rem;
-      height: 2px;
-      margin: 7px; }
-    @media (min-width: 991px) {
-      .fixed-top .main-navigation .toggler {
-        display: none; } }
-    .fixed-top .main-navigation .navbar-nav {
-      line-height: 70px;
-      margin-left: auto; }
-      .fixed-top .main-navigation .navbar-nav .nav-item {
-        padding: 10px 5px; }
-        .fixed-top .main-navigation .navbar-nav .nav-item .nav-link {
-          color: #fff;
-          font-weight: bold;
-          text-transform: uppercase;
-          font-size: 14px; }
-          @media (min-width: 991px) {
-            .fixed-top .main-navigation .navbar-nav .nav-item .nav-link.tagcolor {
-              color: #000; } }
-        .fixed-top .main-navigation .navbar-nav .nav-item:hover {
-          background-color: rgba(0, 0, 0, 0.33) !important; }
-        .fixed-top .main-navigation .navbar-nav .nav-item .dropdown-menu {
-          background: #333;
-          padding: 0;
-          margin: 0;
-          border-radius: 0; }
-          .fixed-top .main-navigation .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-            color: #aaa;
-            border-top: 1px solid #424242;
-            border-bottom: 0;
-            text-transform: uppercase;
-            font-size: 14px;
-            line-height: 32px; }
-            .fixed-top .main-navigation .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-              background-color: #252525; }
-      @media (max-width: 991px) {
-        .fixed-top .main-navigation .navbar-nav {
-          display: none; } }
-
-.dropdown:hover > .dropdown-menu {
-  display: block; }
-
-.responsive-menu {
-  width: 0px;
-  height: 100%;
-  position: fixed;
-  right: 0;
-  top: 0;
-  background: #252525;
-  transition: 0.4s ease-in;
-  z-index: 1;
-  visibility: visible; }
-  .responsive-menu input[type="text"] {
-    background: #333;
-    border-radius: 0;
-    border: none; }
-  .responsive-menu .mobilemenu .navbar-nav {
-    line-height: 40px;
-    margin-left: auto; }
-    .responsive-menu .mobilemenu .navbar-nav .nav-item {
-      padding: 0px 10px;
-      border-bottom: 1px solid #424242; }
-      .responsive-menu .mobilemenu .navbar-nav .nav-item .nav-link {
+    .site-header .main-navigation .navbar-collapse .navbar-nav .nav-item {
+      padding: 30px 15px; }
+      .site-header .main-navigation .navbar-collapse .navbar-nav .nav-item .nav-link {
         color: #fff;
-        font-weight: 500;
-        font-size: 14px;
-        padding: 0;
-        margin-left: 12px; }
-        .responsive-menu .mobilemenu .navbar-nav .nav-item .nav-link:after {
-          content: none; }
-      .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu {
-        background: #252525;
-        padding: 0;
-        margin: 0 -10px;
-        border-radius: 0;
-        display: block; }
-        .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-          color: #fff;
-          border-top: 1px solid #424242;
-          border-bottom: 0;
-          font-size: 14px;
-          padding: 0px 40px;
-          font-weight: 500; }
-          .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-            background-color: #333; }
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px; }
+        .site-header .main-navigation .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+          color: white; }
+      .site-header .main-navigation .navbar-collapse .navbar-nav .nav-item:hover {
+        background-color: rgba(0, 0, 0, 0.33) !important; }
 
-.carousel-item {
-  background: no-repeat center center scroll;
-  background-size: cover; }
+.section_title {
+  text-align: center;
+  margin: 1rem 0;
+  color: #0671b5; }
+
+.approach_block {
+  text-align: center;
+  margin: 1.5rem 0; }
+  .approach_block .listen-text {
+    color: #000;
+    font-weight: 700;
+    padding: 1rem 0;
+    border-bottom: 2px solid #0671b5;
+    position: relative;
+    width: 70%;
+    margin: auto; }
+    .approach_block .listen-text::before {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      border-top: 0px solid #0671b5;
+      border-bottom: 2px solid #0671b5;
+      border-right: 2px solid #0671b5;
+      border-left: 0px solid #0671b5;
+      top: 100%;
+      left: 50%;
+      margin-left: -15px;
+      transform: rotate(45deg);
+      margin-top: -12px;
+      background-color: #fff; }
+  .approach_block .design-text {
+    color: #0671b5;
+    font-weight: 700;
+    padding: 1rem 0;
+    border-bottom: 2px solid #000;
+    position: relative;
+    width: 70%;
+    margin: auto; }
+    .approach_block .design-text::before {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      border-top: 0px solid #000;
+      border-bottom: 2px solid #000;
+      border-right: 2px solid #000;
+      border-left: 0px solid #000;
+      top: 100%;
+      left: 50%;
+      margin-left: -15px;
+      transform: rotate(45deg);
+      margin-top: -12px;
+      background-color: #fff; }
+  .approach_block .deliver-text {
+    color: #000;
+    font-weight: 700;
+    padding: 1rem 0;
+    border-bottom: 2px solid #0671b5;
+    position: relative;
+    width: 70%;
+    margin: auto; }
+    .approach_block .deliver-text::before {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      border-top: 0px solid #0671b5;
+      border-bottom: 2px solid #0671b5;
+      border-right: 2px solid #0671b5;
+      border-left: 0px solid #0671b5;
+      top: 100%;
+      left: 50%;
+      margin-left: -15px;
+      transform: rotate(45deg);
+      margin-top: -12px;
+      background-color: #fff; }
+  .approach_block .info_one {
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 20px; }
+  .approach_block .info_two {
+    color: #0671b5;
+    margin-bottom: 0; }
+  .approach_block .info_three {
+    color: #0671b5;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0; }
 
 .why_choose_us {
-  margin: 1.5rem 0 0 0; }
+  margin: 1.5rem 0; }
   .why_choose_us .left-side {
-    background: url("../../assets/images/choose_us.jpg") no-repeat center;
+    background: url("../wp-bootstrap-4/assets/images/choose_us.jpg") no-repeat center;
     background-size: cover;
     float: left;
     width: 50%;
     height: 570px; }
-    .why_choose_us .left-side:after {
-      content: '';
-      display: block;
-      clear: both; }
-    @media (max-width: 991px) {
-      .why_choose_us .left-side {
-        display: none; } }
   .why_choose_us .right-side {
     background: #f8f8f8;
     position: relative;
@@ -151,19 +146,16 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
       left: 0;
       width: 100%;
       height: 100%;
-      padding-top: 25px;
+      padding-top: 45px;
       padding-right: 0;
-      padding-bottom: 0px;
-      padding-left: 35px; }
+      padding-bottom: 40px;
+      padding-left: 80px; }
       .why_choose_us .right-side .opacity .choose_us_title {
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 400;
-        color: #424242;
+        color: #2c2c2c;
         text-transform: uppercase;
         margin-bottom: 2rem; }
-      .why_choose_us .right-side .opacity .choose_reason .item1 {
-        position: relative;
-        content: ''; }
       .why_choose_us .right-side .opacity .choose_reason .item_heading {
         font-size: 17px;
         font-weight: 700;
@@ -173,34 +165,20 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
         font-size: 14px; }
       .why_choose_us .right-side .opacity .choose_reason:before {
         content: '';
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        left: -10px;
-        background-color: white;
-        border: 4px solid #dc3545;
-        top: 93px;
-        border-radius: 50%;
-        z-index: 1; }
-      @media (max-width: 991px) {
-        .why_choose_us .right-side .opacity {
-          padding-left: 0; } }
-    @media (max-width: 991px) {
-      .why_choose_us .right-side {
-        width: 100%;
-        text-align: center; } }
-  .why_choose_us:before {
-    content: '';
-    width: 4px;
-    height: 84.1%;
-    background: #dc3545;
-    position: absolute;
-    left: 50%;
-    z-index: 1; }
-    @media (max-width: 991px) {
-      .why_choose_us:before {
-        left: 0; } }
-  .why_choose_us:after {
-    content: '';
-    display: block;
-    clear: both; }
+        color: #fff;
+        font-size: 37px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        background: #ec691f;
+        border-radius: 50%; }
+    .why_choose_us .right-side:before {
+      content: '';
+      width: 4px;
+      height: 100%;
+      background: #dc3545;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1; }
