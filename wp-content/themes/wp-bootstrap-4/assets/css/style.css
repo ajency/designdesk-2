@@ -42,7 +42,9 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 .fixed-top {
   background: white;
-  top: 0px; }
+  top: 32px; }
+  .fixed-top.headerbg {
+    top: 0; }
   .fixed-top .main-navigation {
     padding: 0; }
     .fixed-top .main-navigation img {
@@ -635,15 +637,15 @@ body {
     height: 250px; }
     .contact_us .header .title {
       text-transform: uppercase;
-      color: #ed1d30;
+      color: #f39100;
       font-weight: bolder;
       font-size: 84px;
       padding-top: 3rem;
       text-align: center; }
     .contact_us .header .subtitle {
-      color: #fff;
+      color: #a1a1a1;
       display: block;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 500;
       text-align: center; }
   .contact_us .contact_us_content {
@@ -663,7 +665,7 @@ body {
     .contact_us .contact_us_content .fa-phone,
     .contact_us .contact_us_content .fa-envelope {
       margin: 0.5rem;
-      color: #ed1d30;
+      color: #f39100;
       font-size: 60px; }
     .contact_us .contact_us_content .form_header {
       font-size: 20px;
@@ -736,6 +738,10 @@ body {
     margin-top: 40px;
     text-transform: uppercase;
     color: #fff; }
+  .site-footer .contact_subtile {
+    color: #a1a1a1;
+    font-size: 14px;
+    text-align: center; }
 
 .members-of {
   background: #efefef;

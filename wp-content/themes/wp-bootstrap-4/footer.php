@@ -103,6 +103,7 @@
 		<span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 123456789 </span>
 
 		<h2 class="contact_title"> Get a quote</h2>
+		<p class="contact_subtile">We look forward to hearing from you. Email us to learn more about what we can do for your next big event.</p>
 
 		<?php echo do_shortcode("[formidable id=2]"); ?>
 	</section>

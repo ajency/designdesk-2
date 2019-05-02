@@ -33,7 +33,7 @@ get_header(); ?>
 			</div>
 			<div class="contact_form">
 				<h2 class="form_header"> Drop an email to know more about<br> what we can do for your next big event.</h2>
-						<?php echo do_shortcode("[formidable id=2]"); ?>
+						<?php echo do_shortcode("[formidable id=3]"); ?>
 
 			</div>
 		</div>
