@@ -7627,6 +7627,7 @@ body {
           z-index: 1;
           color: #fff;
           padding: 0px 13px;
+          font-size: 40px;
           font-size: 40px; }
           @media (max-width: 991px) {
             .why_choose_us .right-side .opacity .item1:before {
