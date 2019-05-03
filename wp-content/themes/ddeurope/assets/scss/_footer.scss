@@ -77,7 +77,7 @@
 		color: #fff;
 	}
 	.contact_subtile{
-		color: #fff;
+		color: #a1a1a1;
 		font-size: 14px;
 		text-align: center;
 	}
@@ -95,7 +95,7 @@
 
 .frm-show-form{
 	margin: 0 10%;
-		@media (min-with: 768px){
+		@media (max-with: 768px){
 		margin: 0;
 	}
 	.frm_submit{
@@ -107,15 +107,14 @@
 	    border-radius: 3px;
 	    padding: 18px;
 	}
-	#field_55u9h_label, #field_sxq15_label, #field_nqbir_label, #field_ipizv_label , #field_6to4e_label{
-		color: #fff;
-	}
-	.frm_button_submit{
+	.frm_style_formidable-style.with_frm_style .frm_submit button{
 		background: #f39100;
     	color: #252525;
    		padding: 6px 5rem;
     	font-weight: 600;
-    	border: none;
+    	border: none;    position: relative;
+    	bottom: 83px;
+    	float: right;
 	}
 
 	.frm_required{
@@ -127,8 +126,8 @@
 
 
 .frm-show-form {
-	margin: 0 20%;
-		@media (min-with: 768px){
+	margin: 0 10%;
+		@media (max-with: 768px){
 		margin: 0;
 	}
 	.frm_submit{
@@ -140,10 +139,7 @@
 	    border-radius: 3px;
 	    padding: 18px;
 	}
-	#field_qgctn_label, #field_cnhl7_label, #field_c3xmb_label, #field_ipizv_label , #field_t9z9j_label{
-		color: #fff;
-	}
-	.frm_button_submit{
+	.frm_style_formidable-style.with_frm_style .frm_submit button, .frm_form_submit_style{
 		background: #f39100;
     	color: #252525;
    		padding: 6px 5rem;

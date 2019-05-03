@@ -127,32 +127,6 @@ get_header(); ?>
 </div>
 <!-- End of Text -->
 
-<!-- Exhibition Stand -->
-<div class="exhibition_stand">
-	<div class="container">
-		<div class="sticky-title">
-			<span> Exhibition Stand Design & Build</span>
-		</div>
-		<div class="row exhibit">
-			<div class="col-lg-6 col-md-6 design_stand">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/Exhibition-Design-India.jpg'; ?>" alt="" />
-				<div class="info-text block_1">
-					<h4 class="info-title">AT EXHIBITIONS ACROSS INDIA</h4>
-					<p>Need a quality Exhibition stand in Mumbai, New Delhi, <br>Bengaluru or any other corner of India? <br> We've got you covered</p>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 design_stand">
-				<img src="<?php echo get_template_directory_uri() . '/assets/images/Exhibition-Design-Germany.jpg'; ?>" alt="" />
-				<div class="info-text block_2">
-					<h4 class="info-title">AT EXHIBITIONS WORLDWIDE</h4>
-					<p>Experienced in over 26 countries, we are your reliable<br>partner for exhibitions across Europe, Middle East,<br>Asia &amp; other major exhibition venues 
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- End Exhibition Stand -->
 			
 <div class="our_approach">
 	<div class="container">
@@ -285,8 +259,8 @@ get_header(); ?>
 <!-- cta -->
 <div id="call-to-action" class="mb-4">
 	<div class="container">
-		<span>Perfect idea needs perfect execution so let's get the conversation started - call us on <strong>+49 123456789</strong> </span>
-		<div class="mt-4"><a class="nectar-button  see-through" data-color-override="false" href="#">CONTACT US </a></div>
+		<span>Expert Execution. Personalized Attention. </span>
+		<a class="nectar-button  see-through" data-color-override="false" href="#"> Get In Touch</a>
 	</div>
 </div>
 <!-- end of cta -->
