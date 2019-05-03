@@ -33,14 +33,14 @@ get_header(); ?>
 			</div>
 			<div class="address_block">
 				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 address_1 mt-2">
+					<div class="col-lg-6 col-md-6 col-sm-12 address_1 mt-sm-2">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">
 						    <div class="addr_text">
        							<h3 class="main-info">FRANKFURT</h3>
           						<p class="sub-info">Westend fair, Friedrich Ebert Anlage 36, <br>60325 Frankfurt</p>
           					</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 address_2 mt-">
+					<div class="col-lg-6 col-md-6 col-sm-12 address_2 mt-sm-2">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mumbai_image.jpg">
 						    <div class="addr_text">
 						        <h3 class="main-info">MUMBAI</h3>
@@ -51,8 +51,9 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="contact_form">
-				<h2 class="form_header"> Drop an email to know more about<br> what we can do for your next big event.</h2>
-						<?php echo do_shortcode("[formidable id=2]"); ?>
+				<h2 class="form_header"> Get In Touch </h2>
+				<p class="form_subtext">Drop an email to know more about what we can do for your next big event.</p>
+						<?php echo do_shortcode("[formidable id=1]"); ?>
 
 			</div>
 		</div>

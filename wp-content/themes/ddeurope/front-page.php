@@ -282,7 +282,14 @@ get_header(); ?>
 </div>
 <!-- Auto Scroll -->
 
-
+<!-- cta -->
+<div id="call-to-action" class="mb-4">
+	<div class="container">
+		<span>Perfect idea needs perfect execution so let's get the conversation started - call us on <strong>+49 123456789</strong> </span>
+		<div class="mt-4"><a class="nectar-button  see-through" data-color-override="false" href="#">CONTACT US </a></div>
+	</div>
+</div>
+<!-- end of cta -->
 
 
 

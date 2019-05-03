@@ -28,42 +28,49 @@ get_header(); ?>
 
 		    <div class="timeline-block timeline-block-right">
 		      <div class="marker"></div>
+		           
 			      <div class="timeline-content">
 			         <h3>2005: The beginnings…</h3>
 			         <p>MD DesignDesk Pvt Ltd is formed in Kolkata with an objective to provide 'end to end exhibiting solutions in a professional & organized manner'</p>
-			         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2005.jpg">
-
-			   </div>
+			      </div>
 		   </div>
-
+			<div class="timeline-content-img-left">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2005.jpg">
+		    </div>
 
 		   <div class="timeline-block timeline-block-left">
 		      <div class="marker"></div>
 		      <div class="timeline-content">
 		         <h3>2007: Starting to grow…</h3>
 		         <p>Started serving Exhibitions across India & first overseas project in Germany!</p>
-		          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2007.jpg">
 		      </div>
 		   </div>
+		   <div class="timeline-content-img-right">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2007.jpg">
+			</div>
 
+   		
 		   <div class="timeline-block timeline-block-right">
 		      <div class="marker"></div>
 		      <div class="timeline-content">
 		         <h3>2009: Bold steps…</h3>
 		         <p>DesignDesk grows its operations & establishes office in Mumbai – the commercial capital & Exhibition hub of India!</p>
-		         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2009.jpg">
 		      </div>
 		   </div>
+			<div class="timeline-content-img-left">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2009.jpg">
+			</div>
 
-		   <div class="timeline-block timeline-block-left">
+		 <!--   <div class="timeline-block timeline-block-left">
 		      <div class="marker"></div>
 		      <div class="timeline-content">
 		         <h3>2010: A fresh look…</h3>
 		         <p>A new brand identity is created. Team strength nears 20 professionals!</p>
-		         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2010.jpg">
 		      </div>
 		   </div>
-
+		   <div class="timeline-content-img-right">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2010.jpg">
+			</div>
 		   <div class="timeline-block timeline-block-right">
 		      <div class="marker"></div>
 		      <div class="timeline-content">
@@ -71,6 +78,9 @@ get_header(); ?>
 		         <p>Our largest & most organised production facility is established in Mumbai</p>
 		      </div>
 		   </div>
+				<div class="timeline-content-img-left ">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2011.jpg">
+				</div>
 
 		   <div class="timeline-block timeline-block-left">
 		      <div class="marker"></div>
@@ -79,7 +89,9 @@ get_header(); ?>
 		         <p>DesignDesk participates at Euroshop 2014, Germany as Sponsor & Co exhibitor at the IFES Stand. Annual Project count crosses over 100 Stands across India & the World</p>
 		      </div>
 		   </div>
-
+		   <div class="timeline-content-img-right">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2014.jpg">
+			</div>
 		   <div class="timeline-block timeline-block-right">
 		      <div class="marker"></div>
 		      <div class="timeline-content">
@@ -87,12 +99,13 @@ get_header(); ?>
 		         <p>As we complete 10 years, we chalk out an ambitious Strategic Goal & Roadmap for 2018 !</p>
 		      </div>
 		   </div>
-		</div>
+		   				<div class="timeline-content-img-left">
+			    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/2015.png">
+			</div>
+		</div> -->
 	</section>
 	</div>
 </div>
-
-
 
 <?php
 get_footer();

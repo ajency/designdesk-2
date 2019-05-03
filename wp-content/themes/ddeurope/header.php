@@ -13,7 +13,7 @@
 	<div class="top-bar">
 		<div class="container">
 			<span class="top-left"> EXHIBITION STAND DESIGN & BUILD</span>
-			<span class="top-right"><i class="fas fa-phone-square"> +49 123456789 </i> &nbsp <i class="fas fa-envelope-square"> hello@dd-europe.com </i>
+			<span class="top-right"><i class="fas fa-phone-square"> +49 123456789 </i> &nbsp <i class="fas fa-envelope-square"> <a href="mailto:hello@dd-europe.com">hello@dd-europe.com </i></a>
 			</span>
 		</div>
 	</div>
