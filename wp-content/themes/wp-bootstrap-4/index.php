@@ -293,7 +293,7 @@ get_header(); ?>
 				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/raychem-rpg.png'; ?>" alt="" /></li>
 				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/siyaram.png'; ?>" alt="" /></li>
 				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/uber.png'; ?>" alt="" /></li>
-				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/raychem-rpg.png'; ?>" alt="" />
+			
 				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/airbus.png'; ?>" alt="" /></li>
 				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/gea.png'; ?>" alt="" /></li>
 				<li><img src="<?php echo get_template_directory_uri() . '/assets/images/decor.png'; ?>" alt="" /></li>
