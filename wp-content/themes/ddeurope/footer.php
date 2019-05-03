@@ -45,7 +45,7 @@
     </div>
   </section>
   <section class="footer-widgets action_block">
-    <span class="email_text"><i class="far fa-envelope"></i>  &nbsp hello@dd-europe.com</span>
+    <a href="mailto:hello@dd-europe.com"><span class="email_text"><i class="far fa-envelope"></i>  &nbsp hello@dd-europe.com</span></a>
     <span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 123456789 </span>
 
     <h2 class="contact_title"> Get a quote</h2>

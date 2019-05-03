@@ -28,7 +28,7 @@ get_header(); ?>
 				<div class="col-lg-5 col-md-12 icon_block_2">
 					<i class="far fa-envelope fa-5x"></i>
 					<h3 class="email_header">E-mail</h3>
-					<p class="email">hello@dd-europe.com</p>
+					<p class="email"><a href="mailto:hello@dd-europe.com">hello@dd-europe.com</a></p>
 				</div>
 			</div>
 			<div class="address_block">
@@ -36,6 +36,7 @@ get_header(); ?>
 					<div class="col-lg-6 col-md-6 col-sm-12 address_1 mt-sm-2">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">
 						    <div class="addr_text">
+						   		<div class="icon"><i class="fas fa-map-marker-alt"></i></div>
        							<h3 class="main-info">FRANKFURT</h3>
           						<p class="sub-info">Westend fair, Friedrich Ebert Anlage 36, <br>60325 Frankfurt</p>
           					</div>
@@ -43,6 +44,7 @@ get_header(); ?>
 					<div class="col-lg-6 col-md-6 col-sm-12 address_2 mt-sm-2">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mumbai_image.jpg">
 						    <div class="addr_text">
+						    	<div class="icon"><i class="fas fa-map-marker-alt"></i></div>
 						        <h3 class="main-info">MUMBAI</h3>
           						<p class="sub-info">702 Crescent Business, Kandivali (E), <br> 400101 Mumbai
           						</p>
