@@ -7549,7 +7549,11 @@ body {
     background-size: cover;
     float: left;
     width: 50%;
+<<<<<<< HEAD
     height: 512px; }
+=======
+    height: 500px; }
+>>>>>>> design
     .why_choose_us .left-side:after {
       content: '';
       display: block;
@@ -7562,7 +7566,11 @@ body {
     position: relative;
     float: left;
     width: 50%;
+<<<<<<< HEAD
     height: 512px;
+=======
+    height: 500px;
+>>>>>>> design
     box-shadow: 0px 0px 2px 0px #b9b7b7; }
     @media (max-width: 991px) and (min-width: 575px) {
       .why_choose_us .right-side {
@@ -7619,7 +7627,11 @@ body {
           height: 60px;
           left: -28px;
           background-color: #f39100;
+<<<<<<< HEAD
           top: 73px;
+=======
+          top: 75px;
+>>>>>>> design
           border-radius: 50%;
           z-index: 1;
           color: #fff;
@@ -7691,7 +7703,11 @@ body {
           height: 60px;
           left: -28px;
           background-color: #f39100;
+<<<<<<< HEAD
           top: 280px;
+=======
+          top: 278px;
+>>>>>>> design
           border-radius: 50%;
           z-index: 1;
           color: #fff;
@@ -7756,7 +7772,11 @@ body {
   .why_choose_us:before {
     content: '';
     width: 4px;
+<<<<<<< HEAD
     height: 78.6%;
+=======
+    height: 76.5%;
+>>>>>>> design
     background: #f39100;
     position: absolute;
     left: 50%;
