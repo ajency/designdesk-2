@@ -7754,6 +7754,9 @@ body {
       @media (max-width: 575px) {
         .why_choose_us .right-side .opacity {
           padding: 30px; } }
+      @media (max-width: 1060px) and (min-width: 992px) {
+        .why_choose_us .right-side .opacity {
+          padding-right: 11px; } }
     @media (max-width: 991px) {
       .why_choose_us .right-side {
         width: 100%;
