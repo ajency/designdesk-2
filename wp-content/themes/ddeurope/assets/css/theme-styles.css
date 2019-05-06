@@ -7403,9 +7403,6 @@ body {
   position: absolute;
   right: 30px; }
 
-.gmedia_amron_MasonryCollection {
-  margin-top: 3rem; }
-
 .carousel img {
   max-width: 100%; }
 
@@ -7445,16 +7442,17 @@ body {
       bottom: 0;
       line-height: 0.5; } }
 
-.main-text .main-text-header {
-  text-align: center;
-  color: #f39100;
-  margin: 2rem 0;
-  font-size: 38px;
-  font-weight: 900; }
-
-.main-text .main-text-subtext {
-  text-align: center;
-  font-size: 16px; }
+.main-text {
+  margin-bottom: 3rem; }
+  .main-text .main-text-header {
+    text-align: center;
+    color: #f39100;
+    margin: 2rem 0;
+    font-size: 38px;
+    font-weight: 900; }
+  .main-text .main-text-subtext {
+    text-align: center;
+    font-size: 16px; }
 
 .exhibition_stand {
   margin: 3rem; }
@@ -7561,6 +7559,9 @@ body {
     @media (max-width: 991px) {
       .why_choose_us .left-side {
         display: none; } }
+    @media (max-width: 1060px) and (min-width: 992px) {
+      .why_choose_us .left-side {
+        height: 595px; } }
   .why_choose_us .right-side {
     background: #f8f8f8;
     position: relative;
@@ -7599,7 +7600,7 @@ body {
       .why_choose_us .right-side .opacity .item1 {
         margin-bottom: 1.5rem; }
         .why_choose_us .right-side .opacity .item1 .num {
-          background: #f39100;
+          background: #2471b5;
           border-radius: 50%;
           width: 50px;
           height: 50px;
@@ -7622,7 +7623,7 @@ body {
           width: 60px;
           height: 60px;
           left: -28px;
-          background-color: #f39100;
+          background-color: #2471b5;
           top: 75px;
           border-radius: 50%;
           z-index: 1;
@@ -7636,7 +7637,7 @@ body {
       .why_choose_us .right-side .opacity .item2 {
         margin-bottom: 1.5rem; }
         .why_choose_us .right-side .opacity .item2 .num {
-          background: #f39100;
+          background: #2471b5;
           border-radius: 50%;
           width: 50px;
           height: 50px;
@@ -7659,7 +7660,7 @@ body {
           width: 60px;
           height: 60px;
           left: -28px;
-          background-color: #f39100;
+          background-color: #2471b5;
           top: 178px;
           border-radius: 50%;
           z-index: 1;
@@ -7669,10 +7670,13 @@ body {
           @media (max-width: 991px) {
             .why_choose_us .right-side .opacity .item2:before {
               display: none; } }
+          @media (max-width: 1060px) and (min-width: 991px) {
+            .why_choose_us .right-side .opacity .item2:before {
+              top: 205px; } }
       .why_choose_us .right-side .opacity .item3 {
         margin-bottom: 1.5rem; }
         .why_choose_us .right-side .opacity .item3 .num {
-          background: #f39100;
+          background: #2471b5;
           border-radius: 50%;
           width: 50px;
           height: 50px;
@@ -7695,7 +7699,7 @@ body {
           width: 60px;
           height: 60px;
           left: -28px;
-          background-color: #f39100;
+          background-color: #2471b5;
           top: 278px;
           border-radius: 50%;
           z-index: 1;
@@ -7705,10 +7709,13 @@ body {
           @media (max-width: 991px) {
             .why_choose_us .right-side .opacity .item3:before {
               display: none; } }
+          @media (max-width: 1060px) and (min-width: 991px) {
+            .why_choose_us .right-side .opacity .item3:before {
+              top: 335px; } }
       .why_choose_us .right-side .opacity .item4 {
         margin-bottom: 1.5rem; }
         .why_choose_us .right-side .opacity .item4 .num {
-          background: #f39100;
+          background: #2471b5;
           border-radius: 50%;
           width: 50px;
           height: 50px;
@@ -7731,7 +7738,7 @@ body {
           width: 60px;
           height: 60px;
           left: -28px;
-          background-color: #f39100;
+          background-color: #2471b5;
           top: 387px;
           border-radius: 50%;
           z-index: 1;
@@ -7741,6 +7748,9 @@ body {
           @media (max-width: 991px) {
             .why_choose_us .right-side .opacity .item4:before {
               display: none; } }
+          @media (max-width: 1060px) and (min-width: 991px) {
+            .why_choose_us .right-side .opacity .item4:before {
+              top: 465px; } }
       .why_choose_us .right-side .opacity .item_heading {
         font-size: 17px;
         font-weight: 700;
@@ -7756,22 +7766,28 @@ body {
           padding: 30px; } }
       @media (max-width: 1060px) and (min-width: 992px) {
         .why_choose_us .right-side .opacity {
-          padding-right: 11px; } }
+          height: 595px; } }
     @media (max-width: 991px) {
       .why_choose_us .right-side {
         width: 100%;
         text-align: center; } }
+    @media (max-width: 1060px) and (min-width: 992px) {
+      .why_choose_us .right-side {
+        height: 595px; } }
   .why_choose_us:before {
     content: '';
     width: 4px;
-    height: 76.5%;
-    background: #f39100;
+    height: 74%;
+    background: #2471b5;
     position: absolute;
     left: 50%;
     z-index: 1; }
     @media (max-width: 991px) {
       .why_choose_us:before {
         width: 0; } }
+    @media (max-width: 1060px) and (min-width: 991px) {
+      .why_choose_us:before {
+        height: 88%; } }
   .why_choose_us:after {
     content: '';
     display: block;
@@ -8123,6 +8139,34 @@ body {
     display: block;
     clear: both; }
 
+.gallery {
+  margin: 6rem 0; }
+  .gallery .header {
+    background: #f39100;
+    height: 75px;
+    margin-bottom: 3rem; }
+    .gallery .header .title {
+      color: #fff;
+      font-size: 26px;
+      line-height: 3; }
+    .gallery .header .breadcrumbs-inside {
+      float: right;
+      margin-top: -5%;
+      font-size: 13px; }
+      .gallery .header .breadcrumbs-inside a {
+        color: #fff; }
+      .gallery .header .breadcrumbs-inside:not(.sep-icon) {
+        opacity: 0.7; }
+      @media (max-width: 768px) {
+        .gallery .header .breadcrumbs-inside {
+          display: none; } }
+    @media (max-width: 991px) and (min-width: 475px) {
+      .gallery .header {
+        margin-top: -2rem; } }
+    @media (max-width: 474px) {
+      .gallery .header {
+        margin-top: -3rem; } }
+
 .contact_us {
   margin: 6rem 0; }
   .contact_us .header {
@@ -8175,13 +8219,12 @@ body {
       background: #00aeef;
       border: 0;
       border-radius: 0;
-      padding: 0.7rem 6rem;
+      padding: 0.7rem 2rem;
       text-transform: uppercase;
       font-weight: 600;
       color: #fff;
       position: relative;
-      bottom: 5.5rem;
-      float: right; }
+      float: left; }
       .contact_us .contact_us_content .frm-show-form .frm_button_submit:hover {
         background: #00aeef;
         color: #fff; }

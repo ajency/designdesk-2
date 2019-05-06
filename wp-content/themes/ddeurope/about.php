@@ -27,7 +27,7 @@ get_header(); ?>
 	<div class="about_us">
 		<div class="container">
 			<div class="row mr-0 ml-0">
-				<div class="about_us_content col-lg-8 col-md-8 col-sm-12 pr-0 pl-0">
+				<div class="about_us_content col-lg-12 col-md-12 col-sm-12 pr-0 pl-0">
 					<div class="head_text">
 						<h2 class="title alignleft">An Overview </h2>
 					</div>
@@ -41,9 +41,9 @@ get_header(); ?>
 						<p>We handle exhibitions in any part of India directly &amp; across the Globe through our strategic tie-ups with leading companies.</p>
 					</div>
 				</div>
-				<div class=" col-lg-4 col-md-4 col-sm-12 pr-0 pl-0">
+		<!-- 		<div class=" col-lg-4 col-md-4 col-sm-12 pr-0 pl-0">
 					Testimonials
-				</div>
+				</div> -->
 			</div>
 
 			<div class="journey">
