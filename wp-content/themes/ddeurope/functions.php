@@ -3,6 +3,7 @@
 function enqueue_theme_styles() {
     wp_enqueue_style('theme-styles', get_template_directory_uri() . '/assets/css/theme-styles.css', array(), '', false);
     wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.8.1/css/all.css', array(), '', false);
+    wp_enqueue_style('font-family', 'https://fonts.googleapis.com/css?family=Montserrat', array(), '', false);
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_styles' );
 
