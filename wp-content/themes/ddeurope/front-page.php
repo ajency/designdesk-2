@@ -128,7 +128,7 @@ get_header(); ?>
 <!-- End of Text -->
 
 <div class="gallery">
-	<?php echo do_shortcode("[gm album=1]"); ?>
+	<?php echo do_shortcode("[gm album=8]"); ?>
 
 </div
 			
