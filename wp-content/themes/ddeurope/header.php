@@ -34,7 +34,7 @@
 				<div class="collapse-lg navbar-collapse  ml-auto" id="navbarSupportedContent">
 					<ul class="nav navbar-nav navbar-right ">
 						<li class="nav-item active">
-							<a class="nav-link" href="#"> Home </a>
+							<a class="nav-link" href="<?php echo get_site_url(); ?>/"> Home </a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">  Gallery </a>
@@ -49,9 +49,9 @@
 			                </div>
               			</li>	 -->				
 						<li class="nav-item">
-               				<a class="nav-link" href="#"> Expertise </a>
+               				<a class="nav-link" href="<?php echo get_site_url(); ?>/about-us"> Expertise </a>
 						</li>
-					<!-- 	<li class="nav-item dropdown">
+						<!-- <li class="nav-item dropdown">
                 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Careers 
                 			</a>
 			                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -73,7 +73,7 @@
 				<div class="collapse-lg navbar-collapse  ml-auto" id="navbarSupportedContent">
 						<ul class="nav navbar-nav navbar-right ">
 							<li class="nav-item active">
-								<a class="nav-link" href="#"> Home </a>
+								<a class="nav-link" href="<?php echo get_site_url(); ?>/"> Home </a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#"> Gallery </a>
@@ -90,7 +90,7 @@
 						        </div>
 						    </li>	 -->				
 							<li class="nav-item">
-								<a class="nav-link" href="#"> Expertise </a>
+								<a class="nav-link" href="<?php echo get_site_url(); ?>/about-us"> Expertise </a>
 							</li>
 						<!-- 	<li class="nav-item dropdown">
 						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

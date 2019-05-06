@@ -127,6 +127,9 @@ get_header(); ?>
 </div>
 <!-- End of Text -->
 
+<div class="gallery">
+	<?php echo do_shortcode("[gm album=8]"); ?>
+</div>
 			
 <div class="our_approach">
 	<div class="container">
@@ -134,7 +137,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
 					<i class="fas fa-assistive-listening-systems fa-5x" id="icons-appr"></i>
-					<div class="block_heading"> We Listen </div>
+					<div class="block_head, ing"> We Listen </div>
 					<p class="block_subheading"> Dedicated & highly responsive <br> client service</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
