@@ -128,8 +128,10 @@ get_header(); ?>
 <!-- End of Text -->
 
 <div class="gallery">
-	<?php echo do_shortcode("[gm album=8]"); ?>
-
+	<div class="container">
+		<div class="section_title">Gallery</div>
+			<?php echo do_shortcode("[gmedia id=15]"); ?>
+	</div>
 </div
 			
 <div class="our_approach">
@@ -138,7 +140,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
 					<i class="fas fa-assistive-listening-systems fa-5x" id="icons-appr"></i>
-					<div class="block_head, ing"> We Listen </div>
+					<div class="block_heading"> We Listen </div>
 					<p class="block_subheading"> Dedicated & highly responsive <br> client service</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 main_block">
@@ -238,23 +240,20 @@ get_header(); ?>
 	<div class="container position-relative">
 		<h2 class="section_title"> Trusted by Brands like </h2>
 		<ul id="scroller">
-			<li ><img src="<?php echo get_template_directory_uri(); ?>/assets/images/swarovski.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/acg.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/reliance.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/aditya-birla-group.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Mitsubishi_Electric.png"></li>
+			<li ><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1-Swarovski-logo.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/2-ACG-01.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/3-RIL-logo-1.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/4-Aditya-Birla-Group.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-Mistubishi_Logo.png"></li>
 
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/cisco.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/raychem-rpg.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/siyaram.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uber.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/airbus.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/6-CISCO-logo-1.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/7-ATEF-Logo-2019-01.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/8-GEA-Final-Logo.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/9--Hitachi.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/10-BOROSIL-1.png"></li>
 
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gea.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/decor.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/portico.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gmmco.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/hitachi.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/11-ROTEX-01.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/12-SPETS.png"></li>
 		</ul>
 	</div>
 </div>
@@ -263,8 +262,8 @@ get_header(); ?>
 <!-- cta -->
 <div id="call-to-action" class="mb-4">
 	<div class="container">
-		<span>Expert Execution. Personalized Attention. </span>
-		<a class="nectar-button  see-through" data-color-override="false" href="#"> Get In Touch</a>
+		<span>Your Brand deserves a Great Stand! </span>
+		<a class="nectar-button  see-through" data-color-override="false" href="#"> Get Started Now</a>
 	</div>
 </div>
 <!-- end of cta -->

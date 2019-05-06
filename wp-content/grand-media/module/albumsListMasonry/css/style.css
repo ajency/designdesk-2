@@ -1,0 +1,523 @@
+/********* GM Preloader *************/
+.gmedia_v2_Preloader {
+    min-height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+@keyframes spinner {
+    0% { transform: rotate(-360deg); }
+    100% { transform: rotate(0deg); }
+}
+@keyframes _spinner {
+    to {
+        transform: rotate(-1440deg);
+    }
+}
+.gmedia_v2_Preloader .c-spinner {
+    /*animation: 2s _spinner ease-in-out infinite alternate;*/
+    animation: 1s spinner linear infinite;
+}
+@keyframes gmFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*************************************************/
+.gmedia_AlbumsListMasonry_clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0px;
+    content: " ";
+    clear: both;
+    height: 0px;
+}
+.gmNoneTransition{
+    transition: none !important;
+}
+.albumsListMasonry_module *
+{
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+.gmedia_AlbumsListMasonry_CollectionPopUpActive body{
+    overflow-y: scroll;
+    position: static !important;
+}
+/******************************** Main View **************/
+.gmedia_AlbumsListMasonry_Collection {
+    position: relative;
+    min-height: 100px;
+    transition: height .5s;
+    -webkit-user-select: none;
+}
+/******************************** SplashPage ****************/
+.gmedia_AlbumsListMasonry_SplashPage{
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+}
+/******************************** Cover *************************/
+.gmedia_AlbumsListMasonry_Cover{
+    position: absolute;
+    cursor: pointer;
+    perspective: 1000px;
+    z-index: 0;
+}
+.gmedia_AlbumsListMasonry_Cover.render
+{
+    z-index: 100;
+}
+.gmedia_AlbumsListMasonry_Cover .gmiOS_optima, .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverHA .gmiOS_optima
+{
+    will-change:unset;
+}
+.gmedia_AlbumsListMasonry_CoverImgHolder
+{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    will-change: transform;
+    pointer-events: none;
+    z-index: 100;
+}
+.gmedia_AlbumsListMasonry_Cover img{
+    will-change: opacity;
+    opacity: 0.01;
+    transition: opacity .5s;
+    pointer-events: none;
+}
+.gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverShine
+{
+    pointer-events: none;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+}
+.gmedia_AlbumsListMasonry_CoverHA{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    z-index: 200;
+}
+.gmedia_AlbumsListMasonry_HoverBG
+{
+    position: absolute;
+    will-change: opacity;
+    opacity: 0.01;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.4s;
+}
+.gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder
+{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    bottom: 20px;
+    padding-right: 20px;
+    text-shadow: rgba(0, 0, 0, 0.347059) 0px 0px 7px;
+
+}
+.gmedia_AlbumsListMasonry_CoverTitleHolder .coverTitle {
+    font-size: 32px;
+    line-height: 1.1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color: #fff;
+    user-select: none;
+    pointer-events: none;
+}
+.gmedia_AlbumsListMasonry_CoverTitleHolder .coverCounter {
+    padding: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    pointer-events: none;
+    display: inline-block;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.gmedia_AlbumsListMasonry_CoverTitleHolder .coverShareButton
+{
+    position: relative;
+    padding: 5px;
+    -webkit-filter: drop-shadow( 0px 0px 7px rgba(0, 0, 0, 0.347059));
+    filter: drop-shadow( 0px 0px 7px rgba(0, 0, 0, 0.347059));
+    height: 30px;
+    width: 30px;
+    margin: 0px 12px;
+    cursor: pointer;
+    float: right;
+}
+.gmedia_AlbumsListMasonry_CoverTitleHolder .coverShareButton svg
+{
+    width: 100%;
+    height: 100%;
+    transition: fill .2s, transform .4s ease-out;
+}
+/******************************** Term Collection **********************/
+.gmedia_AlbumsListMasonry_TermCollection *{
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+.gmedia_AlbumsListMasonry_TermCollection svg
+{
+    vertical-align: baseline !important;
+}
+.gmedia_AlbumsListMasonry_TermCollection{
+    position: fixed;
+    /*overflow: hidden;*/
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.gmedia_AlbumsListMasonry_TermCollection.gmContent{
+    position: absolute;
+    /*overflow: unset;*/
+    bottom: unset;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsAnimeBG{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform: translateY(-100%);
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeader{
+    position: relative;
+    width: 100%;
+    transform: translateY(-100%);
+    overflow: hidden;
+    padding: 10px;
+    transition: transform 0.5s;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05)
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeader .gmAlbumsTitle{
+    position: relative;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeader .gmAlbumsDescription{
+    position: relative;
+    display: inline-block;
+    max-width: 840px;
+    font-size: 1em;
+    padding: 0 40px;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeader .gmAlbumsShareMenu{
+    position: relative;
+    overflow: hidden;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeader .gmAlbumsShareMenu .gmAlbumsShareButton{
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeader .gmAlbumsCloseButton{
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.gmAlbumsShareButton svg, .gmAlbumsCloseButton svg{
+    width: 100%;
+    height: 100%;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeaderFixed{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    min-height: 30px;
+    transform: translateY(-100%);
+    overflow: hidden;
+    padding: 10px;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05)
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeaderFixed.gmShow
+{
+    transform: translateY(0);
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeaderFixed .gmAlbumsTitle{
+    position: relative;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeaderFixed .gmAlbumsShareMenu{
+    position: relative;
+    overflow: hidden;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeaderFixed .gmAlbumsShareMenu .gmAlbumsShareButton{
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermHeaderFixed .gmAlbumsCloseButton{
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermContent{
+    position: relative;
+    width: 100%;
+    padding: 0 40px;
+    min-height: 200px;
+    visibility: hidden;
+}
+.gmedia_AlbumsListMasonry_TermCollection .gmAlbumsTermContent.miniScreen
+{
+    padding: 0;
+}
+/******************************** Masonry Collection *************************/
+.gmedia_AlbumsListMasonry_MasonryCollection{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection *{
+    box-sizing: border-box !important;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_content .collectionColumn
+{
+    position: relative;
+    float: left;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_header, .gmedia_AlbumsListMasonry_MasonryCollection .gmedia_content, .gmedia_AlbumsListMasonry_MasonryCollection .gmedia_footer
+{
+    position: relative;
+    width: 100%;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_header .gmedia_navi
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_header .termTitle
+{
+    position: relative;
+    display: inline-block;
+    font-size: 28px;
+    line-height: 34px;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_header .gmedia_backButton
+{
+    position: relative;
+    float: left;
+    margin: 0 10px 0 0;
+    width: 54px;
+    height: 34px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_header .gmedia_backButton svg
+{
+    width: 100%;
+    height: 100%;
+    vertical-align: baseline !important;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection .gmedia_content{
+    min-height: 200px;
+    overflow: hidden;
+}
+/******************************** Masonry Item *************************/
+.gmedia_AlbumsListMasonry_MasonryCollection_Item{
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.45s;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item_Inner
+{
+    position: absolute;
+    padding: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item_Inner .gm_item_badge
+{
+    position: absolute;
+    pointer-events: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item_Inner .gm_item_badge svg
+{
+    width: 100%;
+    height: 100%;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item_MenuHolder
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 .4em 0 0;
+    min-height: 45px;
+    transform: translateY(100%);
+    transition: transform 0.50s;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item.hover .gmedia_AlbumsListMasonry_MasonryCollection_Item_MenuHolder
+{
+    transform: translateY(0%);
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item_Hover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0.01;
+    transition: opacity 0.45s;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item.hover .gmedia_AlbumsListMasonry_MasonryCollection_Item_Hover {
+    opacity: 0.7;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item_Inner .item_title {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+    display: block;
+    text-shadow: rgba(0, 0, 0, 0.35) 0 0 7px;
+    pointer-events: none;
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item.hover .item_title {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.gmedia_AlbumsListMasonry_MasonryCollection_Item img
+{
+    display: block;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/***************** Tags Cloud *********************/
+.gmedia_AlbumsListMasonry_CollectionTagsCloud{
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.gmedia_AlbumsListMasonry_CollectionTagsCloud ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gmedia_AlbumsListMasonry_CollectionTagsCloud ul li::before
+{
+    display: none;
+}
+.gmedia_AlbumsListMasonry_CollectionTagsCloud ul li {
+    display: inline-block;
+    max-width: 200px;
+    padding: 5px 8px;
+    margin: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 15px;
+    border-radius: 2px;
+    text-decoration: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/***************** Audio Content ******************/
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.gmpAudioCoverContainerAlbumsListMasonry {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.gmAlbusListRotate {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.gmCircleAudioControllerAlbumsListMasonryContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    width: 109px;
+    height: 109px;
+    transform: translate3d(-50%, -50%, 0px);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gmCirclebButtonAudioPlayerAlbumsListMasonry {
+    position: absolute;
+    display: block;
+    width: 106px;
+    height: 106px;
+    padding: 12px;
+    transition: background 0.3s;
+}
+
+.gmCirclebButtonAudioPlayerAlbumsListMasonry svg {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
