@@ -6,7 +6,7 @@
 		background: url('../images/footer-image.jpg');
 		.address_block1{
 			color: #fff;
-			padding:30px;
+			padding-top: 20px;
 			.main-info{
 				text-transform: uppercase;
 				color: #f39100;
@@ -18,7 +18,7 @@
 		}
 		.address_block2{
 			color: #fff;
-			padding:30px;
+			padding-top: 20px;
 			.main-info{
 				text-transform: uppercase;
 				color: #f39100;
@@ -33,15 +33,15 @@
 		    display:block;
 		    background: rgba(17,17,17,.93);
 		    width:100%;
-		    height:34%;
+		    height:20%;
 			position:absolute;
 			left:0;
 			right:0;
 			@media (max-width: 768px){
-				height:63%;
+				height:38%;
 			}
 			@media (max-width: 358px){
-				height:71%;
+				height:45%;
 			}
 		}
 	}

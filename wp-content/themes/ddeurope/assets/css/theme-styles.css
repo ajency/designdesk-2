@@ -7272,7 +7272,7 @@ a.text-cancel:hover, a.text-cancel:focus {
     background: url("../images/footer-image.jpg"); }
     .site-footer .address .address_block1 {
       color: #fff;
-      padding: 30px; }
+      padding-top: 20px; }
       .site-footer .address .address_block1 .main-info {
         text-transform: uppercase;
         color: #f39100;
@@ -7281,7 +7281,7 @@ a.text-cancel:hover, a.text-cancel:focus {
           font-size: 14px; }
     .site-footer .address .address_block2 {
       color: #fff;
-      padding: 30px; }
+      padding-top: 20px; }
       .site-footer .address .address_block2 .main-info {
         text-transform: uppercase;
         color: #f39100;
@@ -7293,16 +7293,16 @@ a.text-cancel:hover, a.text-cancel:focus {
       display: block;
       background: rgba(17, 17, 17, 0.93);
       width: 100%;
-      height: 34%;
+      height: 20%;
       position: absolute;
       left: 0;
       right: 0; }
       @media (max-width: 768px) {
         .site-footer .address:before {
-          height: 63%; } }
+          height: 38%; } }
       @media (max-width: 358px) {
         .site-footer .address:before {
-          height: 71%; } }
+          height: 45%; } }
   .site-footer .action_block {
     padding: 20px; }
     .site-footer .action_block span {
@@ -7544,6 +7544,26 @@ body {
     font-size: 14px;
     text-align: center; }
 
+.view_gallery {
+  padding: 1.5rem;
+  color: #dee2e6;
+  text-align: center;
+  margin-top: 2rem; }
+  .view_gallery a {
+    color: #000;
+    border: 1px solid #f48e0c;
+    padding: 12px 34px;
+    border-radius: 0;
+    text-decoration: none;
+    transition: 0.6s;
+    font-weight: 800; }
+    .view_gallery a:hover {
+      background-color: #f48e0c;
+      color: #fff; }
+    @media (max-width: 768px) {
+      .view_gallery a {
+        display: inline-block; } }
+
 .why_choose_us {
   margin: 1.5rem 0 0 0; }
   .why_choose_us .left-side {
@@ -7551,6 +7571,7 @@ body {
     background-size: cover;
     float: left;
     width: 50%;
+    height: 512px;
     height: 500px; }
     .why_choose_us .left-side:after {
       content: '';
@@ -7567,6 +7588,7 @@ body {
     position: relative;
     float: left;
     width: 50%;
+    height: 512px;
     height: 500px;
     box-shadow: 0px 0px 2px 0px #b9b7b7; }
     @media (max-width: 991px) and (min-width: 575px) {
@@ -7623,6 +7645,8 @@ body {
           width: 60px;
           height: 60px;
           left: -28px;
+          background-color: #f39100;
+          top: 73px;
           background-color: #2471b5;
           top: 75px;
           border-radius: 50%;
@@ -7699,6 +7723,8 @@ body {
           width: 60px;
           height: 60px;
           left: -28px;
+          background-color: #f39100;
+          top: 280px;
           background-color: #2471b5;
           top: 278px;
           border-radius: 50%;
@@ -7777,6 +7803,9 @@ body {
   .why_choose_us:before {
     content: '';
     width: 4px;
+    height: 78.6%;
+    height: 76.5%;
+    background: #f39100;
     height: 74%;
     background: #2471b5;
     position: absolute;
@@ -7879,8 +7908,10 @@ body {
   padding: 1.5rem;
   color: #dee2e6;
   text-align: center; }
-  #call-to-action span {
-    font-size: 24px; }
+  #call-to-action .cta-text {
+    margin-bottom: 20px; }
+    #call-to-action .cta-text span {
+      font-size: 24px; }
   #call-to-action a {
     color: #fff;
     border: 1px solid #f48e0c;
@@ -7888,7 +7919,8 @@ body {
     border-radius: 0;
     text-decoration: none;
     transition: 0.6s;
-    font-weight: 800; }
+    font-weight: 800;
+    margin: 1rem 0; }
     #call-to-action a:hover {
       background-color: #f48e0c;
       color: #fff; }
@@ -7916,6 +7948,11 @@ body {
   .card .card-body {
     border: solid 1px #ebebeb;
     font-size: 14px; }
+
+.gmedia_AlbumsListMasonry_CoverTitleHolder {
+  display: none; }
+  .gmedia_AlbumsListMasonry_CoverTitleHolder:hover {
+    display: block; }
 
 .expertise {
   margin: 6rem 0; }

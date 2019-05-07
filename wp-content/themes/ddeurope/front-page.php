@@ -129,8 +129,11 @@ get_header(); ?>
 
 <div class="gallery">
 	<div class="container">
-		<div class="section_title">Gallery</div>
-			<?php echo do_shortcode("[gmedia id=15]"); ?>
+<!-- 		<div class="section_title">Gallery</div>
+ -->			<?php echo do_shortcode("[gmedia id=10]"); ?>
+		<div class="view_gallery">
+			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/gallery"> View Gallery</a>
+		</div>
 	</div>
 </div
 			
@@ -196,6 +199,7 @@ get_header(); ?>
 </div>
 <!-- end -why-choose-us -->
 
+
 <!-- Counter -->
 <div class="counter_in_home">
 	<div class="container">
@@ -233,6 +237,24 @@ get_header(); ?>
 
 <!-- end of Counter -->
 
+<!-- World Map -->
+<div class="map">
+	<div class="container">
+		<h2 class="section_title">One point solution for World Wide Exhibitions</h2>
+			<div class="row">
+				<div class="col-lg-2 col-md-2"></div>
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<?php echo do_shortcode("[show-map id='1']"); ?>
+					<p class="text-center">Experienced in over 26 countries & growing – we can serve you in most corners of the world!</p>
+					<p class="text-center">Ask now on <strong>hello@dd-europe.com</strong></p>
+				</div>
+				<div class="col-lg-2 col-md-2"></div>
+			</div>
+	</div>
+</div>
+<!--  World Map  -->
+
+
 <!-- Auto Scroll --> 
 
 
@@ -262,8 +284,8 @@ get_header(); ?>
 <!-- cta -->
 <div id="call-to-action" class="mb-4">
 	<div class="container">
-		<span>Your Brand deserves a Great Stand! </span>
-		<a class="nectar-button  see-through" data-color-override="false" href="#"> Get Started Now</a>
+		<div class="cta-text"><span>Your Brand deserves a Great Stand! </span></div>
+		<div><a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/contact-us"> Get Started Now</a></div>
 	</div>
 </div>
 <!-- end of cta -->
