@@ -79,14 +79,14 @@ get_header(); ?>
 <!-- End of Text -->
 
 <div class="gallery">
-	<div class="container">
+	<div class="container-fluid">
 <!-- 		<div class="section_title">Gallery</div>
  -->			<?php echo do_shortcode("[gmedia id=10]"); ?>
 		<div class="view_gallery">
 			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/gallery"> View Gallery</a>
 		</div>
 	</div>
-</div
+</div>
 			
 <div class="our_approach">
 	<div class="container">
