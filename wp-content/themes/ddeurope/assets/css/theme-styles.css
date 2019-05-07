@@ -7134,7 +7134,7 @@ a.text-cancel:hover, a.text-cancel:focus {
   padding: 6px 0; }
   .top-bar .top-left {
     color: #fff;
-    letter-spacing: 1.1px;
+    letter-spacing: 0.7px;
     font-weight: 900; }
   .top-bar .top-right {
     color: #fff;
@@ -7454,77 +7454,6 @@ body {
     text-align: center;
     font-size: 16px; }
 
-.exhibition_stand {
-  margin: 3rem; }
-  .exhibition_stand .sticky-title {
-    text-align: center;
-    border: 2px solid #2471b5;
-    position: relative;
-    top: 11px;
-    border-bottom: 0;
-    font-size: 18px; }
-    .exhibition_stand .sticky-title span {
-      color: #fff;
-      background-color: #2471b5;
-      padding: 11px;
-      display: inline-block;
-      position: relative;
-      top: -45px;
-      min-width: 350px;
-      left: 0;
-      right: 0;
-      margin: 20px auto;
-      text-transform: uppercase;
-      font-weight: 700;
-      text-align: center; }
-      @media (max-width: 399px) {
-        .exhibition_stand .sticky-title span {
-          min-width: auto; } }
-    @media (max-width: 768px) {
-      .exhibition_stand .sticky-title {
-        border: none;
-        top: 7px; } }
-  .exhibition_stand .exhibit {
-    padding: 0;
-    background: #f5f5f5; }
-    .exhibition_stand .exhibit .design_stand {
-      margin-top: -1.9em;
-      margin-bottom: 2.5rem;
-      text-align: center; }
-      .exhibition_stand .exhibit .design_stand img {
-        max-width: 100%; }
-      .exhibition_stand .exhibit .design_stand .info-text {
-        background: #efefef;
-        position: relative;
-        padding: 1rem; }
-        .exhibition_stand .exhibit .design_stand .info-text .info-title {
-          text-align: center;
-          padding: 12px;
-          font-size: 18px;
-          font-weight: bold;
-          color: #454545;
-          line-height: 24px; }
-        .exhibition_stand .exhibit .design_stand .info-text p {
-          text-align: center;
-          font-size: 14px;
-          line-height: 22px; }
-        @media (max-width: 768px) {
-          .exhibition_stand .exhibit .design_stand .info-text {
-            background: #f5f5f5; } }
-      .exhibition_stand .exhibit .design_stand .block_1 {
-        right: -15px; }
-        @media (max-width: 768px) {
-          .exhibition_stand .exhibit .design_stand .block_1 {
-            right: 0; } }
-      .exhibition_stand .exhibit .design_stand .block_2 {
-        left: -15px; }
-        @media (max-width: 768px) {
-          .exhibition_stand .exhibit .design_stand .block_2 {
-            left: 0; } }
-  @media (max-width: 768px) {
-    .exhibition_stand {
-      margin: 5rem 0 0 0; } }
-
 .main_block {
   text-align: center;
   padding: 2rem; }
@@ -7571,7 +7500,6 @@ body {
     background-size: cover;
     float: left;
     width: 50%;
-    height: 512px;
     height: 500px; }
     .why_choose_us .left-side:after {
       content: '';
@@ -7588,7 +7516,6 @@ body {
     position: relative;
     float: left;
     width: 50%;
-    height: 512px;
     height: 500px;
     box-shadow: 0px 0px 2px 0px #b9b7b7; }
     @media (max-width: 991px) and (min-width: 575px) {
@@ -7950,9 +7877,9 @@ body {
     font-size: 14px; }
 
 .gmedia_AlbumsListMasonry_CoverTitleHolder {
-  display: none; }
+  display: block; }
   .gmedia_AlbumsListMasonry_CoverTitleHolder:hover {
-    display: block; }
+    display: block !important; }
 
 .expertise {
   margin: 6rem 0; }
@@ -8176,10 +8103,22 @@ body {
     display: block;
     clear: both; }
 
+.item-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  color: #fff; }
+
 .capabilities {
   margin: 6rem 0; }
   .capabilities .header {
-    background: #0671b5;
+    background: #f39100;
     height: 75px;
     margin-bottom: 3rem; }
     .capabilities .header .title {
@@ -8197,6 +8136,120 @@ body {
       @media (max-width: 768px) {
         .capabilities .header .breadcrumbs-inside {
           display: none; } }
+  .capabilities .capability_content .icon_block {
+    background: #efefef;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 2px; }
+    .capabilities .capability_content .icon_block #icon-cap {
+      font-size: 54px;
+      line-height: 2; }
+    .capabilities .capability_content .icon_block .text {
+      font-size: 20px;
+      line-height: 40px;
+      letter-spacing: 0px;
+      color: #323436; }
+    @media (max-width: 768px) {
+      .capabilities .capability_content .icon_block {
+        margin-bottom: 25px;
+        padding-left: 0;
+        padding-right: 0; } }
+  .capabilities .capability_content hr {
+    margin: 3rem 0; }
+  .capabilities .capability_content p {
+    font-size: 14px;
+    margin: 0 0 20px;
+    line-height: 22px; }
+  .capabilities .capability_content .line {
+    margin: 1rem 0; }
+  .capabilities .capability_content .grid-title {
+    margin-bottom: 1.50rem; }
+  .capabilities .capability_content .grid_block1:hover .item-overlay {
+    top: 0;
+    height: 100%; }
+  .capabilities .capability_content .grid_block2:hover .item-overlay {
+    top: 0;
+    height: 100%; }
+  .capabilities .capability_content .grid_block3:hover .item-overlay {
+    top: 0;
+    height: 100%; }
+  .capabilities .capability_content .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8px; }
+    .capabilities .capability_content .grid > .grid_block1 {
+      border: none; }
+      .capabilities .capability_content .grid > .grid_block1 img {
+        max-width: 100%; }
+        @media (max-width: 768px) {
+          .capabilities .capability_content .grid > .grid_block1 img {
+            margin: 0.5rem 0; } }
+      .capabilities .capability_content .grid > .grid_block1:hover:before {
+        content: '';
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        height: 0;
+        width: 30.6%;
+        transition: .5s ease; }
+      .capabilities .capability_content .grid > .grid_block1:nth-child(2) {
+        grid-column: span 2;
+        grid-row: span 2; }
+        .capabilities .capability_content .grid > .grid_block1:nth-child(2):before {
+          content: '';
+          position: absolute;
+          background: rgba(0, 0, 0, 0.5);
+          height: 0;
+          width: 62.33%; }
+          .capabilities .capability_content .grid > .grid_block1:nth-child(2):before:hover {
+            height: 32.33%; }
+    .capabilities .capability_content .grid > .grid_block2 {
+      border: none; }
+      .capabilities .capability_content .grid > .grid_block2 img {
+        max-width: 100%; }
+        @media (max-width: 768px) {
+          .capabilities .capability_content .grid > .grid_block2 img {
+            margin: 0.5rem 0; } }
+      .capabilities .capability_content .grid > .grid_block2:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 2; }
+    .capabilities .capability_content .grid > .grid_block3 {
+      border: none; }
+      .capabilities .capability_content .grid > .grid_block3 img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 235px; }
+        @media (max-width: 768px) {
+          .capabilities .capability_content .grid > .grid_block3 img {
+            margin: 0.5rem 0; } }
+      .capabilities .capability_content .grid > .grid_block3:nth-child(1) {
+        grid-column: span 3;
+        grid-row: span 2; }
+    @media (max-width: 768px) {
+      .capabilities .capability_content .grid {
+        display: block; } }
+  @media (max-width: 991px) {
+    .capabilities .capability_content .hb-callout-box .text {
+      margin-bottom: 27px; } }
+  .capabilities .capability_content .hb-callout-box a {
+    background: #ff9f08;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 16px 24px;
+    box-shadow: 0 3px 0 #d48200;
+    color: #fff; }
+    .capabilities .capability_content .hb-callout-box a:hover {
+      background: #0671b5;
+      box-shadow: 0 3px 0 #015387;
+      text-decoration: none; }
+    @media (min-width: 992px) {
+      .capabilities .capability_content .hb-callout-box a {
+        float: right;
+        margin-top: -53px; } }
+  @media (max-width: 991px) {
+    .capabilities .capability_content .hb-callout-box {
+      text-align: center; } }
 
 .gallery {
   margin: 6rem 0; }

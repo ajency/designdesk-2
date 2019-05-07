@@ -6,6 +6,8 @@
         <title><?php wp_title(); ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png" />
+
         <?php wp_head(); ?>
     </head>
 
@@ -14,7 +16,7 @@
 		<div class="top-bar">
 			<div class="container">
 				<span class="top-left"> EXHIBITION STAND DESIGN & BUILD</span>
-				<span class="top-right"><a href="mailto:hello@dd-europe.com"><i class="fas fa-envelope-square"> hello@dd-europe.com </i></a> &nbsp <i class="fas fa-phone-square"> +49 123456789 </i>  
+				<span class="top-right"><a href="mailto:hello@dd-europe.com"><i class="fas fa-envelope-square"></i>&nbsp <span>hello@dd-europe.com</span> </a> &nbsp <i class="fas fa-phone-square"></i>&nbsp <span> +49 123456789 </span>  
 				</span>
 			</div>
 		</div>
