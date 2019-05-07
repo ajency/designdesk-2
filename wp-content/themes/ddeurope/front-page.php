@@ -31,77 +31,28 @@ get_header(); ?>
 			</div>
 		</div -->
 		<div class="carousel-item active">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/achema.jpg">
-			<div class="carousel-caption">
-				<h2 class="display-4">Modern design concepts</h2>
-				<p class="lead">ACHEMA, Germany</p>
-				<p class="leadsub">293 sqm</p>
-			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg">
 		</div>
 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/airbus.jpg">
-			<div class="carousel-caption">
-		    	<h2 class="display-4">Customized Approach</h2>
-		  		<p class="lead">Defexpo, New Delhi</p>
-		  		<p class="leadsub">272 sqm</p>
-			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg">
 		</div>
 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/reliance.jpg">
-			<div class="carousel-caption">
-			    <h2 class="display-4">Impeccable Quality</h2>
-			    <p class="lead">Chinaplas, China</p>
-			    <p class="leadsub">219 sqm</p>
-			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg">
 		</div>
 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/otm.jpg">
-			<div class="carousel-caption">
-		 	    <h2 class="display-4">Award Winning Creativity</h2>
-		        <p class="lead">OTM, Mumbai</p>
-		        <p class="leadsub">100 sqm</p>
-		    </div>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg">
 		</div>
 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/birla-1.jpg">
-			<div class="carousel-caption">
-			    <h2 class="display-4">Worldwide Services</h2>
-			    <p class="lead">Anex, Japan</p>
-			    <p class="leadsub">72 sqm</p>
-			</div>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg">
 		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Latest_Swaroski.jpg">
-			<div class="carousel-caption">
-		  		<h2 class="display-4">Attention To Details</h2>
-		  		<p class="lead">IIJS, Mumbai</p>
-		   		<p class="leadsub">72 sqm</p>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Mitsubishi.jpg">
-			<div class="carousel-caption">
-				<h2 class="display-4">100% Reliable Services</h2>
-			    <p class="lead">Elecrama, Bengaluru</p>
-			    <p class="leadsub">120 sqm</p>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/RPG-Office.jpg">
-			<div class="carousel-caption">
-				<h2 class="display-4">Optimum Space Planning</h2>
-				<p class="lead">Office Lobby Display, Mumbai</p>
-			    <p class="leadsub">400 sq ft</p>
-			</div>
-		</div>
-		<div class="carousel-item">
+<!-- 		<div class="carousel-item">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Uber.jpg">
 			<div class="carousel-caption">
 		 		<h2 class="display-4">Hassle Free Working</h2>
 				<p class="lead">Office Revamp, Pune</p>
 			    <p class="leadsub">400 sq ft</p>
 			</div>
-		</div>
+		</div> -->
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
