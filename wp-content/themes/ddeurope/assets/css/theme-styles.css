@@ -8176,6 +8176,28 @@ body {
     display: block;
     clear: both; }
 
+.capabilities {
+  margin: 6rem 0; }
+  .capabilities .header {
+    background: #0671b5;
+    height: 75px;
+    margin-bottom: 3rem; }
+    .capabilities .header .title {
+      color: #fff;
+      font-size: 26px;
+      line-height: 3; }
+    .capabilities .header .breadcrumbs-inside {
+      float: right;
+      margin-top: -5%;
+      font-size: 13px; }
+      .capabilities .header .breadcrumbs-inside a {
+        color: #fff; }
+      .capabilities .header .breadcrumbs-inside:not(.sep-icon) {
+        opacity: 0.7; }
+      @media (max-width: 768px) {
+        .capabilities .header .breadcrumbs-inside {
+          display: none; } }
+
 .gallery {
   margin: 6rem 0; }
   .gallery .header {
