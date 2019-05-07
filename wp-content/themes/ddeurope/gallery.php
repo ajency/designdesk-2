@@ -25,7 +25,7 @@ get_header(); ?>
 	</div>
 	<div class="gallery_content">
 		<div class="container">
-			<?php echo do_shortcode("[gmedia id=15]"); ?>
+			<?php echo do_shortcode("[gmedia id=2]"); ?>
 		</div>
 	</div>
 </div>
