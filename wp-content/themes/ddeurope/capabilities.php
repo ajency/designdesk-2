@@ -18,6 +18,10 @@ get_header(); ?>
 				<div class="breadcrumbs-wrapper">
       				<div class="breadcrumbs-inside">
   						<a href="#">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>capabilities</span>
+				<h2 class="title">Gallery</h2>
+				<div class="breadcrumbs-wrapper">
+      				<div class="breadcrumbs-inside">
+  						<a href="#">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>Gallery</span>
   					</div>
   				</div>
 			</div>
@@ -25,7 +29,6 @@ get_header(); ?>
 	</div>
 	<div class="gallery_content">
 		<div class="container">
-			
 		</div>
 	</div>
 </div>
