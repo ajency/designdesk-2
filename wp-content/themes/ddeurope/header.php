@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title><?php wp_title(); ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -13,7 +14,7 @@
 		<div class="top-bar">
 			<div class="container">
 				<span class="top-left"> EXHIBITION STAND DESIGN & BUILD</span>
-				<span class="top-right"><i class="fas fa-phone-square"> +49 123456789 </i> &nbsp <a href="mailto:hello@dd-europe.com"><i class="fas fa-envelope-square"> hello@dd-europe.com </i></a>
+				<span class="top-right"><a href="mailto:hello@dd-europe.com"><i class="fas fa-envelope-square"> hello@dd-europe.com </i></a> &nbsp <i class="fas fa-phone-square"> +49 123456789 </i>  
 				</span>
 			</div>
 		</div>

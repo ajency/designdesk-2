@@ -33,13 +33,13 @@
         <div class="col-1g-6 col-md-6 address_block1">
             <h3 class="main-info">Germany</h3>
           <p class="sub-info">Westend fair, Friedrich Ebert Anlage 36, <br>60325 Frankfurt</p>
-          <p class="sub-info">+49 123456789</p>
-        </div>
+<!--           <p class="sub-info">+49 123456789</p>
+ -->        </div>
         <div class="col-1g-6 col-md-6 address_block1">
             <h3 class="main-info">India</h3>
           <p class="sub-info">702 Crescent Business, Kandivali (E), <br> 400101 Mumbai
           </p>
-          <p class="sub-info">+49 123456789</p>
+<!--           <p class="sub-info">+49 123456789</p> -->
         </div>
       </div>
     </div>
