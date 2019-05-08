@@ -87,25 +87,25 @@ get_header(); ?>
 		<div class="right-side">
 		<div class="opacity">
 			<h2 class="choose_us_title"> 4 Reasons to choose us </h2>
-			<div class="item1">
+			<div class="item">
 				<p class="num"><i class="fas fa-draw-polygon"></i> </p>
 				<h6 class="item_heading"> Business focused Design</h6>
 				<p class="item_text">Believe in creativity with a purpose? Supporting your marketing objectives is also at the core of our design approach!
 				</p>
 			</div>
-			<div class="item2">
+			<div class="item">
 				<p class="num"> <i class="fas fa-dice-d20"></i> </p>
 				<h6 class="item_heading"> Responsive Service</h6>
 				<p class="item_text"> Count on us as a proactive partner to deliver the perfect exhibit; leaving you room to focus on other aspects of your business.
 				</p>
 			</div>
-			<div class="item3">
+			<div class="item">
 				<p class="num"> <i class="fas fa-project-diagram"></i> </p>
 				<h6 class="item_heading"> Immaculate Execution</h6>
 				<p class="item_text"> Do you also believe that a high quality stand is an important reflection of your company & products? Welcome aboard!
 				</p>
 			</div>
-			<div class="item4">
+			<div class="item">
 				<p class="num"> <i class="fas fa-thumbs-up"></i> </p>
 				<h6 class="item_heading"> 100% Reliable Partner</h6>
 				<p class="item_text"> In the time-bound scenario of exhibitions, most important is a competent & dependable partner to guarantee your success!
