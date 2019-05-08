@@ -82,7 +82,7 @@ get_header(); ?>
 
 <!-- /.our why-choose-us -->
 <div class="why_choose_us">
-	<div class="container">
+	<div class="container d-flex">
 		<div class="left-side"></div>
 		<div class="right-side">
 		<div class="opacity">

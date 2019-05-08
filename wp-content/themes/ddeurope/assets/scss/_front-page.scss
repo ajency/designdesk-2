@@ -154,6 +154,7 @@ body{
 } 
 
 
+
  //Why Choose Us
 
 .why_choose_us{
@@ -162,9 +163,7 @@ body{
  	.left-side{
  		background: url('../../assets/images/4reasons-banner.jpg') no-repeat;
  		background-size:cover;
- 		float: left;
  		width: 50%;
- 		height: 500px;
  		&:after{
  			content:'';
  			display:block;
@@ -173,30 +172,12 @@ body{
  		@media (max-width: 991px){
  			display:none;
  		}
- 		@media (max-width: 1060px) and (min-width: 992px){
- 				height: 595px;
- 		}
  	}
  	.right-side{
 	 	background: #f8f8f8;
-	    position: relative;
-	    float: left;
  		width: 50%;
- 		height: 500px;
  		box-shadow: 0px 0px 2px 0px #b9b7b7;
- 		@media(max-width: 991px) and(min-width: 575px){
- 			height:63rem;
- 		}
- 		@media(max-width: 574px) and(min-width: 399px){
- 			height:69rem;
- 		}
- 		@media(max-width: 398px) and(min-width: 320px){
- 			height:84rem;
- 		}
  		.opacity{
-	 		position: absolute;
-		    top: 0;
-		    left: 0;
 		    width: 100%;
 		    height: 100%;
 		    padding-top: 25px;
@@ -212,206 +193,128 @@ body{
 			    @media(max-width: 991px) and (min-width: 699px){
 			    	font-size: 32px;
 			    }
+			    @media (max-width: 991px){
+			    	margin-top: 1.5rem;
+			    }
     		}
-				.item1{
-					margin-bottom: 1.5rem;
-					.num{
-					    background: #2471b5;
-					    border-radius: 50%;
-					    width: 50px;
+			.item1{
+				margin-bottom: 1.5rem;
+				.num{
+				    position: absolute;
+				    left: 47.5%;
+				    z-index: 1;
+				    text-align: center;
+				    width: 60px;
+				    height: 60px;
+				    line-height: 60px;
+				    font-size: 38px;
+				    background: #2471b5;
+				    border-radius: 50%;
+				    color: #fff;
+				    @media (max-width: 991px){
+				    	width: 50px;
 					    height: 50px;
-					    padding: 5px;
 					    font-size: 28px;
-					    font-weight: bold;
-					    color: #fff;
-					    margin: 15px auto;
-					    @media (min-width: 991px){
-					    	display:none;
-					    }
-					}
-					@media(max-width: 640px){
-						padding: 3px;
-					}
-					&:before{
-						font-family: "Font Awesome 5 Free";
-  						font-weight: 900;
-  						content: "\f5ee";
-					    position: absolute;
-					    width: 60px;
-					    height: 60px;
-					    left: -28px;
-					    background-color: #f39100;
-					    top: 73px;
-					    background-color: #2471b5;
-					    top: 75px;
-					    border-radius: 50%;
-					    z-index: 1;
-					    color: #fff;
-					    padding: 0px 13px;
-					    font-size: 40px;
-					    font-size: 40px;
-						@media (max-width: 991px){
-					    	display: none;
-					    }
+					    line-height: 50px;
+					    position: initial;
+					    display: inline-block;
 					}
 				}
-				.item2{
-					margin-bottom: 1.5rem;
-					.num{
-					    background: #2471b5;
-					    border-radius: 50%;
-					    width: 50px;
+			}
+			.item2{
+				margin-bottom: 1.5rem;
+				.num{
+				    position: absolute;
+				    left: 47.5%;
+				    z-index: 1;
+				    text-align: center;
+				    width: 60px;
+				    height: 60px;
+				    line-height: 60px;
+				    font-size: 38px;
+				    background: #2471b5;
+				    border-radius: 50%;
+				    color: #fff;
+				    @media (max-width: 991px){
+				    	width: 50px;
 					    height: 50px;
-					    padding: 5px;
 					    font-size: 28px;
-					    font-weight: bold;
-					    color: #fff;
-					    margin: 15px auto;
-					    @media (min-width: 991px){
-					    	display:none;
-					    }
-					}
-					@media(max-width: 640px){
-						padding: 3px;
-					}
-					&:before{
-						font-family: "Font Awesome 5 Free";
-				  		content: "\f6cf";
-					    font-weight: 900;
-					    position: absolute;
-					    width: 60px;
-					    height: 60px;
-						left: -28px;
-						background-color: #2471b5;
-						top: 178px;
-					    border-radius: 50%;
-						z-index: 1;
-						color: #fff;
-						padding: 2px 13px;
-						font-size: 38px;
-					    @media (max-width: 991px){
-					    	display: none;
-					    }
-					     @media (max-width: 1060px) and (min-width: 991px){
- 				    		top: 205px;
- 						}
+					    line-height: 50px;
+					    position: initial;
+					    display: inline-block;
 					}
 				}
+			}
 				
-				.item3{
-					margin-bottom: 1.5rem;
-					.num{
-					    background: #2471b5;
-					    border-radius: 50%;
-					    width: 50px;
+			.item3{
+				margin-bottom: 1.5rem;
+				.num{
+				    position: absolute;
+				    left: 47.5%;
+				    z-index: 1;
+				    text-align: center;
+				    width: 60px;
+				    height: 60px;
+				    line-height: 60px;
+				    font-size: 38px;
+				    background: #2471b5;
+				    border-radius: 50%;
+				    color: #fff;
+				    @media (max-width: 991px){
+				    	width: 50px;
 					    height: 50px;
-					    padding: 5px;
 					    font-size: 28px;
-					    font-weight: bold;
-					    color: #fff;
-					    margin: 15px auto;
-					    @media (min-width: 991px){
-					    	display:none;
-					    }
-					}
-					@media(max-width: 640px){
-						padding: 3px;
-					}
-					&:before{
-						font-family: "Font Awesome 5 Free";
-					  	content: "\f542";
-					  	font-weight: 900;
-					    position: absolute;
-					    width: 60px;
-					    height: 60px;
-					    left: -28px;
-					    background-color: #f39100;
-					    top: 280px;
-					    background-color: #2471b5;
-					    top: 278px;
-					    border-radius: 50%;
-					    z-index: 1;
-					    color: #fff;
-						padding: 8px 10px;
-    					font-size: 33px;
-					    @media (max-width: 991px){
-					    	display: none;
-					 
-					    }
-					    @media (max-width: 1060px) and (min-width: 991px){
- 				    		top: 335px;
- 						}
+					    line-height: 50px;
+					    position: initial;
+					    display: inline-block;
 					}
 				}
-				.item4{
-					margin-bottom: 1.5rem;
-					.num{
-					    background: #2471b5;
-					    border-radius: 50%;
-					    width: 50px;
+			}
+
+			.item4{
+				margin-bottom: 1.5rem;
+				.num{
+				    position: absolute;
+				    left: 47.5%;
+				    z-index: 1;
+				    text-align: center;
+				    width: 60px;
+				    height: 60px;
+				    line-height: 60px;
+				    font-size: 38px;
+				    background: #2471b5;
+				    border-radius: 50%;
+				    color: #fff;
+				    @media (max-width: 991px){
+				    	width: 50px;
 					    height: 50px;
-					    padding: 5px;
 					    font-size: 28px;
-					    font-weight: bold;
-					    color: #fff;
-					    margin: 15px auto;
-					    @media (min-width: 991px){
-					    	display:none;
-					    }
-					}
-					@media(max-width: 640px){
-						padding: 3px;
-					}
-					&:before{
-						font-family: "Font Awesome 5 Free";
-					  	content: "\f164";
-					  	font-weight: 900;
-					    position: absolute;
-					    width: 60px;
-					    height: 60px;
-					    left: -28px;
-					    background-color: #2471b5;
-					    top: 387px;
-					    border-radius: 50%;
-					    z-index: 1;
-					    color: #fff;
-					    padding: 0px 12px;
-					    font-size: 38px;
-					    @media (max-width: 991px){
-					    	display: none;
-					    }
-					     @media (max-width: 1060px) and (min-width: 991px){
- 				    		top: 465px;
- 						}
+					    line-height: 50px;
+					    position: initial;
+					    display: inline-block;
 					}
 				}
+			}
  				
-				.item_heading{
-	 				font-size: 17px;
-	 				font-weight: 700;
-	 				text-transform: uppercase;
-	 				}
-		 		.item_text{
-		 			line-height: 26px;
-		 			font-size: 14px;
-		 		}
+			.item_heading{
+	 			font-size: 17px;
+	 			font-weight: 700;
+	 			text-transform: uppercase;
+	 		}
+		 	.item_text{
+		 		line-height: 26px;
+		 		font-size: 14px;
+		 	}
  			@media(max-width: 991px) {
  				padding: 0px 80px;
  			}
  			@media(max-width: 575px){
  				padding: 30px;
  			}
- 			@media (max-width: 1060px) and (min-width: 992px){
- 				    height: 595px;
- 			}
  		}
-		
  		@media (max-width: 991px){
  			width: 100%;
  			text-align: center;
- 		}
- 		@media (max-width: 1060px) and (min-width: 992px){
- 			height: 595px;
  		}
  	}
 
