@@ -37,29 +37,30 @@ get_header(); ?>
 				</div>
 				<div class=" col-lg-4 col-md-4 col-sm-12 pr-0 pl-0">
 					<div class="aside_header">
-						<h2 class="aside_title alignleft"> Online Support </h2>
+						<h2 class="aside_title alignleft"> Contact Us </h2>
 					</div>
-					<div class="row mt-4 mb-2 mr-0 ml-0">
-						<div class="icon_block">
-							<span><i class="fas fa-phone"></i> &nbsp Phone: +49 123456789</span>
-						</div> 
+					<div class="row mt-4 mb-2">
 						<div class="icon_block"> 
 							<span><i class="far fa-envelope"></i> &nbsp E-mail: <a href="mailto:hello@dd-europe.com">hello@dd-europe.com</a></span>
 						</div>
+						<div class="icon_block">
+							<span><i class="fas fa-phone"></i> &nbsp Phone: +49 123456789</span>
+						</div> 
+						
 					</div>
 					<div class="address_block">
-						<div class="row mr-0 ml-0">
+						<div class="row">
 							<div class="address_1 text-center mt-1">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">
 								    <div class="addr_text1">
-		       							<h3 class="main-info">FRANKFURT</h3>
+		       							<h3 class="main-info">GERMANY</h3>
 		          						<p class="sub-info">Westend fair, Friedrich Ebert Anlage 36, <br>60325 Frankfurt</p>
 		          					</div>
 							</div>
 							<div class="address_2 text-center mt-1">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mumbai_image.jpg">
 								    <div class="addr_text2">
-								        <h3 class="main-info">MUMBAI</h3>
+								        <h3 class="main-info">INDIA</h3>
 		          						<p class="sub-info">702 Crescent Business,<br> Kandivali (E),  400101 Mumbai
 		          						</p>
 		          					</div>

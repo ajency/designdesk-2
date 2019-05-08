@@ -1,5 +1,5 @@
 .gallery{
-	margin: 6rem 0;
+	margin: 9rem 0;
 	.header{
 		background: $d_orange;
 		height: 75px;
@@ -28,6 +28,9 @@
 		}
 		@media (max-width: 474px){
 			margin-top: -3rem;
+		}
+		@media (max-width: 382px){
+			margin-top: -1rem;
 		}
 	}
 }

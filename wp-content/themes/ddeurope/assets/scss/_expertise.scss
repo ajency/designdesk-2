@@ -1,7 +1,7 @@
 // Expertise
 
 .expertise{
-	margin: 6rem 0;
+	margin: 9rem 0;
 	.header{
 		background: #0671b5;
 		height: 75px;
@@ -24,6 +24,15 @@
 		    @media (max-width: 768px){
 		    	display: none;
 		    }
+		}
+		@media (max-width: 991px) and (min-width: 475px){
+			margin-top: -2rem;
+		}
+		@media (max-width: 474px){
+			margin-top: -3rem;
+		}
+		@media (max-width: 382px){
+			margin-top: -1rem;
 		}
 	}
 	.about_us{
@@ -273,6 +282,15 @@
 	height:0;
 	transition: .5s ease;
 	color: $white;
+	text-align:center;
+	.text{
+		position: absolute;
+	    top: 50%;
+	    left: 0;
+	    right:0;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	}
 }
 .capabilities{
 	margin: 6rem 0;
@@ -298,6 +316,15 @@
 		    @media (max-width: 768px){
 		    	display: none;
 		    }
+		}
+		@media (max-width: 991px) and (min-width: 475px){
+			margin-top: -2rem;
+		}
+		@media (max-width: 474px){
+			margin-top: -3rem;
+		}
+		@media (max-width: 382px){
+			margin-top: -1rem;
 		}
 	}
 	.capability_content{

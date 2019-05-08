@@ -69,35 +69,49 @@ get_header(); ?>
 					<div class="grid">
 						<div class="grid_block1 position-relative">
 						  	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Office1.jpg">
-						  	<div class="item-overlay">office</div>
+						  	<div class="item-overlay">
+						  		<p class="text"> Office</p>
+						  	</div>
 						</div>
 						<div class="grid_block1 position-relative">
 						  	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Office-2-1.jpg">
-						  	<div class="item-overlay">office</div>
+						  	<div class="item-overlay">
+						  		<p class="text"> Office</p>
+						  	</div>
 						</div>
 						<div class="grid_block1 position-relative">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DD_Office-3-1.jpg">
-							<div class="item-overlay">office</div>	 
+							<div class="item-overlay">
+								<p class="text"> Office</p>
+							</div>	 
 						</div>
 					</div>	
 					<div class="grid mt-2">
 						<div class="grid_block2 position-relative">
 						  	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DesignDesk_Factory-3-1.jpg">
-						  	<div class="item-overlay">DD-Factory</div>
+						  	<div class="item-overlay">
+						  		<p class="text"> DD-Factory </p>
+						  	</div>
 						</div>
 						<div class="grid_block2 position-relative">
 						  	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DesignDesk_Factory-2.jpg">
-						  	<div class="item-overlay">DD-Factory</div>
+						  	<div class="item-overlay">
+						  		<p class="text"> DD-Factory </p>
+						  	</div>
 						</div>
 						<div class="grid_block2 position-relative">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DesignDesk_Factory-4.jpg">
-							<div class="item-overlay">DD-Factory</div>	 
+							<div class="item-overlay">
+								<p class="text"> DD-Factory </p>
+							</div>	 
 						</div>	
 					</div>
 					<div class="grid mt-2">
 						<div class="grid_block3 position-relative">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DesignDesk_Factory-1-1-1.jpg">
-						    <div class="item-overlay">DD-Factory</div>
+						    <div class="item-overlay">
+						    	<p class="text"> DD-Factory </p>
+						    </div>
 						</div>
 					</div>	 
 				</div>

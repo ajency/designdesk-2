@@ -79,14 +79,14 @@ get_header(); ?>
 <!-- End of Text -->
 
 <div class="gallery">
-	<div class="container-fluid">
+	<div class="container">
 <!-- 		<div class="section_title">Gallery</div>
- -->			<?php echo do_shortcode("[gmedia id=34]"); ?>
+ -->			<?php echo do_shortcode("[gmedia id=10]"); ?>
 		<div class="view_gallery">
 			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/gallery"> View Gallery</a>
 		</div>
 	</div>
-</div>
+</div
 			
 <div class="our_approach">
 	<div class="container">
@@ -247,7 +247,7 @@ get_header(); ?>
 
 <!--Accordion wrapper-->
 <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-<div class="container">
+<div class="container mb-4">
 	<h2 class="section_title"> Frequently asked questions </h2>
   <!-- Accordion card -->
   <div class="card">

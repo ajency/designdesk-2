@@ -13,6 +13,8 @@
 
 <body <?php body_class(); ?>>
   	<div id="page" class="site">
+
+	<header id="masthead" class="site-header fixed-top">
 		<div class="top-bar">
 			<div class="container">
 				<span class="top-left"> EXHIBITION STAND DESIGN & BUILD</span>
@@ -20,7 +22,6 @@
 				</span>
 			</div>
 		</div>
-	<header id="masthead" class="site-header fixed-top">
 		<div class="container">
 			<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg">
 				<div id="logo">
@@ -58,14 +59,14 @@
 						<li class="nav-item">
                				<a class="nav-link" href="<?php echo get_site_url(); ?>/about-us"> Expertise </a>
 						</li>
-						<!-- <li class="nav-item dropdown">
+					<!-- <li class="nav-item dropdown">
                 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Careers 
                 			</a>
 			                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			                    <a class="dropdown-item" href="#">Work at designdesk</a>
 			                    <a class="dropdown-item" href="#">life at designdesk</a>
 			                </div>
-						</li> -->
+						</li>  -->
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo get_site_url(); ?>/contact-us"> Contact </a>
 						</li>

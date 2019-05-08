@@ -9,10 +9,23 @@
 	.top-right{
 		color: #fff;
 		float: right;
-		letter-spacing: 1.1px;
+		letter-spacing: 0.7px;
 		a{
 			color: #fff;
+			&:hover{
+				text-decoration: none;
+			}
 		}
+		@media (max-width: 991px){
+			float:none;
+			text-align:center;
+			display: block;
+		}
+	}
+	@media (max-width: 991px){
+		display: flex;
+		text-align:center;
+		font-size: 14px;
 	}
 }
 
@@ -20,7 +33,7 @@
 .home{
 	#masthead{
 		background: transparent;
-		top: 36px;
+		top: 0;
 		&.headerbg{
 			background: #fff;
 			top: 0;
@@ -41,7 +54,7 @@
 
 .fixed-top{
 	background: #fff;
-	top: 32px;
+	top: 0;
 	&.headerbg{
 		top: 0;
 	}
