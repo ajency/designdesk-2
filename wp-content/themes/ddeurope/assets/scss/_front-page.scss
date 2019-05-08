@@ -39,6 +39,9 @@ body{
 		  opacity: 1;
 		}
 	}
+	.flickity-page-dots{
+		bottom: 15px;
+	}
 }
 
 /* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
@@ -143,6 +146,7 @@ body{
 .home{
 	.gmedia_AlbumsListMasonry_Cover{ 
 		pointer-events: none;
+		cursor: default;
 		.gmedia_AlbumsListMasonry_CoverTitleHolder{ 
 			text-align: center;
 		}

@@ -10161,6 +10161,9 @@ body {
 .home-carousel .carousel.flickity-enabled {
   opacity: 1;
 }
+.home-carousel .flickity-page-dots {
+  bottom: 15px;
+}
 
 /* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
 .carousel-cell {
@@ -10262,6 +10265,7 @@ body {
 
 .home .gmedia_AlbumsListMasonry_Cover {
   pointer-events: none;
+  cursor: default;
 }
 .home .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
   text-align: center;
