@@ -120,8 +120,6 @@ $(window).on("scroll", function() {
 });
 
 
-
-
 function openNav() {
   document.getElementById("mobile-menu").style.width = "250px";
   document.getElementById("page").style.marginLeft = "0px";

@@ -20,50 +20,28 @@ body{
 // Home Page
 //
 
-// Slider
-.carousel{
-	img{
-		max-width: 100%;
-	}
-	.carousel-item {
-	    background: no-repeat center center scroll;
-		background-size: cover;
-	}
-	.carousel-caption{
-		bottom: 125px;
-		.display{
-			font-size: 3rem;
-			@media (max-width: 650px){
-				font-size: 2rem;
-			}
-			@media (max-width: 375px){
-				font-size: 1rem;
-			}
-		}
-		.lead-1{
-			font-size: 1.5rem;
-			@media (max-width: 650px){
-				font-size: 1rem;
-			}
-			@media (max-width: 375px){
-				font-size: 0.9rem;
-			}
-		}
-		.display-4{
-			@media (max-width: 675px) and (min-width: 499px) {
-				font-size: 2.5rem;
-			}
-			@media (max-width: 498px) and (min-width: 320px) {
-				font-size: 1.5rem;
-			}
-		}
-		@media(max-width: 768px){
-			bottom: 40px;
-		}
-		@media (max-width: 475px){
-			bottom: 0;
-			line-height: 0.5;
-		}
+
+/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+
+.carousel-cell {
+	width: 100%;
+}
+
+.carousel-cell img {
+	width: 100%;
+	height: auto;
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+.flickity-prev-next-button{
+	@media (max-width: 575px){
+		width: 25px;
+		height: 25px;
 	}
 }
 
@@ -125,7 +103,7 @@ body{
     text-align: center;
     margin-top: 2rem;
         a {
-	    color: #000;
+	    color: $black;
 	    border: 1px solid #f48e0c;
 	    padding: 12px 34px;
 	    border-radius: 0;
@@ -149,7 +127,8 @@ body{
 	} 
 	&.render{ 
 		.gmedia_AlbumsListMasonry_CoverTitleHolder{ 
-			opacity: 1; 
+			opacity: 1;
+			text-align: center; 
 		} 
 	} 
 } 
@@ -477,7 +456,11 @@ body{
 	}
 }
 
-
+.map{
+	a{
+		color: $black;
+	}
+}
 
 // Clients Logo
 
@@ -608,3 +591,4 @@ body{
    		display: block !important;
    }
 }
+

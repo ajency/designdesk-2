@@ -9,59 +9,25 @@ get_header(); ?>
 	$default_sidebar_position = get_theme_mod( 'default_sidebar_position', 'right' );
 ?>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-	</ol>
-    <div class="carousel-inner" role="listbox">
-		<!--div class="carousel-item active">
-			<img src="<?php //echo get_template_directory_uri(); ?>/assets/images/firstbanner-1.jpg">
-			<div class="carousel-caption">
-				<p class="lead-1">You Have Reached The Experts For</p>
-				<h2 class="display">Top notch exhibition stands!</h2>
-			</div>
-		</div -->
-		<div class="carousel-item active">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg">
-		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg">
-		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg">
-		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg">
-		</div>
-		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg">
-		</div>
-<!-- 		<div class="carousel-item">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Uber.jpg">
-			<div class="carousel-caption">
-		 		<h2 class="display-4">Hassle Free Working</h2>
-				<p class="lead">Office Revamp, Pune</p>
-			    <p class="leadsub">400 sq ft</p>
-			</div>
-		</div> -->
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-    </a>
+
+
+<div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded": true, "autoPlay": true, "watchCSS":"true" ,"wrapAround": true , "autoPlay": 1900, "pauseAutoPlayOnHover": false}'
+		 >
+  <div class="carousel-cell active">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg">
+	</div>
+  <div class="carousel-cell">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg">
+	</div>
+	<div class="carousel-cell">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg">
+	</div>
+	<div class="carousel-cell">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg">
+	</div>
+	<div class="carousel-cell">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg">
+	</div>
 </div>
 
 <!-- Welcome text -->
@@ -78,15 +44,15 @@ get_header(); ?>
 </div>
 <!-- End of Text -->
 
-<div class="gallery">
+<div class="gallery_block">
 	<div class="container">
 <!-- 		<div class="section_title">Gallery</div>
  -->			<?php echo do_shortcode("[gmedia id=10]"); ?>
 		<div class="view_gallery">
-			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/gallery"> View Gallery</a>
+			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/gallery" target="_blank"> View Gallery</a>
 		</div>
 	</div>
-</div
+</div>
 			
 <div class="our_approach">
 	<div class="container">
@@ -197,7 +163,7 @@ get_header(); ?>
 				<div class="col-lg-8 col-md-8 col-sm-12">
 					<?php echo do_shortcode("[show-map id='1']"); ?>
 					<p class="text-center">Experienced in over 26 countries & growing – we can serve you in most corners of the world!</p>
-					<p class="text-center">Ask now on <strong>hello@dd-europe.com</strong></p>
+					<p class="text-center">Ask now on <strong><a href="mailto:hello@dd-europe.com">hello@dd-europe.com</a></strong></p>
 				</div>
 				<div class="col-lg-2 col-md-2"></div>
 			</div>
@@ -236,7 +202,7 @@ get_header(); ?>
 <div id="call-to-action" class="mb-4">
 	<div class="container">
 		<div class="cta-text"><span>Your Brand deserves a Great Stand! </span></div>
-		<div><a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/contact-us"> Get Started Now</a></div>
+		<div><a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/contact-us" target="_blank"> Get Started Now</a></div>
 	</div>
 </div>
 <!-- end of cta -->

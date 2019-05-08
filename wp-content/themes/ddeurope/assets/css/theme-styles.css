@@ -7305,7 +7305,7 @@ a.text-cancel:hover, a.text-cancel:focus {
       height: 40px;
       position: absolute;
       right: 0;
-      left: 52.6%; }
+      left: 53.3%; }
       @media (max-width: 768px) {
         .site-footer .action_block:before {
           display: none; } }
@@ -7401,44 +7401,24 @@ body {
   position: absolute;
   right: 30px; }
 
-.carousel img {
-  max-width: 100%; }
+/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+.carousel-cell {
+  width: 100%; }
 
-.carousel .carousel-item {
-  background: no-repeat center center scroll;
-  background-size: cover; }
+.carousel-cell img {
+  width: 100%;
+  height: auto; }
 
-.carousel .carousel-caption {
-  bottom: 125px; }
-  .carousel .carousel-caption .display {
-    font-size: 3rem; }
-    @media (max-width: 650px) {
-      .carousel .carousel-caption .display {
-        font-size: 2rem; } }
-    @media (max-width: 375px) {
-      .carousel .carousel-caption .display {
-        font-size: 1rem; } }
-  .carousel .carousel-caption .lead-1 {
-    font-size: 1.5rem; }
-    @media (max-width: 650px) {
-      .carousel .carousel-caption .lead-1 {
-        font-size: 1rem; } }
-    @media (max-width: 375px) {
-      .carousel .carousel-caption .lead-1 {
-        font-size: 0.9rem; } }
-  @media (max-width: 675px) and (min-width: 499px) {
-    .carousel .carousel-caption .display-4 {
-      font-size: 2.5rem; } }
-  @media (max-width: 498px) and (min-width: 320px) {
-    .carousel .carousel-caption .display-4 {
-      font-size: 1.5rem; } }
-  @media (max-width: 768px) {
-    .carousel .carousel-caption {
-      bottom: 40px; } }
-  @media (max-width: 475px) {
-    .carousel .carousel-caption {
-      bottom: 0;
-      line-height: 0.5; } }
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none;
+  /* hide :after */ }
+
+@media (max-width: 575px) {
+  .flickity-prev-next-button {
+    width: 25px;
+    height: 25px; } }
 
 .main-text {
   margin-bottom: 3rem; }
@@ -7502,7 +7482,8 @@ body {
   transition: opacity 0.3s ease; }
 
 .gmedia_AlbumsListMasonry_Cover.render .gmedia_AlbumsListMasonry_CoverTitleHolder {
-  opacity: 1; }
+  opacity: 1;
+  text-align: center; }
 
 .why_choose_us {
   margin: 1.5rem 0 0 0;
@@ -7786,6 +7767,9 @@ body {
       color: #999999;
       letter-spacing: 1px;
       text-transform: uppercase; }
+
+.map a {
+  color: #000; }
 
 #scroller {
   display: flex;
