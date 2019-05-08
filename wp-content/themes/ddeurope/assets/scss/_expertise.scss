@@ -6,6 +6,7 @@
 		background: #0671b5;
 		height: 75px;
 		margin-bottom: 3rem;
+		margin-top: -2rem;
 		.title{
 			color: $white;
 			font-size: 26px;
@@ -24,12 +25,6 @@
 		    @media (max-width: 768px){
 		    	display: none;
 		    }
-		}
-		@media (max-width: 991px) and (min-width: 475px){
-			margin-top: -2rem;
-		}
-		@media (max-width: 474px){
-			margin-top: -3rem;
 		}
 		@media (max-width: 382px){
 			margin-top: -1rem;
@@ -298,6 +293,7 @@
 		background: $d_orange;
 		height: 75px;
 		margin-bottom: 3rem;
+		margin-top: -2rem;
 		.title{
 			color: $white;
 			font-size: 26px;
@@ -316,12 +312,6 @@
 		    @media (max-width: 768px){
 		    	display: none;
 		    }
-		}
-		@media (max-width: 991px) and (min-width: 475px){
-			margin-top: -2rem;
-		}
-		@media (max-width: 474px){
-			margin-top: -3rem;
 		}
 		@media (max-width: 382px){
 			margin-top: -1rem;
