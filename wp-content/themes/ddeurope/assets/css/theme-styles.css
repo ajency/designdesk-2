@@ -10260,12 +10260,10 @@ body {
   }
 }
 
-.gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.home .gmedia_AlbumsListMasonry_Cover {
+  pointer-events: none;
 }
-.gmedia_AlbumsListMasonry_Cover.render .gmedia_AlbumsListMasonry_CoverTitleHolder {
-  opacity: 1;
+.home .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
   text-align: center;
 }
 
@@ -11299,6 +11297,14 @@ body {
   .gallery .header {
     margin-top: -1rem;
   }
+}
+.gallery .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery .gmedia_AlbumsListMasonry_Cover.render .gmedia_AlbumsListMasonry_CoverTitleHolder {
+  opacity: 1;
+  text-align: center;
 }
 
 .contact_us {
