@@ -20,6 +20,26 @@ body{
 // Home Page
 //
 
+.home-carousel{
+	position: relative;
+	padding-top: 56.2%;
+	.carousel{
+		position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+		opacity: 0;
+		-webkit-transition: opacity 0.4s;
+		transition: opacity 0.4s;
+		&.is-hidden {
+		    display: none;
+		}
+		&.flickity-enabled {
+		  opacity: 1;
+		}
+	}
+}
 
 /* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
 

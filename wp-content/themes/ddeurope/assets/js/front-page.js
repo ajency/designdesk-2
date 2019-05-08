@@ -79,6 +79,23 @@ var $ = jQuery.noConflict();
 	function formatter(value, settings) {
 		return value.toFixed(settings.decimals);
 	}
+
+	
+	var $carousel = $('.carousel').removeClass('is-hidden');
+	// trigger redraw for transition
+	$carousel[0].offsetHeight;
+	// init Flickity
+	$carousel.flickity({ 
+		"imagesLoaded": true, 
+		"autoPlay": true, 
+		"watchCSS": true ,
+		"wrapAround": true , 
+		"autoPlay": 5000, 
+		"pauseAutoPlayOnHover": false, 
+		"lazyLoad": true
+	});
+
+
 }(jQuery));
 
 jQuery(function ($) {

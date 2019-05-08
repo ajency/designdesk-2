@@ -11,22 +11,23 @@ get_header(); ?>
 
 
 
-<div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded": true, "autoPlay": true, "watchCSS":"true" ,"wrapAround": true , "autoPlay": 1900, "pauseAutoPlayOnHover": false}'
-		 >
-  <div class="carousel-cell active">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg">
-	</div>
-  <div class="carousel-cell">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg">
-	</div>
-	<div class="carousel-cell">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg">
-	</div>
-	<div class="carousel-cell">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg">
-	</div>
-	<div class="carousel-cell">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg">
+<div class="home-carousel">
+	<div class="carousel is-hidden">
+	  	<div class="carousel-cell active">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg" class="carousel-cell-image">
+		</div>
+	  	<div class="carousel-cell">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image">
+		</div>
+		<div class="carousel-cell">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image">
+		</div>
+		<div class="carousel-cell">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg" class="carousel-cell-image">
+		</div>
+		<div class="carousel-cell">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg" class="carousel-cell-image">
+		</div>
 	</div>
 </div>
 
