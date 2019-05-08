@@ -7154,6 +7154,11 @@ a.text-cancel:hover, a.text-cancel:focus {
       display: flex;
       text-align: center;
       font-size: 14px; } }
+  @media (max-width: 575px) {
+    .top-bar {
+      display: flex;
+      text-align: center;
+      font-size: 9px; } }
 
 .home #masthead {
   background: transparent;
@@ -7180,8 +7185,7 @@ a.text-cancel:hover, a.text-cancel:focus {
       max-height: none; }
       @media (max-width: 475px) {
         .fixed-top .main-navigation img {
-          height: 42px;
-          margin-top: 18px; } }
+          height: 30px; } }
     .fixed-top .main-navigation .toggler:hover, .fixed-top .main-navigation .toggler:focus {
       cursor: pointer; }
     .fixed-top .main-navigation .toggler .top-line,
@@ -7444,9 +7448,15 @@ body {
     margin: 2rem 0;
     font-size: 38px;
     font-weight: 900; }
+    @media (max-width: 575px) {
+      .main-text .main-text-header {
+        font-size: 22px; } }
   .main-text .main-text-subtext {
     text-align: center;
     font-size: 16px; }
+    @media (max-width: 575px) {
+      .main-text .main-text-subtext {
+        font-size: 12px; } }
 
 .main_block {
   text-align: center;

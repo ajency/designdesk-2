@@ -27,6 +27,11 @@
 		text-align:center;
 		font-size: 14px;
 	}
+	@media (max-width: 575px){
+		display: flex;
+		text-align:center;
+		font-size: 9px;
+	}
 }
 
 
@@ -65,8 +70,7 @@
 			width: auto;
 			max-height: none;
 			@media (max-width: 475px){
-				height: 42px;
-			    margin-top: 18px;
+				height: 30px;
 			}
 		}
 		.toggler{
