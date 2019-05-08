@@ -1,6 +1,7 @@
 .top-bar{
 	background: #383838;
     padding: 6px 0;
+    font-size: 14px;
 	.top-left{
 		color: #fff;
 		letter-spacing: 0.7px;
@@ -40,14 +41,14 @@
 		background: transparent;
 		top: 0;
 		&.headerbg{
-			background: #fff;
+			background: #2c2d2d;
 			top: 0;
 		}
 		a{
 	  		color: #fff;	
 	  		&.tagcolor{
 				@media (min-width: 991px){
-					color: #000;
+					// color: #000;
 				}
 			}
 		}
@@ -62,12 +63,22 @@
 	top: 0;
 	&.headerbg{
 		top: 0;
+		.main-navigation{
+			img{
+				height: 40px;
+			}
+			.navbar-nav{
+				line-height: 40px;
+			}
+		}
+		
 	}
 	.main-navigation{
 		padding:0;
 		img{
 			height: 70px;
 			width: auto;
+			transition: all 0.3s ease;
 			max-height: none;
 			@media (max-width: 475px){
 				height: 30px;
@@ -94,6 +105,7 @@
 		.navbar-nav{
 			line-height: 70px;
 			margin-left:auto;
+			transition: all 0.3s ease;
 			.nav-item{
 				padding: 0 10px;
 				.nav-link{

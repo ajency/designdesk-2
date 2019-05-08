@@ -9791,6 +9791,7 @@ a.text-cancel:hover, a.text-cancel:focus {
 .top-bar {
   background: #383838;
   padding: 6px 0;
+  font-size: 14px;
 }
 .top-bar .top-left {
   color: #fff;
@@ -9835,16 +9836,11 @@ a.text-cancel:hover, a.text-cancel:focus {
   top: 0;
 }
 .home #masthead.headerbg {
-  background: #fff;
+  background: #2c2d2d;
   top: 0;
 }
 .home #masthead a {
   color: #fff;
-}
-@media (min-width: 991px) {
-  .home #masthead a.tagcolor {
-    color: #000;
-  }
 }
 
 .fixed-top {
@@ -9854,12 +9850,19 @@ a.text-cancel:hover, a.text-cancel:focus {
 .fixed-top.headerbg {
   top: 0;
 }
+.fixed-top.headerbg .main-navigation img {
+  height: 40px;
+}
+.fixed-top.headerbg .main-navigation .navbar-nav {
+  line-height: 40px;
+}
 .fixed-top .main-navigation {
   padding: 0;
 }
 .fixed-top .main-navigation img {
   height: 70px;
   width: auto;
+  transition: all 0.3s ease;
   max-height: none;
 }
 @media (max-width: 475px) {
@@ -9887,6 +9890,7 @@ a.text-cancel:hover, a.text-cancel:focus {
 .fixed-top .main-navigation .navbar-nav {
   line-height: 70px;
   margin-left: auto;
+  transition: all 0.3s ease;
 }
 .fixed-top .main-navigation .navbar-nav .nav-item {
   padding: 0 10px;
