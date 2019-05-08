@@ -55,7 +55,7 @@ get_header(); ?>
 	</div>
 </div>
 			
-<div class="our_approach">
+<!-- <div class="our_approach">
 	<div class="container">
 		<h2 class="section_title"> Our Approach</h2>
 			<div class="row">
@@ -76,7 +76,7 @@ get_header(); ?>
 				</div>
 			</div>
 	</div>
-</div> 
+</div>  -->
 
 
 
@@ -158,8 +158,8 @@ get_header(); ?>
 <!-- World Map -->
 <div class="map">
 	<div class="container">
-		<h2 class="section_title">GLOBAL OR LOCAL….LARGE OR SMALL</h2>
-			<h6 class="heading text-center">Your partner for Exhibitions across Europe & the World!</h6>
+		<h2 class="map-heading">GLOBAL OR LOCAL….LARGE OR SMALL</h2>
+			<h6 class="map-sub-heading text-center">Your partner for Exhibitions across Europe & the World!</h6>
 			<div class="row">
 				<div class="col-lg-2 col-md-2"></div>
 				<div class="col-lg-8 col-md-8 col-sm-12">

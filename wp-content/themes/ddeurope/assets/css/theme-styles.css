@@ -7633,10 +7633,14 @@ body {
 .map a {
   color: #000; }
 
-.map .heading {
-  font-size: 17px;
-  font-weight: 700;
-  text-transform: uppercase; }
+.map .map-heading {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center; }
+
+.map .map-sub-heading {
+  font-size: 24px;
+  margin-bottom: 3rem; }
 
 #scroller {
   display: flex;
@@ -7660,7 +7664,8 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  background: #fff; }
   .simply-scroll-list li {
     padding: 0;
     margin: 0;
