@@ -7633,6 +7633,11 @@ body {
 .map a {
   color: #000; }
 
+.map .heading {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 #scroller {
   display: flex;
   padding-left: 0; }

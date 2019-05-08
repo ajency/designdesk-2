@@ -158,7 +158,8 @@ get_header(); ?>
 <!-- World Map -->
 <div class="map">
 	<div class="container">
-		<h2 class="section_title">One point solution for World Wide Exhibitions</h2>
+		<h2 class="section_title">GLOBAL OR LOCAL….LARGE OR SMALL</h2>
+			<h6 class="heading text-center">Your partner for Exhibitions across Europe & the World!</h6>
 			<div class="row">
 				<div class="col-lg-2 col-md-2"></div>
 				<div class="col-lg-8 col-md-8 col-sm-12">
