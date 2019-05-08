@@ -38,7 +38,7 @@
              <h2 class="contact_title"> Get a quote</h2>
               <p class="contact_subtile">We look forward to hearing from you. Email us to learn more about what we can do for your next big. </p>
         </div>
-        <?php echo do_shortcode("[formidable id=1]"); ?>
+        <?php echo do_shortcode("[formidable id=3]"); ?>
     </div>
     <div class="pre-footer-area">
     <!-- Member of -->
