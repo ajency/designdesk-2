@@ -197,81 +197,7 @@ body{
 			    	margin-top: 1.5rem;
 			    }
     		}
-			.item1{
-				margin-bottom: 1.5rem;
-				.num{
-				    position: absolute;
-				    left: 47.5%;
-				    z-index: 1;
-				    text-align: center;
-				    width: 60px;
-				    height: 60px;
-				    line-height: 60px;
-				    font-size: 38px;
-				    background: #2471b5;
-				    border-radius: 50%;
-				    color: #fff;
-				    @media (max-width: 991px){
-				    	width: 50px;
-					    height: 50px;
-					    font-size: 28px;
-					    line-height: 50px;
-					    position: initial;
-					    display: inline-block;
-					}
-				}
-			}
-			.item2{
-				margin-bottom: 1.5rem;
-				.num{
-				    position: absolute;
-				    left: 47.5%;
-				    z-index: 1;
-				    text-align: center;
-				    width: 60px;
-				    height: 60px;
-				    line-height: 60px;
-				    font-size: 38px;
-				    background: #2471b5;
-				    border-radius: 50%;
-				    color: #fff;
-				    @media (max-width: 991px){
-				    	width: 50px;
-					    height: 50px;
-					    font-size: 28px;
-					    line-height: 50px;
-					    position: initial;
-					    display: inline-block;
-					}
-				}
-			}
-				
-			.item3{
-				margin-bottom: 1.5rem;
-				.num{
-				    position: absolute;
-				    left: 47.5%;
-				    z-index: 1;
-				    text-align: center;
-				    width: 60px;
-				    height: 60px;
-				    line-height: 60px;
-				    font-size: 38px;
-				    background: #2471b5;
-				    border-radius: 50%;
-				    color: #fff;
-				    @media (max-width: 991px){
-				    	width: 50px;
-					    height: 50px;
-					    font-size: 28px;
-					    line-height: 50px;
-					    position: initial;
-					    display: inline-block;
-					}
-				}
-			}
-
-			.item4{
+			.item{
 				margin-bottom: 1.5rem;
 				.num{
 				    position: absolute;
@@ -506,12 +432,4 @@ body{
 	}
 }
 
-
-//Gallery
-.gmedia_AlbumsListMasonry_CoverTitleHolder{
-	display: block;
-   &:hover{
-   		display: block !important;
-   }
-}
 
