@@ -50,7 +50,7 @@ get_header(); ?>
 <!-- 		<div class="section_title">Gallery</div>
  -->			<?php echo do_shortcode("[gmedia id=34]"); ?>
 		<div class="view_gallery">
-			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/gallery" target="_blank"> View Gallery</a>
+			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View Gallery</a>
 		</div>
 	</div>
 </div>
