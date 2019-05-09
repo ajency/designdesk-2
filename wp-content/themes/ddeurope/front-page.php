@@ -14,19 +14,19 @@ get_header(); ?>
 <div class="home-carousel">
 	<div class="carousel is-hidden">
 	  	<div class="carousel-cell active">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg" class="carousel-cell-image">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
 		</div>
 	  	<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
 		</div>
 		<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
 		</div>
 		<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg" class="carousel-cell-image">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg" class="carousel-cell-image" alt="Exhibition design stand at France">
 		</div>
 		<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg" class="carousel-cell-image">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
 		</div>
 	</div>
 </div>
@@ -165,7 +165,7 @@ get_header(); ?>
 				<div class="col-lg-8 col-md-8 col-sm-12">
 					<?php echo do_shortcode("[show-map id='1']"); ?>
 					<div class="legends mt-2 mb-2">
-						<span><i class="fas fa-circle" id="icon_1"></i>&nbsp Office</span> &nbsp
+						<span><i class="fas fa-circle" id="icon_1"></i>&nbsp Offices</span> &nbsp
 						<span><i class="fas fa-circle" id="icon_2"></i>&nbsp Service Network</span>
 					</div>
 					<p class="text-center">Experienced in over 26 countries & growing – we can serve you in most corners of the world!</p>
@@ -185,20 +185,19 @@ get_header(); ?>
 	<div class="container position-relative">
 		<h2 class="section_title"> Trusted by Brands like </h2>
 		<ul id="scroller">
-			<li ><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1-Swarovski-logo.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/2-ACG-01.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/3-RIL-logo-1.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/4-Aditya-Birla-Group.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-Mistubishi_Logo.png"></li>
+			<li ><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1-Swarovski-logo.png" alt="Swarovski"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/2-ACG-01.png" alt="ACG"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/3-RIL-logo-1.png" alt="RIL"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/4-Aditya-Birla-Group.png" alt="Aditya Birla Group"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-Mistubishi_Logo.png" alt="Mistubishi"></li>
 
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/6-CISCO-logo-1.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/7-ATEF-Logo-2019-01.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/8-GEA-Final-Logo.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/9--Hitachi.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/10-BOROSIL-1.png"></li>
-
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/11-ROTEX-01.png"></li>
-			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/12-SPETS.png"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/6-CISCO-logo-1.png" alt="Cisco"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/7-ATEF-Logo-2019-01.png" alt="ATEF"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/8-GEA-Final-Logo.png" alt="GEA"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/9--Hitachi.png" alt="Hitachi"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/10-BOROSIL-1.png" alt="Borosil"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/11-ROTEX-01.png" alt="Rotex"></li>
+			<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/12-SPETS.png" alt="Spets"></li>
 		</ul>
 	</div>
 </div>
