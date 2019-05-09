@@ -26,11 +26,7 @@
 			<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg">
 				<div id="logo">
         			<a href="<?php echo get_site_url(); ?>/" class="image-logo">
-        			<?php if(is_front_page()){ ?>
-            			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/design_desk_logo_white_new.png" class="alt-logo" alt="">
-            			<?php } else { ?>
-            			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/DesignDesk_logo.png" class="alt-logo" alt="">
-            			<?php } ?>
+            			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/design_desk_logo_white_new.png" class="alt-logo" alt="<?php wp_title(); ?>">
           			</a>
         		</div>
 
