@@ -34,8 +34,8 @@ get_header(); ?>
 <!-- Welcome text -->
 <div class="main-text">
 	<div class="container">
-		<div class="main-text-header">
-			LOOKING FOR A STAND DESIGN & BUILD PARTNER IN EUROPE? 
+		<div>
+			<h1 class="main-text-header">LOOKING FOR A STAND DESIGN & BUILD PARTNER IN EUROPE?<h1>
 		</div>
 		<div class="main-text-subtext">
 			Design Desk specialises in Design & Build of world-class exhibition stands across Europe & the World. 
