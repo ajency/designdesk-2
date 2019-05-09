@@ -7167,17 +7167,21 @@ a.text-cancel:hover, a.text-cancel:focus {
   .home #masthead.headerbg {
     background: #2c2d2d;
     top: 0; }
+    .home #masthead.headerbg .main-navigation img {
+      height: 40px; }
+    .home #masthead.headerbg .main-navigation .navbar-nav {
+      line-height: 40px; }
   .home #masthead a {
     color: #fff; }
 
 .fixed-top {
   background: #fff;
   top: 0; }
-  .fixed-top.headerbg {
+  .fixed-top.active {
     top: 0; }
-    .fixed-top.headerbg .main-navigation img {
+    .fixed-top.active .main-navigation img {
       height: 40px; }
-    .fixed-top.headerbg .main-navigation .navbar-nav {
+    .fixed-top.active .main-navigation .navbar-nav {
       line-height: 40px; }
   .fixed-top .main-navigation {
     padding: 0; }

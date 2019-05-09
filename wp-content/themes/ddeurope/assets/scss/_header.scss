@@ -43,6 +43,14 @@
 		&.headerbg{
 			background: #2c2d2d;
 			top: 0;
+			.main-navigation{
+				img{
+					height: 40px;
+				}
+				.navbar-nav{
+					line-height: 40px;
+				}
+			}
 		}
 		a{
 	  		color: #fff;	
@@ -61,7 +69,7 @@
 .fixed-top{
 	background: #fff;
 	top: 0;
-	&.headerbg{
+	&.active{
 		top: 0;
 		.main-navigation{
 			img{
@@ -73,6 +81,7 @@
 		}
 		
 	}
+
 	.main-navigation{
 		padding:0;
 		img{
