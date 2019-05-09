@@ -84,7 +84,7 @@
 								<a class="nav-link" href="<?php echo get_site_url(); ?>/"> Home </a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="<?php echo get_site_url(); ?>/gallery"> Gallery </a>
+								<a class="nav-link" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery">  Gallery </a>
 							</li>
 						<!-- 	<li class="nav-item dropdown">
 						         <a class="nav-link dropdown-toggle" href="<?php echo get_site_url(); ?>/about-us" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -98,7 +98,7 @@
 						        </div>
 						    </li>	 -->				
 							<li class="nav-item">
-								<a class="nav-link" href="<?php echo get_site_url(); ?>/about-us"> Expertise </a>
+								<a class="nav-link" href="<?php echo get_site_url(); ?>/exhibition-stand-designers-builders-europe"> Expertise </a>
 							</li>
 						<!-- 	<li class="nav-item dropdown">
 						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -110,7 +110,7 @@
 						        </div>
 						    </li> -->
 							<li class="nav-item">
-								<a class="nav-link" href="<?php echo get_site_url(); ?>/contact-us">Contact </a>
+								<a class="nav-link" href="<?php echo get_site_url(); ?>/contact-exhibition-stall-designs"> Contact </a>
 							</li>
 						</ul>
 						    

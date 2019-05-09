@@ -164,6 +164,10 @@ get_header(); ?>
 				<div class="col-lg-2 col-md-2"></div>
 				<div class="col-lg-8 col-md-8 col-sm-12">
 					<?php echo do_shortcode("[show-map id='1']"); ?>
+					<div class="legends mt-2 mb-2">
+						<span><i class="fas fa-circle" id="icon_1"></i>&nbsp Office</span> &nbsp
+						<span><i class="fas fa-circle" id="icon_2"></i>&nbsp Service Network</span>
+					</div>
 					<p class="text-center">Experienced in over 26 countries & growing – we can serve you in most corners of the world!</p>
 					<p class="text-center">Ask now on <strong><a href="mailto:hello@dd-europe.com">hello@dd-europe.com</a></strong></p>
 				</div>

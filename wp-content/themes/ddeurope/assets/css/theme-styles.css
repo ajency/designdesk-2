@@ -7374,6 +7374,9 @@ a.text-cancel:hover, a.text-cancel:focus {
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 0; }
+  .site-footer .form .footer-form {
+    max-width: 75%;
+    margin: auto; }
 
 .members-of {
   background: #efefef;
@@ -7642,6 +7645,17 @@ body {
   font-size: 24px;
   margin-bottom: 3rem; }
 
+.map .legends {
+  text-align: center; }
+  .map .legends span {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase; }
+    .map .legends span #icon_1 {
+      color: #ff9900; }
+    .map .legends span #icon_2 {
+      color: #ffe121; }
+
 #scroller {
   display: flex;
   padding-left: 0; }
@@ -7676,7 +7690,7 @@ body {
 
 .simply-scroll {
   width: 100%;
-  height: 150px;
+  height: 100px;
   margin-bottom: 1em; }
   .simply-scroll .simply-scroll-clip {
     width: auto;
