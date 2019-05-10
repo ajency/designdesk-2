@@ -8241,6 +8241,12 @@ body {
         .contact_us .contact_us_content .frm-show-form .frm_button_submit {
           bottom: 0;
           float: inherit; } }
+    @media (max-width: 475px) {
+      .contact_us .contact_us_content .frm-show-form .frm-g-recaptcha {
+        transform: scale(0.77);
+        -webkit-transform: scale(0.77);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0; } }
     @media (max-width: 575px) {
       .contact_us .contact_us_content .frm-show-form {
         margin: auto; } }

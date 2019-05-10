@@ -84,6 +84,13 @@
     				float: inherit;
     			}
 			}
+			.frm-g-recaptcha{
+				@media (max-width: 475px) { 
+					transform:scale(0.77);
+					-webkit-transform:scale(0.77);transform-origin:0 0;
+					-webkit-transform-origin:0 0;
+				}
+			}
 			@media (max-width: 575px){
 				margin: auto;
 			}
