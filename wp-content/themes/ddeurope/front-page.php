@@ -14,19 +14,19 @@ get_header(); ?>
 <div class="home-carousel">
 	<div class="carousel is-hidden">
 	  	<div class="carousel-cell active">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
 		</div>
 	  	<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
 		</div>
 		<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
 		</div>
 		<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg" class="carousel-cell-image" alt="Exhibition design stand at France">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ATEF Lille France.jpg" class="carousel-cell-image" alt="Exhibition stand design at France">
 		</div>
 		<div class="carousel-cell">
-			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition design stand at Germany">
+			<img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ROTEX Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
 		</div>
 	</div>
 </div>
@@ -35,7 +35,7 @@ get_header(); ?>
 <div class="main-text">
 	<div class="container">
 		<div>
-			<h1 class="main-text-header">LOOKING FOR A STAND DESIGN & BUILD PARTNER IN EUROPE?<h1>
+			<h1 class="main-text-header">LOOKING FOR A EXHIBITION STAND DESIGN & BUILD PARTNER IN EUROPE?<h1>
 		</div>
 		<div class="main-text-subtext">
 			Design Desk specialises in Design & Build of world-class exhibition stands across Europe & the World. 
@@ -48,7 +48,7 @@ get_header(); ?>
 <div class="gallery_block">
 	<div class="container">
 <!-- 		<div class="section_title">Gallery</div>
- -->			<?php echo do_shortcode("[gmedia id=34]"); ?>
+ -->	<?php echo do_shortcode("[web_pace_portfolio id='2']"); ?>
 		<div class="view_gallery">
 			<a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View Gallery</a>
 		</div>
