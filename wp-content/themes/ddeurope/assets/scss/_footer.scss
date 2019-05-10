@@ -112,10 +112,18 @@
 		    font-weight: 600;
 		    border-radius: 0;
 		}
+		.frm-g-recaptcha{
+			@media (max-width: 475px) { 
+				transform:scale(0.77);
+				-webkit-transform:scale(0.77);transform-origin:0 0;
+				-webkit-transform-origin:0 0;
+			}
+		}
 		.footer-form{
 			max-width: 75%;
 			margin: auto;
 		}
+
 	}
 }
 
