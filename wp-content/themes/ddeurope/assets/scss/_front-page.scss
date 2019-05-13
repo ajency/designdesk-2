@@ -14,7 +14,9 @@ body{
 	position: absolute;
     right: 30px;
 }
-
+p{
+	font-size: 14px;
+}
 
 //
 // Home Page
@@ -91,32 +93,6 @@ body{
 	}
 }
 
-// Our Approach
-
-
-.main_block{
-	text-align:center;
-	padding: 2rem;
-	fa{
-    	margin: 22px 0;
-    	color: #f39100;
-	}
-	#icons-appr{
-		color: #495057;
-	}
-	.block_heading{
-		font-size: 28px;
-		font-weight:800;
-		letter-spacing: 0.1px;
-		text-align:center;
-		margin: 1.5rem 0;
-		color: #f39100;
-	}
-	.block_subheading{
-		font-size: 14px;
-		text-align:center;
-	}
-}
 
 // Gallery
 

@@ -7418,6 +7418,9 @@ body {
   position: absolute;
   right: 30px; }
 
+p {
+  font-size: 14px; }
+
 .home-carousel {
   position: relative;
   padding-top: 56.2%; }
@@ -7473,25 +7476,6 @@ body {
     @media (max-width: 575px) {
       .main-text .main-text-subtext {
         font-size: 12px; } }
-
-.main_block {
-  text-align: center;
-  padding: 2rem; }
-  .main_block fa {
-    margin: 22px 0;
-    color: #f39100; }
-  .main_block #icons-appr {
-    color: #495057; }
-  .main_block .block_heading {
-    font-size: 28px;
-    font-weight: 800;
-    letter-spacing: 0.1px;
-    text-align: center;
-    margin: 1.5rem 0;
-    color: #f39100; }
-  .main_block .block_subheading {
-    font-size: 14px;
-    text-align: center; }
 
 .view_gallery {
   padding: 1.5rem;
@@ -7912,8 +7896,6 @@ body {
           font-size: 24px;
           line-height: 30px;
           margin-bottom: 15px; }
-        .expertise .about_us .journey .timeline .timeline-block .timeline-content p {
-          font-size: 14px; }
         .expertise .about_us .journey .timeline .timeline-block .timeline-content .timeline-img {
           position: absolute;
           width: 100%;
@@ -8059,7 +8041,6 @@ body {
   .capabilities .capability_content hr {
     margin: 3rem 0; }
   .capabilities .capability_content p {
-    font-size: 14px;
     margin: 0 0 20px;
     line-height: 22px; }
   .capabilities .capability_content .line {
@@ -8153,12 +8134,6 @@ body {
     .capabilities .capability_content .hb-callout-box {
       text-align: center; } }
 
-p {
-  font-size: 14px; }
-
-img {
-  max-width: 100%; }
-
 .about_us {
   margin: 9rem 0 3rem; }
   .about_us .header {
@@ -8200,7 +8175,7 @@ img {
   .about_us .about_us_content .company_facts {
     background: #efefef5c;
     padding: 2rem;
-    box-shadow: 0px 0px 4px 1px #dadada;
+    box-shadow: 0px 0px 4px 1px #efefef;
     margin: 3rem 0; }
     .about_us .about_us_content .company_facts .left-content .heading {
       font-weight: 900;
@@ -8208,8 +8183,12 @@ img {
       text-transform: uppercase;
       margin-bottom: 2rem;
       color: #f39100; }
+    .about_us .about_us_content .company_facts .right-content img {
+      max-width: 100%; }
+  .about_us .about_us_content .logo_significance .left img {
+    max-width: 100%; }
   .about_us .about_us_content .logo_significance .right {
-    align-self: center; }
+    align-slef: center; }
     .about_us .about_us_content .logo_significance .right .heading {
       font-weight: 900;
       font-size: 24px;
@@ -8222,7 +8201,7 @@ img {
   .about_us .about_us_content .action_block {
     width: auto;
     text-align: center;
-    margin-top: 2rem; }
+    margin: 2rem 0; }
     .about_us .about_us_content .action_block .talk_to_us {
       background: #0671b5;
       border: none;
