@@ -8183,21 +8183,25 @@ p {
       text-transform: uppercase;
       margin-bottom: 2rem;
       color: #f39100; }
+    .about_us .about_us_content .company_facts .left-content .links {
+      font-size: 14px; }
     .about_us .about_us_content .company_facts .right-content img {
       max-width: 100%; }
-  .about_us .about_us_content .logo_significance .left img {
-    max-width: 100%; }
-  .about_us .about_us_content .logo_significance .right {
-    align-slef: center; }
-    .about_us .about_us_content .logo_significance .right .heading {
-      font-weight: 900;
-      font-size: 24px;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-      color: #f39100; }
-      @media (max-width: 991px) {
-        .about_us .about_us_content .logo_significance .right .heading {
-          margin-top: 2rem; } }
+  .about_us .about_us_content .logo_significance {
+    margin-bottom: 3rem; }
+    .about_us .about_us_content .logo_significance .left img {
+      max-width: 100%; }
+    .about_us .about_us_content .logo_significance .right {
+      align-self: center; }
+      .about_us .about_us_content .logo_significance .right .heading {
+        font-weight: 900;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        color: #f39100; }
+        @media (max-width: 991px) {
+          .about_us .about_us_content .logo_significance .right .heading {
+            margin-top: 2rem; } }
   .about_us .about_us_content .action_block {
     width: auto;
     text-align: center;

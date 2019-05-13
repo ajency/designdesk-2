@@ -37,9 +37,9 @@ get_header(); ?>
 						<p><strong>Head Office:</strong> Mumbai, India</p>
 						<p><strong>Members:</strong>
 							<ul>
-								<li>Indo German Chamber of Commerce <a href="https://indien.ahk.de/" target="_blank">(IGCC)</a></li>
-								<li>International Federation of Exhibition & event Services <a href="https://www.ifesnet.com/" target="_blank">(IFES)</a></li>
-								<li>Experiential Designers & producers Association <a href="https://www.edpa.com/" target="_blank">(EDPA)</a></li>
+								<li class="links">Indo German Chamber of Commerce <a href="https://indien.ahk.de/" target="_blank">(IGCC)</a></li>
+								<li class="links">International Federation of Exhibition & event Services <a href="https://www.ifesnet.com/" target="_blank">(IFES)</a></li>
+								<li class="links">Experiential Designers & producers Association <a href="https://www.edpa.com/" target="_blank">(EDPA)</a></li>
 							</ul>
 						</p>
 				</div>

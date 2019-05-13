@@ -60,6 +60,9 @@
 					margin-bottom: 2rem;
 					color: #f39100;
 				}
+				.links{
+					font-size: 14px;
+				}
 		    }
 		    .right-content{
 		    	img{
@@ -68,13 +71,14 @@
 		    }
 		}
 		.logo_significance {
+			margin-bottom: 3rem;
 			.left{
 				img{
 				    max-width: 100%;
 				}
 			}
 			.right{
-				align-slef: center;
+				align-self: center;
 				.heading{
 					font-weight: 900;
 					font-size: 24px;
