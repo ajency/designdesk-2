@@ -17,7 +17,7 @@ get_header(); ?>
 				<h2 class="title">capabilities</h2>
 				<div class="breadcrumbs-wrapper">
       				<div class="breadcrumbs-inside">
-  						<a href="#">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>capabilities</span>
+  						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>capabilities</span>
 					</div>
 				</div>
 			</div>

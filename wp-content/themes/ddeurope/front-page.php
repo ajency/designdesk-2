@@ -207,7 +207,7 @@ get_header(); ?>
 <div id="call-to-action" class="mb-4">
 	<div class="container">
 		<div class="cta-text"><span>Your Brand deserves a Great Stand! </span></div>
-		<div><a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/contact-us" target="_blank"> Get Started Now</a></div>
+		<div><a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/contact-exhibition-stall-designs" target="_blank"> Get Started Now</a></div>
 	</div>
 </div>
 <!-- end of cta -->

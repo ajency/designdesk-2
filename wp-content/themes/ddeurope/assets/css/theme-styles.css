@@ -7461,7 +7461,7 @@ body {
   .main-text .main-text-header {
     text-align: center;
     color: #f39100;
-    margin: 2rem 0;
+    margin: 3rem 0;
     font-size: 38px;
     font-weight: 900; }
     @media (max-width: 575px) {
@@ -7762,7 +7762,7 @@ body {
     font-size: 14px; }
 
 .expertise {
-  margin: 9rem 0; }
+  margin: 9rem 0 3rem; }
   .expertise .header {
     background: #0671b5;
     height: 75px;
@@ -7783,9 +7783,15 @@ body {
       @media (max-width: 768px) {
         .expertise .header .breadcrumbs-inside {
           display: none; } }
-    @media (max-width: 382px) {
+    @media (max-width: 991px) and (min-width: 576px) {
       .expertise .header {
-        margin-top: -1rem; } }
+        margin-top: -1.5rem; } }
+    @media (max-width: 575px) and (min-width: 476px) {
+      .expertise .header {
+        margin-top: -2.3rem; } }
+    @media (max-width: 475px) {
+      .expertise .header {
+        margin-top: -4.5rem; } }
   .expertise .about_us .head_text {
     border-bottom: 3px double #ddd; }
     .expertise .about_us .head_text .title {
@@ -8147,8 +8153,91 @@ body {
     .capabilities .capability_content .hb-callout-box {
       text-align: center; } }
 
+p {
+  font-size: 14px; }
+
+img {
+  max-width: 100%; }
+
+.about_us {
+  margin: 9rem 0 3rem; }
+  .about_us .header {
+    background: #0671b5;
+    height: 75px;
+    margin-bottom: 3rem;
+    margin-top: -2rem; }
+    .about_us .header .title {
+      color: #fff;
+      font-size: 26px;
+      line-height: 3; }
+    .about_us .header .breadcrumbs-inside {
+      float: right;
+      margin-top: -5%;
+      font-size: 13px; }
+      .about_us .header .breadcrumbs-inside a {
+        color: #fff; }
+      .about_us .header .breadcrumbs-inside:not(.sep-icon) {
+        opacity: 0.7; }
+      @media (max-width: 768px) {
+        .about_us .header .breadcrumbs-inside {
+          display: none; } }
+    @media (max-width: 991px) and (min-width: 576px) {
+      .about_us .header {
+        margin-top: -1.5rem; } }
+    @media (max-width: 575px) and (min-width: 476px) {
+      .about_us .header {
+        margin-top: -2.3rem; } }
+    @media (max-width: 475px) {
+      .about_us .header {
+        margin-top: -4.5rem; } }
+  .about_us .about_us_content .head_text .title {
+    text-align: center;
+    color: #323436;
+    margin: 3rem 0;
+    font-size: 28px; }
+    .about_us .about_us_content .head_text .title span {
+      font-weight: 900; }
+  .about_us .about_us_content .company_facts {
+    background: #efefef5c;
+    padding: 2rem;
+    box-shadow: 0px 0px 4px 1px #dadada;
+    margin: 3rem 0; }
+    .about_us .about_us_content .company_facts .left-content .heading {
+      font-weight: 900;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      color: #f39100; }
+  .about_us .about_us_content .logo_significance .right {
+    align-self: center; }
+    .about_us .about_us_content .logo_significance .right .heading {
+      font-weight: 900;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      color: #f39100; }
+      @media (max-width: 991px) {
+        .about_us .about_us_content .logo_significance .right .heading {
+          margin-top: 2rem; } }
+  .about_us .about_us_content .action_block {
+    width: auto;
+    text-align: center;
+    margin-top: 2rem; }
+    .about_us .about_us_content .action_block .talk_to_us {
+      background: #0671b5;
+      border: none;
+      padding: 0.5rem 3.5rem;
+      color: #fff;
+      transition: 0.6s;
+      font-weight: 800;
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: 900; }
+      .about_us .about_us_content .action_block .talk_to_us:hover {
+        background: #f39100; }
+
 .gallery {
-  margin: 9rem 0; }
+  margin: 9rem 0 3rem; }
   .gallery .header {
     background: #f39100;
     height: 75px;
@@ -8169,9 +8258,15 @@ body {
       @media (max-width: 768px) {
         .gallery .header .breadcrumbs-inside {
           display: none; } }
-    @media (max-width: 382px) {
+    @media (max-width: 991px) and (min-width: 576px) {
       .gallery .header {
-        margin-top: -1rem; } }
+        margin-top: -1.5rem; } }
+    @media (max-width: 575px) and (min-width: 476px) {
+      .gallery .header {
+        margin-top: -2.3rem; } }
+    @media (max-width: 475px) {
+      .gallery .header {
+        margin-top: -4.5rem; } }
   .gallery .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
     opacity: 0;
     transition: opacity 0.3s ease; }
@@ -8180,7 +8275,7 @@ body {
     text-align: center; }
 
 .contact_us {
-  margin: 9rem 0; }
+  margin: 9rem 0 3rem; }
   .contact_us .header {
     background: #f39100;
     height: 75px;
@@ -8201,15 +8296,15 @@ body {
       @media (max-width: 768px) {
         .contact_us .header .breadcrumbs-inside {
           display: none; } }
-    @media (max-width: 991px) and (min-width: 475px) {
+    @media (max-width: 991px) and (min-width: 576px) {
       .contact_us .header {
-        margin-top: -2rem; } }
-    @media (max-width: 474px) {
+        margin-top: -1.5rem; } }
+    @media (max-width: 575px) and (min-width: 476px) {
       .contact_us .header {
-        margin-top: -3rem; } }
-    @media (max-width: 382px) {
+        margin-top: -2.3rem; } }
+    @media (max-width: 475px) {
       .contact_us .header {
-        margin-top: -1rem; } }
+        margin-top: -4.5rem; } }
   .contact_us .contact_us_content .form_header {
     border-bottom: 3px double #ddd; }
     .contact_us .contact_us_content .form_header .form_title {

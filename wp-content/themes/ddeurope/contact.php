@@ -17,7 +17,7 @@ get_header(); ?>
 				<h2 class="title">Contact Us</h2>
 				<div class="breadcrumbs-wrapper">
       				<div class="breadcrumbs-inside">
-  						<a href="#">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>Contact Us</span>
+  						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>Contact Us</span>
   					</div>
   				</div>
 			</div>

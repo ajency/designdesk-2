@@ -3,7 +3,7 @@
 //
 
 .contact_us{
-	margin: 9rem 0;
+	margin: 9rem 0 3rem;
 	.header{
 		background: $d_orange;
 		height: 75px;
@@ -28,14 +28,14 @@
 		    	display: none;
 		    }
 		}
-		@media (max-width: 991px) and (min-width: 475px){
-			margin-top: -2rem;
+		@media (max-width: 991px) and (min-width: 576px){
+			margin-top: -1.5rem;
 		}
-		@media (max-width: 474px){
-			margin-top: -3rem;
+		@media (max-width: 575px) and (min-width: 476px){
+			margin-top: -2.3rem;
 		}
-		@media (max-width: 382px){
-			margin-top: -1rem;
+		@media (max-width: 475px){
+			margin-top: -4.5rem;
 		}
 	}
 	.contact_us_content{
