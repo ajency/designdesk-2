@@ -29,7 +29,7 @@
 		    }
 		}
 		@media (max-width: 991px) and (min-width: 576px){
-			margin-top: -1.5rem;
+			margin-top: -1.3rem;
 		}
 		@media (max-width: 575px) and (min-width: 476px){
 			margin-top: -2.3rem;
@@ -97,18 +97,25 @@
 		}
 		.aside_header{
 			border-bottom: 3px double #ddd;
-			padding-bottom: 37px;
 			.aside_title{
 				font-size: 20px;
 	    		text-transform: uppercase;
 	    		color: #323436;
 	    		line-height: 26px;
 			}
+			.aside_subtitle{
+				font-size: 14px;
+	    		color: gray;
+			}
 			@media (max-width: 991px) and (min-width: 768px){
-				padding-bottom: 58px;
+				padding-bottom: 21px;
+			}
+			@media (max-width: 768px){
+				margin-top: 3rem;
 			}
 		}
 		.icon_block{
+			margin-bottom: 10px;
 			@media(max-width: 768px){
 			    width: 100%;
 	    		text-align: center;
@@ -125,7 +132,7 @@
 					position: absolute;
 					left: 0;
 					right: 0;
-					top: 30px;
+					top: 75px;
 					.main-info{
 						font-size: 26px;
 						font-weight: 600;
@@ -134,6 +141,9 @@
 					.sub-info{
 						font-size: 14px;
 						color: $white;
+					}
+					@media (max-width: 991px) and (min-width: 475px){
+						top: 45px;
 					}
 				}
 				&:before{
@@ -161,7 +171,7 @@
 					position: absolute;
 					left: 0;
 					right: 0;
-					top: 30px;
+					top: 75px;
 					.main-info{
 						font-size: 26px;
 						font-weight: 600;
@@ -170,6 +180,9 @@
 					.sub-info{
 						font-size: 14px;
 						color: $white;
+					}
+					@media (max-width: 991px) and (min-width: 475px){
+						top: 45px;
 					}
 				}
 				&:before{

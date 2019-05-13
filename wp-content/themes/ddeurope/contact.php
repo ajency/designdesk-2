@@ -14,7 +14,7 @@ get_header(); ?>
 	<div class="header_image">
 		<div class="header">
 			<div class="container">
-				<h2 class="title">Contact Us</h2>
+				<h2 class="title">Let's Connect</h2>
 				<div class="breadcrumbs-wrapper">
       				<div class="breadcrumbs-inside">
   						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>Contact Us</span>
@@ -38,6 +38,7 @@ get_header(); ?>
 				<div class=" col-lg-4 col-md-4 col-sm-12 pr-0 pl-0">
 					<div class="aside_header">
 						<h2 class="aside_title alignleft"> Contact Us </h2>
+						<p class="aside_subtitle">Here's how you can reach us...</p>
 					</div>
 					<div class="row mt-4 mb-2">
 						<div class="icon_block"> 
@@ -50,7 +51,7 @@ get_header(); ?>
 					</div>
 					<div class="address_block">
 						<div class="row">
-							<div class="address_1 text-center mt-1">
+							<div class="address_1 text-center mt-1 align-items-center">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">
 								    <div class="addr_text1">
 		       							<h3 class="main-info">GERMANY</h3>

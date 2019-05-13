@@ -7769,7 +7769,7 @@ p {
           display: none; } }
     @media (max-width: 991px) and (min-width: 576px) {
       .expertise .header {
-        margin-top: -1.5rem; } }
+        margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .expertise .header {
         margin-top: -2.3rem; } }
@@ -8158,7 +8158,7 @@ p {
           display: none; } }
     @media (max-width: 991px) and (min-width: 576px) {
       .about_us .header {
-        margin-top: -1.5rem; } }
+        margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .about_us .header {
         margin-top: -2.3rem; } }
@@ -8243,7 +8243,7 @@ p {
           display: none; } }
     @media (max-width: 991px) and (min-width: 576px) {
       .gallery .header {
-        margin-top: -1.5rem; } }
+        margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .gallery .header {
         margin-top: -2.3rem; } }
@@ -8281,7 +8281,7 @@ p {
           display: none; } }
     @media (max-width: 991px) and (min-width: 576px) {
       .contact_us .header {
-        margin-top: -1.5rem; } }
+        margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .contact_us .header {
         margin-top: -2.3rem; } }
@@ -8336,20 +8336,27 @@ p {
       .contact_us .contact_us_content .frm-show-form {
         margin: auto; } }
   .contact_us .contact_us_content .aside_header {
-    border-bottom: 3px double #ddd;
-    padding-bottom: 37px; }
+    border-bottom: 3px double #ddd; }
     .contact_us .contact_us_content .aside_header .aside_title {
       font-size: 20px;
       text-transform: uppercase;
       color: #323436;
       line-height: 26px; }
+    .contact_us .contact_us_content .aside_header .aside_subtitle {
+      font-size: 14px;
+      color: gray; }
     @media (max-width: 991px) and (min-width: 768px) {
       .contact_us .contact_us_content .aside_header {
-        padding-bottom: 58px; } }
-  @media (max-width: 768px) {
-    .contact_us .contact_us_content .icon_block {
-      width: 100%;
-      text-align: center; } }
+        padding-bottom: 21px; } }
+    @media (max-width: 768px) {
+      .contact_us .contact_us_content .aside_header {
+        margin-top: 3rem; } }
+  .contact_us .contact_us_content .icon_block {
+    margin-bottom: 10px; }
+    @media (max-width: 768px) {
+      .contact_us .contact_us_content .icon_block {
+        width: 100%;
+        text-align: center; } }
   .contact_us .contact_us_content .address_block .address_1 {
     position: relative; }
     .contact_us .contact_us_content .address_block .address_1 img {
@@ -8359,7 +8366,7 @@ p {
       position: absolute;
       left: 0;
       right: 0;
-      top: 30px; }
+      top: 75px; }
       .contact_us .contact_us_content .address_block .address_1 .addr_text1 .main-info {
         font-size: 26px;
         font-weight: 600;
@@ -8367,6 +8374,9 @@ p {
       .contact_us .contact_us_content .address_block .address_1 .addr_text1 .sub-info {
         font-size: 14px;
         color: #fff; }
+      @media (max-width: 991px) and (min-width: 475px) {
+        .contact_us .contact_us_content .address_block .address_1 .addr_text1 {
+          top: 45px; } }
     .contact_us .contact_us_content .address_block .address_1:before {
       content: '';
       background: rgba(0, 0, 0, 0.5);
@@ -8389,7 +8399,7 @@ p {
       position: absolute;
       left: 0;
       right: 0;
-      top: 30px; }
+      top: 75px; }
       .contact_us .contact_us_content .address_block .address_2 .addr_text2 .main-info {
         font-size: 26px;
         font-weight: 600;
@@ -8397,6 +8407,9 @@ p {
       .contact_us .contact_us_content .address_block .address_2 .addr_text2 .sub-info {
         font-size: 14px;
         color: #fff; }
+      @media (max-width: 991px) and (min-width: 475px) {
+        .contact_us .contact_us_content .address_block .address_2 .addr_text2 {
+          top: 45px; } }
     .contact_us .contact_us_content .address_block .address_2:before {
       content: '';
       background: rgba(0, 0, 0, 0.5);

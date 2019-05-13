@@ -38,7 +38,7 @@
   <div class="form">
     <div class="form-header">
       <h2 class="contact_title"> Get a quote</h2>
-      <p class="contact_subtile">We look forward to hearing from you. Email us to learn more about what we can do for your next big. </p>
+      <p class="contact_subtile">We look forward to hearing from you. Email us to learn more about what we can do for your next big event. </p>
     </div>
     <div class="footer-form">
       <?php echo do_shortcode("[formidable id=3]"); ?>
