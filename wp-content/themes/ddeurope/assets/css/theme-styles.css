@@ -8177,7 +8177,7 @@ p {
     background: #efefef5c;
     padding-top: 1rem;
     box-shadow: 0px 0px 4px 1px #efefef;
-    margin: 3rem 0; }
+    margin: 2rem 0; }
     .about_us .about_us_content .company_facts .left-content .heading {
       font-weight: 900;
       font-size: 24px;
@@ -8368,7 +8368,7 @@ p {
         padding-bottom: 21px; } }
     @media (max-width: 768px) {
       .contact_us .contact_us_content .aside_header {
-        margin-top: 3rem; } }
+        margin-top: 2rem; } }
   .contact_us .contact_us_content .icon_block {
     margin-bottom: 10px; }
     @media (max-width: 768px) {
