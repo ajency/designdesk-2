@@ -8285,6 +8285,8 @@ p {
         padding: 5px 0 !important; }
     .web_pace_portfolio_popup_list .popup-wrapper_5 .image-block_5 {
       width: 100vh !important; }
+      .web_pace_portfolio_popup_list .popup-wrapper_5 .image-block_5 img {
+        width: 98% !important; }
   .web_pace_portfolio_popup_list li.pupup-element {
     height: auto !important; }
 
