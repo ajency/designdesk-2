@@ -228,7 +228,7 @@ get_header(); ?>
       <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
         aria-controls="collapseOne1">
         <h5 class="faq_title mb-0">
-          How will you design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+          How will you design my exhibition stand? <i class="fas fa-angle-down rotate-icon angle"></i>
         </h5>
       </a>
     </div>
@@ -252,7 +252,7 @@ get_header(); ?>
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
         aria-expanded="false" aria-controls="collapseTwo2">
         <h5 class="faq_title mb-0">
-         What do you need to design my exhibition stand? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+         What do you need to design my exhibition stand? <i class="fas fa-angle-down rotate-icon angle"></i>
         </h5>
       </a>
     </div>
@@ -276,7 +276,7 @@ get_header(); ?>
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
         aria-expanded="false" aria-controls="collapseThree3">
         <h5 class="faq_title mb-0">
-          Will you only create the design - or handle the production & installation as well?<i id="angle" class="fas fa-angle-down rotate-icon"></i>
+          Will you only create the design - or handle the production & installation as well?<i class="fas fa-angle-down rotate-icon angle"></i>
         </h5>
       </a>
     </div>
@@ -300,7 +300,7 @@ get_header(); ?>
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4"
         aria-expanded="false" aria-controls="collapseFour4">
         <h5 class=" faq_title mb-0">
-         Which countries & cities can Design Desk help at? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+         Which countries & cities can Design Desk help at? <i class="fas fa-angle-down rotate-icon angle"></i>
         </h5>
       </a>
     </div>
@@ -325,7 +325,7 @@ get_header(); ?>
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFive5"
         aria-expanded="false" aria-controls="collapseFive5">
         <h5 class="faq_title mb-0">
-        How do I get started? <i id="angle" class="fas fa-angle-down rotate-icon"></i>
+        How do I get started? <i class="fas fa-angle-down rotate-icon angle"></i>
         </h5>
       </a>
     </div>

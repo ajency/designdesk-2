@@ -49,7 +49,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="row logo_significance">
-				<div class="left col-lg-6 col-md-12 col-sm-12">
+				<div class="left col-lg-6 col-md-12 col-sm-12 text-center">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_bnw.png">
 				</div>
 				<div class="right col-lg-6 col-md-12 col-sm-12">

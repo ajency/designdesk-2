@@ -123,30 +123,15 @@ jQuery(function ($) {
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
         $("#masthead").addClass("headerbg");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-       $("#masthead").removeClass("headerbg");
-    }
-});
-
-
-$(window).on("scroll", function() {
-    if($(window).scrollTop() > 50) {
-        $(".nav-link").addClass("tagcolor");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-       $(".nav-link").removeClass("tagcolor");
-    }
-});
-
-$(window).on("scroll", function() {
-    if($(window).scrollTop() > 50) {
+      //  $(".nav-link").addClass("tagcolor");        
         $(".fixed-top").addClass("active");
     } else {
-        //remove the background property so it comes transparent again (defined in your css)
-       $(".fixed-top").removeClass("active");
+        $("#masthead").removeClass("headerbg");
+      //  $(".nav-link").removeClass("tagcolor");
+       	$(".fixed-top").removeClass("active");
     }
 });
+
 
 
 function openNav() {

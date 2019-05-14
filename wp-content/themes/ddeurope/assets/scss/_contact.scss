@@ -99,6 +99,16 @@
 				margin: auto;
 			}
 		}
+		.seperator{
+			display: none;
+			@media (max-width: 768px){
+			    display: block;
+				width: 40%;
+				margin-left: auto;
+				margin-right: auto;
+				background: #bfbfbf;
+			}
+		}
 		.aside_header{
 			border-bottom: 3px double #ddd;
 			.aside_title{
@@ -131,7 +141,11 @@
 				width: 90%;
 				img{
 					width: 100%;
-					margin: auto;			
+					margin: auto;
+					@media (max-width: 475px){
+						margin-left: 15px;
+    					margin-right: 15px;
+					}			
 				}
 				.addr_text1{
 					position: absolute;
@@ -150,6 +164,9 @@
 					@media (max-width: 991px) and (min-width: 475px){
 						top: 45px;
 					}
+					@media (max-width: 475px){
+    					margin-left: 25px;
+					}	
 				}
 				&:before{
 					content:'';
@@ -160,6 +177,10 @@
 					left: 0;
 					right: 0;
 					z-index: 0;
+					@media (max-width: 475px){
+						margin-left: 15px;
+    					margin-right: 15px;
+					}	
 				}
 				@media (max-width: 768px) and (min-width: 475px){
 					width: 49%;
@@ -172,6 +193,10 @@
 				img{
 					width: 100%;
 					margin: auto;
+					@media (max-width: 475px){
+						margin-left: 15px;
+    					margin-right: 15px;
+					}	
 				}
 				.addr_text2{
 					position: absolute;
@@ -190,6 +215,9 @@
 					@media (max-width: 991px) and (min-width: 475px){
 						top: 45px;
 					}
+					@media (max-width: 475px){
+    					margin-left: 25px;
+					}	
 				}
 				&:before{
 					content:'';
@@ -200,6 +228,10 @@
 					left: 0;
 					right: 0;
 					z-index: 0;
+					@media (max-width: 475px){
+						margin-left: 15px;
+    					margin-right: 15px;
+					}	
 				}
 				@media (max-width: 768px) and (min-width: 475px){
 					width: 49%;

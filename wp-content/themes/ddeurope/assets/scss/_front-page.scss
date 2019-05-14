@@ -10,10 +10,6 @@ body{
 	color: #424242;
 	font-weight: 900;
 }
-#angle{
-	position: absolute;
-    right: 30px;
-}
 p{
 	font-size: 14px;
 }
@@ -422,6 +418,10 @@ p{
 				font-size: 14px;
 		   		line-height: 22px;
 			}
+		}
+		.angle{
+			position: absolute;
+		    right: 30px;
 		}
 		&:hover{
 			    background: #f9f9f9;

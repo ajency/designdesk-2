@@ -51,11 +51,6 @@
 		}
 		a{
 	  		color: #fff;	
-	  		&.tagcolor{
-				@media (min-width: 991px){
-					// color: #000;
-				}
-			}
 		}
 	}
 }
@@ -118,11 +113,6 @@
 					font-weight: bold;
 					text-transform: uppercase;
 					font-size: 14px;
-					&.tagcolor{
-						@media (min-width: 991px){
-							color: #fff;
-						}
-					}
 				}
 				&:hover{
 					background-color: rgba(0, 0, 0, 0.33) !important;

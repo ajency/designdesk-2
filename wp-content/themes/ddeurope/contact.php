@@ -36,6 +36,7 @@ get_header(); ?>
 					<?php echo do_shortcode("[formidable id=1]"); ?>
 				</div>
 				<div class=" col-lg-4 col-md-4 col-sm-12 pr-0 pl-0">
+					<hr class="seperator">
 					<div class="aside_header">
 						<h2 class="aside_title alignleft"> Contact Us </h2>
 						<p class="aside_subtitle">Here's how you can reach us...</p>
@@ -55,7 +56,7 @@ get_header(); ?>
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">
 								    <div class="addr_text1">
 		       							<h3 class="main-info">GERMANY</h3>
-		          						<p class="sub-info">Westend fair, Friedrich Ebert Anlage 36, <br>60325 Frankfurt</p>
+		          						<p class="sub-info">Westend fair, Friedrich Ebert <br> Anlage 36,60325 Frankfurt</p>
 		          					</div>
 							</div>
 							<div class="address_2 text-center mt-1">
