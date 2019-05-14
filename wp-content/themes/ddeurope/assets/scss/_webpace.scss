@@ -6,14 +6,14 @@
 #web_pace_portfolio_popup_list_5{
 	.popup-wrapper_5{
 		.right-block{
-			float: none;
+			float: none !important;
 			.title{
 				font-size: 14px;
-				padding: 5px 0;
+				padding: 5px 0 !important;
 			}
 		}
 		 .image-block_5{
-			width: 100vh;
+			width: 100vh !important;
 		}
 	}
 	li.pupup-element {
@@ -26,5 +26,5 @@
 	}
 }
 #web_pace_portfolio_pupup_element_21{
-	height: auto;
+	height: auto !important;
 }
