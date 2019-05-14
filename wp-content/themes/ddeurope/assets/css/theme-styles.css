@@ -8273,6 +8273,18 @@ p {
 .w_gallery {
   margin: 9rem 0 3rem; }
 
+#web_pace_portfolio_popup_list_5 .popup-wrapper_5 .right-block {
+  float: none; }
+  #web_pace_portfolio_popup_list_5 .popup-wrapper_5 .right-block .title {
+    font-size: 14px;
+    padding: 5px 0; }
+
+#web_pace_portfolio_popup_list_5 .popup-wrapper_5 .image-block_5 {
+  width: 100vh; }
+
+#web_pace_portfolio_popup_list_5 li.pupup-element .popup-wrapper_5 {
+  padding: 2% 2% 3% 8%; }
+
 .contact_us {
   margin: 9rem 0 3rem; }
   .contact_us .header {
