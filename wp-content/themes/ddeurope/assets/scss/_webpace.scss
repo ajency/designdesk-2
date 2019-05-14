@@ -7,7 +7,7 @@
 	width: 60% !important;
     left: 18%;
 	.popup-wrapper_5{
-		padding: 2% 2% 0% 2%;
+		padding: 2% 2% 0% 8%;
 		.right-block{
 			float: none !important;
 			.title{
@@ -20,6 +20,9 @@
 			img {
     			width: 98% !important;
     		}
+		}
+		@media (max-width: 768px){
+			padding: 2% 2% 0% 4%;
 		}
 	}
 	li.pupup-element{

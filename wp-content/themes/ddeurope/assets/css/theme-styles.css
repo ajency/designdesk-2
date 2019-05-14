@@ -8277,7 +8277,7 @@ p {
   width: 60% !important;
   left: 18%; }
   .web_pace_portfolio_popup_list .popup-wrapper_5 {
-    padding: 2% 2% 0% 2%; }
+    padding: 2% 2% 0% 8%; }
     .web_pace_portfolio_popup_list .popup-wrapper_5 .right-block {
       float: none !important; }
       .web_pace_portfolio_popup_list .popup-wrapper_5 .right-block .title {
@@ -8287,6 +8287,9 @@ p {
       width: 100vh !important; }
       .web_pace_portfolio_popup_list .popup-wrapper_5 .image-block_5 img {
         width: 98% !important; }
+    @media (max-width: 768px) {
+      .web_pace_portfolio_popup_list .popup-wrapper_5 {
+        padding: 2% 2% 0% 4%; } }
   .web_pace_portfolio_popup_list li.pupup-element {
     height: auto !important; }
 
