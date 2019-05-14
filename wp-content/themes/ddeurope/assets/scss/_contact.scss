@@ -13,6 +13,9 @@
 			color: $white;
 			font-size: 26px;
 			line-height: 3;
+			@media (max-width: 475px){
+				font-size: 18px;
+			}
 		}
 		.breadcrumbs-inside{
 			float: right;
@@ -32,10 +35,11 @@
 			margin-top: -1.3rem;
 		}
 		@media (max-width: 575px) and (min-width: 476px){
-			margin-top: -2.3rem;
+			margin-top: -1.9rem;
 		}
 		@media (max-width: 475px){
-			margin-top: -4.5rem;
+			margin-top: -3.8rem;
+			height: 50px;
 		}
 	}
 	.contact_us_content{

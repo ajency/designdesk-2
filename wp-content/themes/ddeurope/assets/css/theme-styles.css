@@ -7153,13 +7153,10 @@ a.text-cancel:hover, a.text-cancel:focus {
   @media (max-width: 991px) {
     .top-bar {
       display: flex;
-      text-align: center;
-      font-size: 14px; } }
+      text-align: center; } }
   @media (max-width: 575px) {
     .top-bar {
-      display: flex;
-      text-align: center;
-      font-size: 9px; } }
+      font-size: 11px; } }
 
 .home #masthead {
   background: transparent;
@@ -7192,7 +7189,7 @@ a.text-cancel:hover, a.text-cancel:focus {
       max-height: none; }
       @media (max-width: 475px) {
         .fixed-top .main-navigation img {
-          height: 30px; } }
+          height: 40px; } }
     .fixed-top .main-navigation .toggler:hover, .fixed-top .main-navigation .toggler:focus {
       cursor: pointer; }
     .fixed-top .main-navigation .toggler .top-line,
@@ -7748,7 +7745,7 @@ p {
 .expertise {
   margin: 9rem 0 3rem; }
   .expertise .header {
-    background: #0671b5;
+    background: #f39100;
     height: 75px;
     margin-bottom: 3rem;
     margin-top: -2rem; }
@@ -7756,6 +7753,9 @@ p {
       color: #fff;
       font-size: 26px;
       line-height: 3; }
+      @media (max-width: 475px) {
+        .expertise .header .title {
+          font-size: 18px; } }
     .expertise .header .breadcrumbs-inside {
       float: right;
       margin-top: -5%;
@@ -7772,10 +7772,11 @@ p {
         margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .expertise .header {
-        margin-top: -2.3rem; } }
+        margin-top: -1.9rem; } }
     @media (max-width: 475px) {
       .expertise .header {
-        margin-top: -4.5rem; } }
+        margin-top: -3.8rem;
+        height: 50px; } }
   .expertise .about_us .head_text {
     border-bottom: 3px double #ddd; }
     .expertise .about_us .head_text .title {
@@ -8137,7 +8138,7 @@ p {
 .about_us {
   margin: 9rem 0 3rem; }
   .about_us .header {
-    background: #0671b5;
+    background: #f39100;
     height: 75px;
     margin-bottom: 3rem;
     margin-top: -2rem; }
@@ -8145,6 +8146,9 @@ p {
       color: #fff;
       font-size: 26px;
       line-height: 3; }
+      @media (max-width: 475px) {
+        .about_us .header .title {
+          font-size: 18px; } }
     .about_us .header .breadcrumbs-inside {
       float: right;
       margin-top: -5%;
@@ -8161,10 +8165,11 @@ p {
         margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .about_us .header {
-        margin-top: -2.3rem; } }
+        margin-top: -1.9rem; } }
     @media (max-width: 475px) {
       .about_us .header {
-        margin-top: -4.5rem; } }
+        margin-top: -3.8rem;
+        height: 50px; } }
   .about_us .about_us_content .head_text .title {
     text-align: center;
     color: #323436;
@@ -8230,6 +8235,9 @@ p {
       color: #fff;
       font-size: 26px;
       line-height: 3; }
+      @media (max-width: 475px) {
+        .gallery .header .title {
+          font-size: 18px; } }
     .gallery .header .breadcrumbs-inside {
       float: right;
       margin-top: -5%;
@@ -8246,10 +8254,11 @@ p {
         margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .gallery .header {
-        margin-top: -2.3rem; } }
+        margin-top: -1.9rem; } }
     @media (max-width: 475px) {
       .gallery .header {
-        margin-top: -4.5rem; } }
+        margin-top: -3.8rem;
+        height: 50px; } }
   .gallery .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
     opacity: 0;
     transition: opacity 0.3s ease; }
@@ -8268,6 +8277,9 @@ p {
       color: #fff;
       font-size: 26px;
       line-height: 3; }
+      @media (max-width: 475px) {
+        .contact_us .header .title {
+          font-size: 18px; } }
     .contact_us .header .breadcrumbs-inside {
       float: right;
       margin-top: -5%;
@@ -8284,10 +8296,11 @@ p {
         margin-top: -1.3rem; } }
     @media (max-width: 575px) and (min-width: 476px) {
       .contact_us .header {
-        margin-top: -2.3rem; } }
+        margin-top: -1.9rem; } }
     @media (max-width: 475px) {
       .contact_us .header {
-        margin-top: -4.5rem; } }
+        margin-top: -3.8rem;
+        height: 50px; } }
   .contact_us .contact_us_content .form_header {
     border-bottom: 3px double #ddd; }
     .contact_us .contact_us_content .form_header .form_title {

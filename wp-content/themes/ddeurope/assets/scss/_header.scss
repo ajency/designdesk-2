@@ -26,12 +26,9 @@
 	@media (max-width: 991px){
 		display: flex;
 		text-align:center;
-		font-size: 14px;
 	}
 	@media (max-width: 575px){
-		display: flex;
-		text-align:center;
-		font-size: 9px;
+		font-size: 11px;
 	}
 }
 
@@ -89,7 +86,7 @@
 			transition: all 0.3s ease;
 			max-height: none;
 			@media (max-width: 475px){
-				height: 30px;
+				height: 40px;
 			}
 		}
 		.toggler{
