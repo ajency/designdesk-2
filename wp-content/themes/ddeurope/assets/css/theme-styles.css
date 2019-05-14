@@ -8285,6 +8285,12 @@ p {
 #web_pace_portfolio_popup_list_5 li.pupup-element .popup-wrapper_5 {
   padding: 2% 2% 3% 8%; }
 
+#web_pace_portfolio_popup_list_5 li.pupup-element.active {
+  height: auto; }
+
+#web_pace_portfolio_pupup_element_21 {
+  height: auto; }
+
 .contact_us {
   margin: 9rem 0 3rem; }
   .contact_us .header {
