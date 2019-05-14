@@ -17,6 +17,9 @@
     		@media (max-width: 768px){
     			display: block;
     		}
+    		@media (max-width: 475px){
+    			padding: 10px;
+    		}
 		}
 		&:before{
 			content:'';
@@ -25,10 +28,13 @@
 			height:40px;
 			position:absolute;
 			right:0;
-			left:53.3%;
+			left:50%;
 			@media (max-width: 768px){
 				display:none;
 			}
+		}
+		.email_text, .num_text {
+		    margin-right: 5rem;
 		}
 	}
 

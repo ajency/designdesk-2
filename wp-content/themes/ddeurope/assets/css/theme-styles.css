@@ -7300,6 +7300,9 @@ a.text-cancel:hover, a.text-cancel:focus {
       @media (max-width: 768px) {
         .site-footer .action_block span {
           display: block; } }
+      @media (max-width: 475px) {
+        .site-footer .action_block span {
+          padding: 10px; } }
     .site-footer .action_block:before {
       content: '';
       background: #f39100;
@@ -7307,10 +7310,12 @@ a.text-cancel:hover, a.text-cancel:focus {
       height: 40px;
       position: absolute;
       right: 0;
-      left: 53.3%; }
+      left: 50%; }
       @media (max-width: 768px) {
         .site-footer .action_block:before {
           display: none; } }
+    .site-footer .action_block .email_text, .site-footer .action_block .num_text {
+      margin-right: 5rem; }
   .site-footer .address {
     background: url("../images/footer-image.jpg");
     position: relative; }
