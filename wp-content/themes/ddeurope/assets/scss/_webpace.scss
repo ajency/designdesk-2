@@ -3,7 +3,9 @@
 .w_gallery{
 	margin: 9rem 0 3rem;
 }
-#web_pace_portfolio_popup_list_5{
+.web_pace_portfolio_popup_list{
+	width: 60%;
+    left: 18%;
 	.popup-wrapper_5{
 		.right-block{
 			float: none !important;
@@ -17,14 +19,11 @@
 		}
 	}
 	li.pupup-element {
-		.popup-wrapper_5{
-			padding: 2% 2% 3% 8%;
-		}
 		&.active{
 			height: auto;
 		}
 	}
 }
-#web_pace_portfolio_pupup_element_21{
+.web_pace_portfolio_pupup_element{
 	height: auto !important;
-}
+}  
