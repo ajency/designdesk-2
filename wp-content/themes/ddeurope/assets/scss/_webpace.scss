@@ -4,7 +4,7 @@
 	margin: 9rem 0 3rem;
 }
 .web_pace_portfolio_popup_list{
-	width: 60%;
+	width: 60% !important;
     left: 18%;
 	.popup-wrapper_5{
 		.right-block{
@@ -18,12 +18,9 @@
 			width: 100vh !important;
 		}
 	}
-	li.pupup-element {
-		&.active{
-			height: auto;
+	li.pupup-element{
+		.active{
+			height: auto !important;
 		}
 	}
 }
-.web_pace_portfolio_pupup_element{
-	height: auto !important;
-}  

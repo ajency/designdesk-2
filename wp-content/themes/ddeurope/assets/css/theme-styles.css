@@ -8274,7 +8274,7 @@ p {
   margin: 9rem 0 3rem; }
 
 .web_pace_portfolio_popup_list {
-  width: 60%;
+  width: 60% !important;
   left: 18%; }
   .web_pace_portfolio_popup_list .popup-wrapper_5 .right-block {
     float: none !important; }
@@ -8283,11 +8283,8 @@ p {
       padding: 5px 0 !important; }
   .web_pace_portfolio_popup_list .popup-wrapper_5 .image-block_5 {
     width: 100vh !important; }
-  .web_pace_portfolio_popup_list li.pupup-element.active {
-    height: auto; }
-
-.web_pace_portfolio_pupup_element {
-  height: auto !important; }
+  .web_pace_portfolio_popup_list li.pupup-element .active {
+    height: auto !important; }
 
 .contact_us {
   margin: 9rem 0 3rem; }
