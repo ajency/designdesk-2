@@ -8267,6 +8267,12 @@ p {
     opacity: 1;
     text-align: center; }
 
+.p_gallery {
+  margin: 9rem 0 3rem; }
+
+.w_gallery {
+  margin: 9rem 0 3rem; }
+
 .contact_us {
   margin: 9rem 0 3rem; }
   .contact_us .header {
