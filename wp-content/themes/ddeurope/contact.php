@@ -53,7 +53,6 @@ if ( have_posts() ) {
 						<div class="icon_block">
 							<span><i class="fas fa-phone"></i> &nbsp Phone: <a href="tel:+49 123456789"> +49 123456789</a></span>
 						</div> 
-						
 					</div>
 					<div class="address_block">
 						<div class="row">

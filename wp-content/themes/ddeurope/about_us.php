@@ -23,7 +23,8 @@ if ( have_posts() ) {
 				<h2 class="title">About Us</h2>
 				<div class="breadcrumbs-wrapper">
       				<div class="breadcrumbs-inside">
-  						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>About Us</span>
+  						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> 
+  						<span>About Us</span>
   					</div>
   				</div>
 			</div>
@@ -61,7 +62,6 @@ if ( have_posts() ) {
 				<div class="right col-lg-6 col-md-12 col-sm-12">
 					<h4 class="heading">Our Logo is much more than a symbol!</h4>
 					<p>The 3 inward directing arrows represent the 3 departments at Design Desk – Design, Project Supervision & Client Servicing.</p>
-
 					<p>The outward arrows reflect their efforts towards outstanding designs & layouts, impeccable quality & on time delivery and personalized assistance & attention </p>
 				</div>
 			</div>

@@ -8,7 +8,7 @@
 	.action_block{
 		padding: 20px;
 		span{
-			color: #fff;
+			color: $white;
 			padding: 20px;
     		font-size: 22px;
     	    margin-top:10px;
@@ -54,7 +54,7 @@
 			}
 		}
 		.address_block2{
-			color: #fff;
+			color: $white;
 			padding: 16px 0;
 			.main-info{
 				text-transform: uppercase;
@@ -82,7 +82,7 @@
 			.contact_title{
 				margin-top:20px;
 				text-transform: uppercase;
-				color: #fff;
+				color: $white;
 			}
 			.contact_subtile{
 				color: #a1a1a1;
@@ -129,7 +129,18 @@
 			max-width: 75%;
 			margin: auto;
 		}
+	}
+}
 
+.frm-show-form{
+	margin: 0 10%;
+	.frm_required{
+		@media (max-width: 768px){
+			display: none;
+		}
+	}
+	@media (max-with: 768px){
+		margin: 0;
 	}
 }
 
@@ -142,16 +153,4 @@
 	padding: 1rem;
 }
 
-
-.frm-show-form{
-	margin: 0 10%;
-		@media (max-with: 768px){
-		margin: 0;
-	}
-	.frm_required{
-		@media (max-width: 768px){
-			display: none;
-		}
-	}
-}
 

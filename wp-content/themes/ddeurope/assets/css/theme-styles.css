@@ -7216,26 +7216,9 @@ a.text-cancel:hover, a.text-cancel:focus {
           font-size: 14px; }
         .fixed-top .main-navigation .navbar-nav .nav-item:hover {
           background-color: rgba(0, 0, 0, 0.33) !important; }
-        .fixed-top .main-navigation .navbar-nav .nav-item .dropdown-menu {
-          background: #333;
-          padding: 0;
-          margin: 0;
-          border-radius: 0; }
-          .fixed-top .main-navigation .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-            color: #aaa;
-            border-top: 1px solid #424242;
-            border-bottom: 0;
-            text-transform: uppercase;
-            font-size: 14px;
-            line-height: 32px; }
-            .fixed-top .main-navigation .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-              background-color: #252525; }
       @media (max-width: 991px) {
         .fixed-top .main-navigation .navbar-nav {
           display: none; } }
-
-.dropdown:hover > .dropdown-menu {
-  display: block; }
 
 .responsive-menu {
   width: 0px;
@@ -7267,21 +7250,6 @@ a.text-cancel:hover, a.text-cancel:focus {
         margin-left: 12px; }
         .responsive-menu .mobilemenu .navbar-nav .nav-item .nav-link:after {
           content: none; }
-      .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu {
-        background: #252525;
-        padding: 0;
-        margin: 0 -10px;
-        border-radius: 0;
-        display: block; }
-        .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-          color: #fff;
-          border-top: 1px solid #424242;
-          border-bottom: 0;
-          font-size: 14px;
-          padding: 0px 40px;
-          font-weight: 500; }
-          .responsive-menu .mobilemenu .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-            background-color: #333; }
 
 .site-footer {
   height: auto;
@@ -7387,19 +7355,19 @@ a.text-cancel:hover, a.text-cancel:focus {
     max-width: 75%;
     margin: auto; }
 
+.frm-show-form {
+  margin: 0 10%; }
+  @media (max-width: 768px) {
+    .frm-show-form .frm_required {
+      display: none; } }
+  @media (max-with: 768px) {
+    .frm-show-form {
+      margin: 0; } }
+
 .members-of {
   background: #efefef;
   margin-top: 2rem;
   padding: 1rem; }
-
-.frm-show-form {
-  margin: 0 10%; }
-  @media (max-with: 768px) {
-    .frm-show-form {
-      margin: 0; } }
-  @media (max-width: 768px) {
-    .frm-show-form .frm_required {
-      display: none; } }
 
 body {
   background: #f5f5f5;
@@ -7435,7 +7403,6 @@ p {
   .home-carousel .flickity-page-dots {
     bottom: 15px; }
 
-/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
 .carousel-cell {
   width: 100%; }
 
@@ -7443,7 +7410,6 @@ p {
   width: 100%;
   height: auto; }
 
-/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
 .carousel:after {
   content: 'flickity';
   display: none;

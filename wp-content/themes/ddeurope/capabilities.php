@@ -125,7 +125,7 @@ if ( have_posts() ) {
 			<hr>
 			<div class="hb-callout-box">
 				<h3 class="text">Innovative Designs, Immaculate Execution!</h3>
-				<a href="<?php echo get_site_url(); ?>/contact-us"> </i>Lets Work Together!</a>
+				<a href="<?php echo get_site_url(); ?>/contact-us"> Lets Work Together!</a>
 			</div>
 		</div>
 	</div>

@@ -12,8 +12,6 @@
 ?>
 
 
-
-
 <footer id="colophon" class="site-footer text-center">
   <div class="footer-widgets action_block">
     <a href="mailto:hello@dd-europe.com"><span class="email_text"><i class="far fa-envelope"></i>  &nbsp hello@dd-europe.com</span></a>

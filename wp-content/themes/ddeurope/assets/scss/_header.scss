@@ -3,16 +3,16 @@
     padding: 6px 0;
     font-size: 14px;
 	.top-left{
-		color: #fff;
+		color: $white;
 		letter-spacing: 0.7px;
     	font-weight: 900;
 	}
 	.top-right{
-		color: #fff;
+		color: $white;
 		float: right;
 		letter-spacing: 0.7px;
 		a{
-			color: #fff;
+			color: $white;
 			&:hover{
 				text-decoration: none;
 			}
@@ -50,7 +50,7 @@
 			}
 		}
 		a{
-	  		color: #fff;	
+	  		color: $white;	
 		}
 	}
 }
@@ -70,7 +70,6 @@
 				line-height: 40px;
 			}
 		}
-		
 	}
 
 	.main-navigation{
@@ -87,8 +86,8 @@
 		.toggler{
 			&:hover,
 			&:focus{
-			 cursor: pointer;
-		}
+				cursor: pointer;
+			}
 			.top-line,
 			.mid-line,
 			.bot-line{
@@ -109,31 +108,13 @@
 			.nav-item{
 				padding: 0 10px;
 				.nav-link{
-					color: #fff;
+					color: $white;
 					font-weight: bold;
 					text-transform: uppercase;
 					font-size: 14px;
 				}
 				&:hover{
 					background-color: rgba(0, 0, 0, 0.33) !important;
-				}
-				.dropdown-menu{
-					background: #333;
-					padding: 0;
-					margin:0;
-					border-radius:0;
-					.dropdown-item{
-						color:#aaa;
-						border-top: 1px solid #424242;
-						border-bottom: 0;
-						text-transform: uppercase;
-						font-size: 14px;
-						line-height: 32px;
-							&:hover{
-								background-color: #252525;
-						}
-					}
-
 				}
 			}
 			@media (max-width: 991px){
@@ -143,13 +124,6 @@
 	}
 }
 
-.dropdown {
-	&:hover {
-		& > .dropdown-menu {
-			display: block;
-		}
-	}
-}
 
 .responsive-menu{
 	width: 0px;
@@ -176,7 +150,7 @@
 				padding: 0px 10px;
 				border-bottom: 1px solid #424242;
 				.nav-link{
-					color: #fff;
+					color: $white;
 					font-weight: 500;
 					font-size: 14px;
 					padding: 0;
@@ -185,24 +159,6 @@
 					 	content: none;
 					}
 			    }
-				.dropdown-menu{
-					background: #252525;
-					padding: 0;
-					margin: 0 -10px;
-					border-radius:0;
-					display: block;		
-					.dropdown-item{
-						color:#fff;
-						border-top: 1px solid #424242;
-						border-bottom: 0;
-						font-size: 14px;
-						padding: 0px 40px;
-						font-weight: 500;
-						&:hover{
-							background-color: #333;
-						}
-					}
-				}
             }   
         }
     }

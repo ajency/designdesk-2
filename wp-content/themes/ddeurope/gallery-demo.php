@@ -22,10 +22,10 @@ if ( have_posts() ) {
 			<div class="container">
 				<h2 class="title">Gallery</h2>
 				<div class="breadcrumbs-wrapper">
-      				<div class="breadcrumbs-inside">
-  						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>Gallery</span>
-  					</div>
-  				</div>
+					<div class="breadcrumbs-inside">
+						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> <span>Gallery</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
