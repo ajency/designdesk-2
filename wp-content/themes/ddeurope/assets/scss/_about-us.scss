@@ -110,6 +110,12 @@
 			    display: inline-block;
 			    text-transform: uppercase;
 			    font-weight: 900;
+			    a{
+			    	color: #fff;
+			    	&:hover{
+			    		text-decoration: none;
+			    	}
+			    }
 			    &:hover{
 			    	background: #f39100;
 			    }

@@ -66,7 +66,7 @@ if ( have_posts() ) {
 				</div>
 			</div>
 			<div class="action_block">
-				<button class="talk_to_us">Talk to us</button>
+				<button class="talk_to_us"><a href="<?php echo get_site_url(); ?>/contact-exhibition-stall-designs" target="_blank">Talk to us</a></button>
 			</div>
 		</div>
 	</div>
