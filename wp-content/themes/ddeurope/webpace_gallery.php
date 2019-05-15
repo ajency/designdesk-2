@@ -3,7 +3,12 @@
  * Template Name: webpace
  */
 
-get_header(); ?>
+get_header();
+
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+ ?>
 
 <?php
 
@@ -11,9 +16,11 @@ get_header(); ?>
 ?>
 	<div class="w_gallery">
 		<div class="container">
-			<?php echo do_shortcode("[web_pace_portfolio id='2']"); ?>
+			<?php the_content(); ?>
 		</div>
     </div>
 
 <?php
+	}
+} 
 get_footer();

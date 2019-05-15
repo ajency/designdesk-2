@@ -3,7 +3,13 @@
  * Template Name: About us
  */
 
-get_header(); ?>
+get_header(); 
+
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+
+?>
 
 <?php
 
@@ -68,4 +74,6 @@ get_header(); ?>
 
 
 <?php
+	}
+} 
 get_footer();

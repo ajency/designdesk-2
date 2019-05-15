@@ -3,7 +3,12 @@
  * The main template file
  */
 
-get_header(); ?>
+get_header(); 
+
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+?>
 
 <?php
 	$default_sidebar_position = get_theme_mod( 'default_sidebar_position', 'right' );
@@ -348,4 +353,7 @@ get_header(); ?>
 <!-- end of FAQ -->
 
 <?php
+		} // end while
+} // end if
+
 get_footer();
