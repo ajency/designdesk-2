@@ -72,7 +72,7 @@ if ( have_posts() ) {
 	</div>
 </div>
 
-
+ 
 <?php
 	}
 } 
