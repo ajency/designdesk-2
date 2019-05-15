@@ -3,7 +3,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 .section_title{
-	margin-top: 3rem;
+	margin-top: 2rem;
     margin-bottom: 2rem;
 	font-size: 32px;
 	text-align: center;
@@ -279,6 +279,7 @@ p{
 }
 
 .map{
+	margin-bottom: 2rem;
 	a{
 		color: $black;
 	}
@@ -308,67 +309,72 @@ p{
 }
 
 // Clients Logo
-
-#scroller{
-	display: flex;
-	padding-left: 0;
-	li{
-		list-style-type: none;
-		background: #fff;
-    	margin-right: 3rem;
-    	img{
-		    height: 100%;
-		    margin: 0 1.5rem;
-    	}
-	}
-}
-.simply-scroll-container {
-	position: relative;
-}
-.simply-scroll-clip {
-	position: relative;
-	overflow: hidden;
-}
-.simply-scroll-list {
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	background: $white;
-	li {
-		padding: 0;
-		margin: 0;
-		list-style: none;
-		img {
-			border: none;
-			display: block;
+.clients-logo{
+	background: #fff;
+    padding: 0.4rem 0;
+	#scroller{
+		display: flex;
+		padding-left: 0;
+		margin-top: -1rem;
+		li{
+			list-style-type: none;
+			background: #fff;
+	    	margin-right: 3rem;
+	    	img{
+			    height: 100%;
+			    margin: 0 1.5rem;
+	    	}
 		}
 	}
-}
-.simply-scroll {
-	width: 100%;
-	height: 130px;
-	margin-bottom: 1em;
+	.simply-scroll-container {
+		position: relative;
+	}
 	.simply-scroll-clip {
-		width: auto;
-		height: 130px;
+		position: relative;
+		overflow: hidden;
 	}
 	.simply-scroll-list {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		background: $white;
 		li {
-			float: left;
-			width: 290px;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			img {
+				border: none;
+				display: block;
+			}
+		}
+	}
+	.simply-scroll {
+		width: 100%;
+		height: 120px;
+		.simply-scroll-clip {
+			width: auto;
 			height: 130px;
-			background: #fff;
-			filter: none;
-			opacity:1;
-			transition: 0.3s;
-			&:hover{
-				filter:none;
+		}
+		.simply-scroll-list {
+			li {
+				float: left;
+				width: 290px;
+				height: 130px;
+				background: #fff;
+				filter: none;
 				opacity:1;
+				transition: 0.3s;
+				&:hover{
+					filter:none;
+					opacity:1;
+				}
 			}
 		}
 	}
 }
+
+
 
 //CTA
 

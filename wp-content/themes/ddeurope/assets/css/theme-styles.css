@@ -7406,7 +7406,7 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .section_title {
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 32px;
   text-align: center;
@@ -7623,79 +7623,77 @@ p {
       letter-spacing: 1px;
       text-transform: uppercase; }
 
-.map a {
-  color: #000; }
-
-.map .map-heading {
-  font-size: 28px;
-  font-weight: 600;
-  text-align: center; }
-
-.map .map-sub-heading {
-  font-size: 24px;
-  margin-bottom: 3rem; }
-
-.map .legends {
-  text-align: center; }
-  .map .legends span {
+.map {
+  margin-bottom: 2rem; }
+  .map a {
+    color: #000; }
+  .map .map-heading {
+    font-size: 28px;
     font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase; }
-    .map .legends span #icon_1 {
-      color: #ff9900; }
-    .map .legends span #icon_2 {
-      color: #ffe121; }
+    text-align: center; }
+  .map .map-sub-heading {
+    font-size: 24px;
+    margin-bottom: 3rem; }
+  .map .legends {
+    text-align: center; }
+    .map .legends span {
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase; }
+      .map .legends span #icon_1 {
+        color: #ff9900; }
+      .map .legends span #icon_2 {
+        color: #ffe121; }
 
-#scroller {
-  display: flex;
-  padding-left: 0; }
-  #scroller li {
-    list-style-type: none;
-    background: #fff;
-    margin-right: 3rem; }
-    #scroller li img {
-      height: 100%;
-      margin: 0 1.5rem; }
-
-.simply-scroll-container {
-  position: relative; }
-
-.simply-scroll-clip {
-  position: relative;
-  overflow: hidden; }
-
-.simply-scroll-list {
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background: #fff; }
-  .simply-scroll-list li {
-    padding: 0;
+.clients-logo {
+  background: #fff;
+  padding: 0.4rem 0; }
+  .clients-logo #scroller {
+    display: flex;
+    padding-left: 0;
+    margin-top: -1rem; }
+    .clients-logo #scroller li {
+      list-style-type: none;
+      background: #fff;
+      margin-right: 3rem; }
+      .clients-logo #scroller li img {
+        height: 100%;
+        margin: 0 1.5rem; }
+  .clients-logo .simply-scroll-container {
+    position: relative; }
+  .clients-logo .simply-scroll-clip {
+    position: relative;
+    overflow: hidden; }
+  .clients-logo .simply-scroll-list {
+    overflow: hidden;
     margin: 0;
-    list-style: none; }
-    .simply-scroll-list li img {
-      border: none;
-      display: block; }
-
-.simply-scroll {
-  width: 100%;
-  height: 130px;
-  margin-bottom: 1em; }
-  .simply-scroll .simply-scroll-clip {
-    width: auto;
-    height: 130px; }
-  .simply-scroll .simply-scroll-list li {
-    float: left;
-    width: 290px;
-    height: 130px;
-    background: #fff;
-    filter: none;
-    opacity: 1;
-    transition: 0.3s; }
-    .simply-scroll .simply-scroll-list li:hover {
+    padding: 0;
+    list-style: none;
+    background: #fff; }
+    .clients-logo .simply-scroll-list li {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      .clients-logo .simply-scroll-list li img {
+        border: none;
+        display: block; }
+  .clients-logo .simply-scroll {
+    width: 100%;
+    height: 120px; }
+    .clients-logo .simply-scroll .simply-scroll-clip {
+      width: auto;
+      height: 130px; }
+    .clients-logo .simply-scroll .simply-scroll-list li {
+      float: left;
+      width: 290px;
+      height: 130px;
+      background: #fff;
       filter: none;
-      opacity: 1; }
+      opacity: 1;
+      transition: 0.3s; }
+      .clients-logo .simply-scroll .simply-scroll-list li:hover {
+        filter: none;
+        opacity: 1; }
 
 #call-to-action {
   background: #212529;
