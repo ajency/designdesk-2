@@ -1,11 +1,11 @@
 .top-bar{
 	background: #383838;
-    padding: 6px 0;
-    font-size: 14px;
+	padding: 6px 0;
+	font-size: 14px;
 	.top-left{
 		color: $white;
 		letter-spacing: 0.7px;
-    	font-weight: 900;
+		font-weight: 900;
 	}
 	.top-right{
 		color: $white;
@@ -50,7 +50,7 @@
 			}
 		}
 		a{
-	  		color: $white;	
+			color: $white;	
 		}
 	}
 }
@@ -134,14 +134,14 @@
 	background: #252525;
 	transition: 0.4s ease-in;
 	z-index: 1;
-    visibility: visible;
-    input[type="text"]{
-    	background: #333;
+	visibility: visible;
+	input[type="text"]{
+		background: #333;
 		border-radius: 0;
 		border: none;
 		width: 100%;
 		padding: 8px 20px;
-    }
+	}
 	.mobilemenu{
 		.navbar-nav{
 			line-height: 40px;
@@ -156,11 +156,11 @@
 					padding: 0;
 					margin-left: 12px;
 					&:after{
-					 	content: none;
+						content: none;
 					}
-			    }
-            }   
-        }
-    }
+				}
+			}   
+		}
+	}
 }
 				

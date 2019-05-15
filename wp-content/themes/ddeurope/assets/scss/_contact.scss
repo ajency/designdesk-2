@@ -19,17 +19,17 @@
 		}
 		.breadcrumbs-inside{
 			float: right;
-		    margin-top: -5%;
-		    font-size: 13px;
-		    a{
-		    	color: $white;
-		    }
-		    &:not(.sep-icon){
-		    	opacity: 0.7;
-		    }
-		    @media (max-width: 768px){
-		    	display: none;
-		    }
+			margin-top: -5%;
+			font-size: 13px;
+			a{
+				color: $white;
+			}
+			&:not(.sep-icon){
+				opacity: 0.7;
+			}
+			@media (max-width: 768px){
+				display: none;
+			}
 		}
 		@media (max-width: 991px) and (min-width: 576px){
 			margin-top: -1.3rem;
@@ -47,19 +47,19 @@
 			border-bottom: 3px double #ddd;
 			.form_title{
 				font-size: 20px;
-	    		text-transform: uppercase;
-	    		color: #323436;
-	    		line-height: 26px;
+				text-transform: uppercase;
+				color: #323436;
+				line-height: 26px;
 			}
 			.form_subtitle{
 				font-size: 14px;
-	    		color: gray;
+				color: gray;
 			}
 		}
 		.frm-show-form{
 			max-width: 100%;
-    		direction: ltr;
-    		margin-left: auto;
+			direction: ltr;
+			margin-left: auto;
 			input[type=text], input[type=email], input[type=tel]{
 				height: 50px;
 				border: 1px solid #abababab;
@@ -71,22 +71,22 @@
 			}
 			.frm_button_submit{
 				background: #00aeef;
-    			border: 0;
-    			border-radius: 0;
-    			padding: 0.7rem 2rem;
-    			text-transform: uppercase;
-    			font-weight: 600;
-    			color: #fff;
-    			position: relative;
-			    float: left;
-    			&:hover{
-    				background: #00aeef;
-    				color: #fff;
-    			}
-    			@media (max-width: 991px){
-    				bottom: 0;
-    				float: inherit;
-    			}
+				border: 0;
+				border-radius: 0;
+				padding: 0.7rem 2rem;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: #fff;
+				position: relative;
+				float: left;
+				&:hover{
+					background: #00aeef;
+					color: #fff;
+				}
+				@media (max-width: 991px){
+					bottom: 0;
+					float: inherit;
+				}
 			}
 			.frm-g-recaptcha{
 				@media (max-width: 475px) { 
@@ -102,7 +102,7 @@
 		.seperator{
 			display: none;
 			@media (max-width: 768px){
-			    display: block;
+				display: block;
 				width: 40%;
 				margin-left: auto;
 				margin-right: auto;
@@ -113,13 +113,13 @@
 			border-bottom: 3px double #ddd;
 			.aside_title{
 				font-size: 20px;
-	    		text-transform: uppercase;
-	    		color: #323436;
-	    		line-height: 26px;
+				text-transform: uppercase;
+				color: #323436;
+				line-height: 26px;
 			}
 			.aside_subtitle{
 				font-size: 14px;
-	    		color: gray;
+				color: gray;
 			}
 			@media (max-width: 991px) and (min-width: 768px){
 				padding-bottom: 21px;
@@ -131,9 +131,9 @@
 		.icon_block{
 			margin-bottom: 10px;
 			@media(max-width: 768px){
-			    width: 100%;
-	    		text-align: center;
-	    	}
+				width: 100%;
+				text-align: center;
+			}
 		}
 		.address_block{
 			.address_1{
@@ -144,7 +144,7 @@
 					margin: auto;
 					@media (max-width: 475px){
 						margin-left: 15px;
-    					margin-right: 15px;
+						margin-right: 15px;
 					}			
 				}
 				.addr_text1{
@@ -165,7 +165,7 @@
 						top: 45px;
 					}
 					@media (max-width: 475px){
-    					margin-left: 25px;
+						margin-left: 25px;
 					}	
 				}
 				&:before{
@@ -179,7 +179,7 @@
 					z-index: 0;
 					@media (max-width: 475px){
 						margin-left: 15px;
-    					margin-right: 15px;
+						margin-right: 15px;
 					}	
 				}
 				@media (max-width: 768px) and (min-width: 475px){
@@ -195,7 +195,7 @@
 					margin: auto;
 					@media (max-width: 475px){
 						margin-left: 15px;
-    					margin-right: 15px;
+						margin-right: 15px;
 					}	
 				}
 				.addr_text2{
@@ -216,7 +216,7 @@
 						top: 45px;
 					}
 					@media (max-width: 475px){
-    					margin-left: 25px;
+						margin-left: 25px;
 					}	
 				}
 				&:before{
@@ -230,7 +230,7 @@
 					z-index: 0;
 					@media (max-width: 475px){
 						margin-left: 15px;
-    					margin-right: 15px;
+						margin-right: 15px;
 					}	
 				}
 				@media (max-width: 768px) and (min-width: 475px){
