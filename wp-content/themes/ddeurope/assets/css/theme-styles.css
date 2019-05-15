@@ -8267,31 +8267,8 @@ p {
     opacity: 1;
     text-align: center; }
 
-.p_gallery {
-  margin: 9rem 0 3rem; }
-
 .w_gallery {
   margin: 9rem 0 3rem; }
-
-.web_pace_portfolio_popup_list {
-  width: 60% !important;
-  left: 18%; }
-  .web_pace_portfolio_popup_list .popup-wrapper_5 {
-    padding: 2% 2% 0% 8%; }
-    .web_pace_portfolio_popup_list .popup-wrapper_5 .right-block {
-      float: none !important; }
-      .web_pace_portfolio_popup_list .popup-wrapper_5 .right-block .title {
-        font-size: 14px;
-        padding: 5px 0 !important; }
-    .web_pace_portfolio_popup_list .popup-wrapper_5 .image-block_5 {
-      width: 100vh !important; }
-      .web_pace_portfolio_popup_list .popup-wrapper_5 .image-block_5 img {
-        width: 98% !important; }
-    @media (max-width: 768px) {
-      .web_pace_portfolio_popup_list .popup-wrapper_5 {
-        padding: 2% 2% 0% 4%; } }
-  .web_pace_portfolio_popup_list li.pupup-element {
-    height: auto !important; }
 
 .contact_us {
   margin: 9rem 0 3rem; }
