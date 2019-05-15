@@ -18,7 +18,7 @@
 		<div class="top-bar">
 			<div class="container">
 				<span class="top-left"> EXHIBITION STAND DESIGN & BUILD</span>
-				<span class="top-right"><a href="mailto:hello@dd-europe.com"><i class="fas fa-envelope-square"></i>&nbsp <span>hello@dd-europe.com</span> </a> &nbsp <i class="fas fa-phone-square"></i>&nbsp <span> +49 123456789 </span>  
+				<span class="top-right"><a href="mailto:hello@dd-europe.com"><i class="fas fa-envelope-square"></i>&nbsp <span>hello@dd-europe.com</span> </a> &nbsp <a href="tel:+49 123456789"><i class="fas fa-phone-square"></i>&nbsp <span> +49 123456789 </a></span>  
 				</span>
 			</div>
 		</div>

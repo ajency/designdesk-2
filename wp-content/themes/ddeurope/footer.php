@@ -17,7 +17,7 @@
 <footer id="colophon" class="site-footer text-center">
   <div class="footer-widgets action_block">
     <a href="mailto:hello@dd-europe.com"><span class="email_text"><i class="far fa-envelope"></i>  &nbsp hello@dd-europe.com</span></a>
-    <span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 123456789 </span>
+    <a href="tel:+49 123456789"><span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 123456789 </span></a>
   </div>
 
   <div class="footer-widgets address">
