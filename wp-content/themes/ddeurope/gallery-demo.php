@@ -29,9 +29,42 @@ if ( have_posts() ) {
 			</div>
 		</div>
 	</div>
+
 	<div class="gallery_content">
 		<div class="container">
 			<?php echo do_shortcode('[easy-media med="307,308"]'); ?>
+		</div>
+	</div>
+	<div class="gallery_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

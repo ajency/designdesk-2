@@ -89,6 +89,45 @@ p{
 
 
 // Gallery
+.img-block{
+	padding: 4px;
+	position: relative;
+	.img-fluid{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.overlay{
+		position: absolute;
+		bottom: 4px;
+		left: 2px;
+		right: 0;
+		background: rgba(0,0,0,0.80);
+		overflow: hidden;
+		width: 98%;
+		height: 0;
+		transition: .5s ease;
+		.grid-title{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			display: none;
+			text-align: center;
+			color: $white;
+			text-transform: uppercase;
+		}
+	}
+	&:hover{
+		.overlay{
+			height: 20%;
+			overflow: hidden;
+			.grid-title{
+				display: block;
+			}
+		}
+	}
+}
 
 .view_gallery{
 	padding: 1.5rem;
