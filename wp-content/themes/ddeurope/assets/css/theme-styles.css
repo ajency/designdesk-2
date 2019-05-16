@@ -8155,8 +8155,14 @@ p {
       color: #f39100; }
     .about_us .about_us_content .company_facts .left-content .links {
       font-size: 14px; }
+      @media (min-width: 1060px) {
+        .about_us .about_us_content .company_facts .left-content .links {
+          line-height: 2; } }
     .about_us .about_us_content .company_facts .right-content img {
       max-width: 100%; }
+    @media (max-width: 991px) {
+      .about_us .about_us_content .company_facts .right-content {
+        text-align: center; } }
   .about_us .about_us_content .logo_significance {
     margin-bottom: 3rem; }
     .about_us .about_us_content .logo_significance .left img {

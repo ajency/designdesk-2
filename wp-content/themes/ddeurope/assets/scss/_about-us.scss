@@ -66,11 +66,17 @@
 				}
 				.links{
 					font-size: 14px;
+					@media(min-width:1060px){
+						line-height: 2;
+					}
 				}
 			}
 			.right-content{
 				img{
 					max-width: 100%;
+				}
+				@media (max-width: 991px){
+					text-align:center;
 				}
 			}
 		}

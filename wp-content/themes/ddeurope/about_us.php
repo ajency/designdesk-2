@@ -50,7 +50,7 @@ if ( have_posts() ) {
 							</ul>
 						</p>
 				</div>
-				<div class="right-content col-lg-6 col-md-12 col-sm-12 right-side text-center">
+				<div class="right-content col-lg-6 col-md-12 col-sm-12 right-side">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/architecture-attraction-buildings-1174136.jpg">
 					<p class="text-center mt-2">With experience in over 26 countries, we are your trusted stand design & build partner</p>
 				</div>
