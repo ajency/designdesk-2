@@ -7439,36 +7439,46 @@ p {
         font-size: 12px; } }
 
 .img-block {
-  padding: 4px;
-  position: relative; }
+  position: relative;
+  padding: 0;
+  margin: 2px;
+  width: 24%; }
   .img-block .img-fluid {
     display: block;
     width: 100%;
     height: auto; }
   .img-block .overlay {
     position: absolute;
-    bottom: 4px;
-    left: 2px;
+    bottom: 0;
+    left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.55);
     overflow: hidden;
-    width: 98%;
+    width: 100%;
     height: 0;
-    transition: .5s ease; }
+    transition: .6s ease; }
     .img-block .overlay .grid-title {
       position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
+      top: 50%;
+      left: 50%;
       display: none;
       text-align: center;
       color: #fff;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
   .img-block:hover .overlay {
-    height: 20%;
+    height: 100%;
     overflow: hidden; }
     .img-block:hover .overlay .grid-title {
       display: block; }
+  @media (max-width: 991px) {
+    .img-block {
+      width: 49%; } }
+  @media (max-width: 475px) {
+    .img-block {
+      width: 98%; } }
 
 .view_gallery {
   padding: 1.5rem;
@@ -7489,13 +7499,6 @@ p {
     @media (max-width: 768px) {
       .view_gallery a {
         display: inline-block; } }
-
-.home .gmedia_AlbumsListMasonry_Cover {
-  pointer-events: none;
-  cursor: default; }
-  .home .gmedia_AlbumsListMasonry_Cover .gmedia_AlbumsListMasonry_CoverTitleHolder {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5); }
 
 .why_choose_us {
   margin: 1.5rem 0 0 0;

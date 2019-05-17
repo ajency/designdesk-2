@@ -59,52 +59,52 @@ if ( have_posts() ) {
 <div class="gallery_block">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_ACHEMA_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_ACHEMA</h6>
+                    <h6 class="grid-title">ACG ACHEMA</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_CPHI_2017_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_CPHI</h6>
+                    <h6 class="grid-title">ACG CPHI</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_CPHI_2018_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_CPHI</h6>
+                    <h6 class="grid-title">ACG CPHI</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_INTERPACK_2017_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_INTERPACK</h6>
+                    <h6 class="grid-title">ACG INTERPACK</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PHARM-TECH_2014_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_PHARM-TECH</h6>
+                    <h6 class="grid-title">ACG PHARM-TECH</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PHARM-TECH_2016_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_PHARM-TECH</h6>
+                    <h6 class="grid-title">ACG PHARM-TECH</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PROPAK_2014_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_PROPAK</h6>
+                    <h6 class="grid-title">ACG PROPAK</h6>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 img-block">
+            <div class="img-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PROPAK_2015_1.jpg" class="img-fluid">
                 <div class="overlay">
-                    <h6 class="grid-title">ACG_PROPAK</h6>
+                    <h6 class="grid-title">ACG PROPAK</h6>
                 </div>
             </div>
         </div>
