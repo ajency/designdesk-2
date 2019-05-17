@@ -91,14 +91,13 @@ p{
 // Gallery
 .img-block{
 	position: relative;
-	padding: 0;
-    margin: 0.4%;
-    width: 24.2%;
-	.img-fluid{
-		display: block;
-		width: 100%;
-		height: auto;
-	}
+	padding: 0.5%;
+    margin: 0;
+    width: 25%;
+    a{
+    	display: block;
+    	position: relative;
+    }
 	.overlay{
 		position: absolute;
 		bottom: 0;
@@ -132,7 +131,7 @@ p{
 		}
 	}
 	@media (max-width: 991px){
-		width: 49.2%;
+		width: 50%;
 	}
 	@media (max-width: 475px){
 		width: 100%;
