@@ -92,8 +92,8 @@ p{
 .img-block{
 	position: relative;
 	padding: 0;
-	margin: 2px;
-	width: 24%;
+    margin: 0.4%;
+    width: 24.2%;
 	.img-fluid{
 		display: block;
 		width: 100%;
@@ -132,10 +132,10 @@ p{
 		}
 	}
 	@media (max-width: 991px){
-		width: 49%;
+		width: 49.2%;
 	}
 	@media (max-width: 475px){
-		width: 98%;
+		width: 100%;
 	}
 }
 

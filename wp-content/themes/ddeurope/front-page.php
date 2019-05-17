@@ -69,57 +69,57 @@ if ( have_posts() ) {
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_CPHI_2017_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ATEF_SIFER_2019_1.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG CPHI</h6>
+                        <h6 class="grid-title">ATEF SIFER</h6>
                     </div>
                 </a>
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_CPHI_2018_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/BIRLA-CELLULOSE_IDEA_2019_1.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG CPHI</h6>
+                        <h6 class="grid-title">BIRLA CELLULOSE IDEA</h6>
                     </div>
                 </a>
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_INTERPACK_2017_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/DYNEMIC_FI-ASIA_2014_1.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG INTERPACK</h6>
+                        <h6 class="grid-title">DYNEMIC FI ASIA</h6>
                     </div>
                 </a>
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PHARM-TECH_2014_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/RELIANCE_RUBBER-&-TYRE_2017.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG PHARM-TECH</h6>
+                        <h6 class="grid-title">RELIANCE RUBBER-&-TYRE</h6>
                     </div>
                 </a>
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PHARM-TECH_2016_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/SHALCO_STAINLESS_2015_2.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG PHARM-TECH</h6>
+                        <h6 class="grid-title">SHALCO STAINLESS</h6>
                     </div>
                 </a>
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PROPAK_2014_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/EASTMAN_EIMA_2018_2.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG PROPAK</h6>
+                        <h6 class="grid-title">EASTMAN EIMA</h6>
                     </div>
                 </a>
             </div>
             <div class="img-block">
                 <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_PROPAK_2015_1.jpg" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/TH_BOROSIL_ACHEMA_2018_1.jpg" class="img-fluid">
                     <div class="overlay">
-                        <h6 class="grid-title">ACG PROPAK</h6>
+                        <h6 class="grid-title">TH BOROSIL ACHEMA</h6>
                     </div>
                 </a>
             </div>
