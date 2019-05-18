@@ -1,0 +1,21 @@
+.pg {
+  &-wrapper {
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  &-thumbnail {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &-title {
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    
+    label {
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+}
