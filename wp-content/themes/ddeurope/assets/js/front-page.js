@@ -145,3 +145,21 @@ function closeNav() {
   document.getElementById("page").style.opacity = "1";
 }
 
+// $(document).ready(function() {
+// 	$('#lightgallery').lightGallery({
+// 		pager: false,
+// 		zoom: false,
+// 		hash: false,
+// 		share: false,
+// 		download: false,
+// 	});
+// });
+
+(function($){
+	$(window).load(function(){$(".lightGallery").lightGallery(
+	{
+		share:false,
+		zoom:false,
+		download:false
+	}
+);})})(jQuery);	

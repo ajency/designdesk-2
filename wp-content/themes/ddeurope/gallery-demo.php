@@ -32,38 +32,59 @@ if ( have_posts() ) {
 
 	<div class="gallery_content">
 		<div class="container">
-			<?php echo do_shortcode('[easy-media med="307,308"]'); ?>
-		</div>
-	</div>
-	<div class="gallery_content">
-		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+				<div class="demo-gallery">
+            		<div class="lightGallery grid-layout">
+						<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_ACHEMA_1.jpg" data-sub-html="<h4>ACG_ACHEMA</h4><p>Location: , Area: .</p>" rel="lightgallery[work]"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_ACHEMA_1.jpg" alt="" /></a>
 
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
+						<a class="item hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_ACHEMA_2.jpg" data-sub-html="<h4>ACG_ACHEMA</h4><p>Location: , Area: .</p>" rel="lightgallery[work]"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_ACHEMA_2.jpg" alt=""/></a>
 
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ACG_ACHEMA_1.jpg">
-				</div>
+						<a class="item hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_ACHEMA_3.jpg" data-sub-html="<h4>ACG_ACHEMA</h4><p>Location: , Area: .</p>" rel="lightgallery[work]"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_ACHEMA_3.jpg" alt=""/></a>
+					</div>
+					<div class="lightGallery grid-layout">
+						<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ATEF_SIFER_2019_1.jpg" data-sub-html="<h4>ATEF_SIFER_2019</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ATEF_SIFER_2019_1.jpg" alt="" /></a>
+
+						<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ATEF_SIFER_2019_2.jpg" data-sub-html="<h4>ATEF_SIFER_2019</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ATEF_SIFER_2019_2.jpg" alt=""/></a>
+
+						<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ATEF_SIFER_2019_3.jpg" data-sub-html="<h4>ATEF_SIFER_2019</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ATEF_SIFER_2019_3.jpg" alt=""/></a>
+					</div>
+					<div class="lightGallery grid-layout">
+						<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/AYM_DOMOTEX_2017_1.jpg" data-sub-html="<h4>AAYM_DOMOTEX_2017</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/AYM_DOMOTEX_2017_1.jpg" alt="" /></a>
+
+						<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/AYM_DOMOTEX_2018_2.jpg" data-sub-html="<h4>AYM_DOMOTEX_2018</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/AYM_DOMOTEX_2018_2.jpg" alt=""/></a>
+					</div>
+					<div class="lightGallery grid-layout">
+		                <a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/BIRLA-CELLULOSE_ANEX_2018_1.jpg" data-sub-html="<h4>BIRLA-CELLULOSE_ANEX</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/BIRLA-CELLULOSE_ANEX_2018_1.jpg" alt="" /></a>
+
+	                  	<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/BIRLA-CELLULOSE_ANEX_2018_2.jpg" data-sub-html="<h4>BIRLA-CELLULOSE_ANEX</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/BIRLA-CELLULOSE_ANEX_2018_2.jpg" alt=""/></a>
+	                </div>
+	                <div class="lightGallery grid-layout">
+             			<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/GUJ_HT_1.jpg" data-sub-html="<h4>GUJ_HT</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/GUJ_HT_1.jpg" alt="" /></a>
+
+	                  	<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/GUJ_HT_2.jpg" data-sub-html="<h4>GUJ_HT</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/GUJ_HT_2.jpg" alt=""/></a>
+
+	                  	<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/GUJ_HT_3.jpg" data-sub-html="<h4>GUJ_HT</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/GUJ_HT_3.jpg" alt=""/></a>
+	                </div>
+					<div class="lightGallery grid-layout">
+	                  	<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/RELIANCE_HEIMTEXTILE_2019_1.jpg" data-sub-html="<h4>ROTEX_IAA</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/RELIANCE_HEIMTEXTILE_2019_1.jpg" alt="" /></a>
+
+	                  	<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/RELIANCE_HEIMTEXTILE_2019_2.jpg" data-sub-html="<h4>RELIANCE_HEIMTEXTILE</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/RELIANCE_HEIMTEXTILE_2019_2.jpg" alt=""/></a>
+	                </div>
+	                <div class="lightGallery grid-layout">
+	                  	<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/SL_SOEX_INTERTABAC_2018_2.jpg" data-sub-html="<h4>SOEX_INTERTABAC</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/SL_SOEX_INTERTABAC_2018_2.jpg" alt="" /></a>
+
+	              		<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/SOEX_INTERTABAC_2018_1.jpg" data-sub-html="<h4>SOEX_INTERTABAC</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/SOEX_INTERTABAC_2018_1.jpg" alt="" /></a>
+	              	</div>
+		            <div class="lightGallery grid-layout"> 
+	                  	<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_CPHI_2017_1.jpg" data-sub-html="<h4>ACG_CPHI</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_CPHI_2017_1.jpg" alt="" /></a>
+
+	              		<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_CPHI_2017_2.jpg" data-sub-html="<h4>ACG_CPHI</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/ACG_CPHI_2017_2.jpg" alt="" /></a>
+	              	</div>
+	              	<div class="lightGallery grid-layout">
+	              		<a href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/BIRLA-CELLULOSEINDEX_2017_2.jpg" data-sub-html="<h4>BIRLA-CELLULOSE_INDEX</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/BIRLA-CELLULOSEINDEX_2017_2.jpg" alt="" /></a>
+
+	              		<a class="hidden" href="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/BIRLA-CELLULOSE_INDEX2017_1.jpg" data-sub-html="<h4>BIRLA-CELLULOSE_INDEX</h4><p>Location: , Area: .</p>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1920X1080/BIRLA-CELLULOSE_INDEX2017_1.jpg" alt="" /></a>
+        			</div>	
 			</div>
 		</div>
 	</div>
