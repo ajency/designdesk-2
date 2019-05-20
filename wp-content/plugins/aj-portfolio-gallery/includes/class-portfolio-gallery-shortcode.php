@@ -53,6 +53,13 @@ function aj_portfolio_gallery($atts) {
   
   $html = ob_get_clean(); 
   
+  if ( ! wp_style_is( 'prettyphoto-css', 'enqueued' )) {
+      wp_enqueue_style('prettyphoto-css');
+  }
+  if ( ! wp_script_is( 'prettyphoto-js', 'enqueued' )) {
+      wp_enqueue_script('prettyphoto-js');
+  }
+  
 	return $html;
 
 }
@@ -109,3 +116,34 @@ function aj_load_more(){
 }
 
 // End of Load More
+
+
+// get post album
+add_action('wp_ajax_get_gallery_album', 'get_gallery_album');
+add_action('wp_ajax_nopriv_get_gallery_album', 'get_gallery_album');
+
+function get_gallery_album(){
+  $postID = $_POST['pid'];
+  $album = array();
+    
+  $album['title'] = get_the_title($postID);
+  $album['shortdesc'] = has_excerpt($postID) ? get_the_excerpt($postID) : '';
+  $album['content'] = get_the_content($postID);
+  $album['location'] = get_post_meta($postID, 'aj_location', true);
+  $album['area'] = get_post_meta($postID, 'aj_area', true);
+  
+  $album['images'][] = get_the_post_thumbnail_url($postID);
+  
+  $aj_albums_ids = get_post_meta( $postID, 'aj_albums_ids', true );  
+
+  if($aj_albums_ids){
+    $thumb_ids = explode(',', $aj_albums_ids);
+    foreach ($thumb_ids as $ids){
+      $album['images'][] = wp_get_attachment_url($ids);
+    }
+  } 
+  
+  echo json_encode($album);
+          
+  wp_die();
+}
