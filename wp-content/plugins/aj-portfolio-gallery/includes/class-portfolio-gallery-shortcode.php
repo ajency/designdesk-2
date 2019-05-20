@@ -115,6 +115,7 @@ function aj_load_more(){
   wp_die();
 }
 
+<<<<<<< HEAD
 // End of Load More
 
 
@@ -147,3 +148,6 @@ function get_gallery_album(){
           
   wp_die();
 }
+=======
+// End of Load More
+>>>>>>> master
