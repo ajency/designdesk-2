@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: GridKit
+ * Template Name: Portfolio
  */
 
 get_header(); 
@@ -31,7 +31,7 @@ if ( have_posts() ) {
 	</div>
 	<div class="gallery_content">
 		<div class="container">
-			<?php echo do_shortcode('[gkit id=1]'); ?>
+			<?php echo do_shortcode('[portfolio_gallery]'); ?>
 		</div>
 	</div>
 </div>

@@ -60,7 +60,7 @@ if ( have_posts() ) {
     <div class="container">
         <div class="row">
             <div class="img-block">
-                <a href="#" target="_blank">
+                <a href="" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_ACHEMA_1.jpg" class="img-fluid">
                     <div class="overlay">
                         <h6 class="grid-title">ACG ACHEMA</h6>
