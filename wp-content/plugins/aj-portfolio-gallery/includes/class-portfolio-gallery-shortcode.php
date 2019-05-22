@@ -15,9 +15,11 @@ function aj_portfolio_gallery($atts) {
 		$post__in = explode(',', $atts['post']);
     $pids = $atts['post'];
   }
-
+  
   if(!isset($atts['lightbox']) ){
     $lightbox = false;
+  } else {
+    $lightbox = true;
   }
 
   $paged = get_query_var('paged') ? : 1;

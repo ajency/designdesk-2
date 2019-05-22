@@ -55,8 +55,11 @@ if ( have_posts() ) {
 
 <div class="gallery_block">
     <div class="container">
-                        <?php echo do_shortcode('[portfolio_gallery]'); ?>
         <div class="row">
+            <?php echo do_shortcode('[portfolio_gallery]'); ?>
+            <div class="view_gallery m-auto">
+            <a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View Gallery</a>
+        </div>
         </div>
     </div>
 </div>

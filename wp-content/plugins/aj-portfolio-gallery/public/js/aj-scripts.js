@@ -121,28 +121,51 @@ jQuery( document ).ready( function( $ ){
 	// 			social_tools: '<div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href={location_href}&layout=button_count&show_faces=true&width=500&action=like&font&colorscheme=light&height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div>'
 	// });
 	
-	var url_string = window.location.href; //window.location.href
-	var url = new URL(url_string);
-	var c = url.searchParams.get("album");
+	// var url_string = window.location.href; //window.location.href
+	// var url = new URL(url_string) + gal_id;
+	// var c = url.searchParams.get("album");
 
-		var gal_id = c;
+	// 	var gal_id = c;
 		
-		if(gal_id){
-				jQuery.ajax({
-						url: ajAjax.ajaxurl,
-						type: 'POST',
-						data: 'action=get_gallery_album&pid=' + gal_id,      
-						dataType: 'json',
-						success: function (data) {
-							console.log(data);
-							if(data){
-								$.prettyPhoto.open(data.images,data.title,data.shortdesc);
-							}
-						}
-				});
-		}   
-	});
-  
+	// 	if(gal_id){
+	// 			jQuery.ajax({
+	// 					url: ajAjax.ajaxurl,
+	// 					type: 'POST',
+	// 					data: 'action=get_gallery_album&pid=' + gal_id,      
+	// 					dataType: 'json',
+	// 					success: function (data) {
+	// 						console.log(data);
+	// 						if(data){
+	// 							$.prettyPhoto.open(data.images,data.title,data.shortdesc);
+	// 						}
+	// 					}
+	// 			});
+	// 	}   
+
+
+	// $(document).on('click', '.prettyphoto-btn', function(e){
+	// 	e.preventDefault();
+	// 	var url_string = window.location.href;  //window.location.href
+	// 	var url = new URL(url_string) + data;
+	// 	url_string = ( url_string.indexOf('?') !== -1 ) ? url_string+'&album='+value : url_string+'?album='+value;
+	// 	var gal_id = c;
+		
+	// 	if(gal_id){
+	// 			jQuery.ajax({
+	// 					url: ajAjax.ajaxurl,
+	// 					type: 'POST',
+	// 					data: 'action=get_gallery_album&pid=' + gal_id,      
+	// 					dataType: 'json',
+	// 					success: function (data) {
+	// 						console.log(data);
+	// 						if(data){
+	// 							$.prettyPhoto.open(data.images,data.title,data.shortdesc);
+	// 						}
+	// 					}
+	// 			});
+	// 	}   
+	// });
+
   $(document).on('click', '.prettyphoto-btn', function(e){
 		e.preventDefault();
     var gal_id = $(this).data('galid');
@@ -191,3 +214,23 @@ function aj_loadmore(pageNumber){
   });
   
 }
+
+// $slug='/'; // EDIT post/page slug that contains the gallery shortcode 
+// $type='page'; // EDIT post type (post,page,...) 
+// $size='thumb'; // EDIT image size (thumb,large,full,...)
+// $n=8; // EDIT number of random images to show
+
+// // fetch all ids from the gallery shortcode:
+// $ids=get_gallery_ids_wpse_87978($slug,$type);
+
+// // get n random keys from the $ids array:
+// $random_ids=array_rand($ids,$n);
+
+// // display a list of n random images:
+// echo '<ul>';
+// foreach($random_ids as $random_id){
+//       echo '<li>';
+//       echo wp_get_attachment_image( $ids[$random_id], $size );
+//       echo '</li>';
+//  }
+// echo '</ul>';
