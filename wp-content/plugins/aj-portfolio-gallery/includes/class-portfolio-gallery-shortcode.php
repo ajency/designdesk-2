@@ -15,7 +15,7 @@ function aj_portfolio_gallery($atts) {
 		$post__in = explode(',', $atts['post']);
     $pids = $atts['post'];
   }
-  
+
   if(!isset($atts['lightbox']) ){
     $lightbox = false;
   } else {
@@ -27,7 +27,7 @@ function aj_portfolio_gallery($atts) {
   $args = array(
     'post_type' => 'portfolio_gallery',
     'post_status' => 'publish',
-    'posts_per_page' => 12,
+    'posts_per_page' => 8,
     'paged' => $paged
   );
   
@@ -133,20 +133,28 @@ function get_gallery_album(){
   $postID = $_POST['pid'];
   $album = array();
     
-  $album['title'] = get_the_title($postID);
-  $album['shortdesc'] = has_excerpt($postID) ? get_the_excerpt($postID) : '';
-  $album['content'] = get_the_content($postID);
+  $title = get_the_title($postID);
+  $shortdesc = has_excerpt($postID) ? get_the_excerpt($postID) : '';
+  $content = get_the_content($postID);
   $album['location'] = get_post_meta($postID, 'aj_location', true);
   $album['area'] = get_post_meta($postID, 'aj_area', true);
   
-  $album['images'][] = get_the_post_thumbnail_url($postID);
+  $album['images'][] = array(
+    'src' => get_the_post_thumbnail_url($postID),
+    'thumb' => get_the_post_thumbnail_url($postID, 'thumbnail'),
+    'subHtml' => "<h4>".$title."</h4>".$shortdesc,
+  );
   
   $aj_albums_ids = get_post_meta( $postID, 'aj_albums_ids', true );  
 
   if($aj_albums_ids){
     $thumb_ids = explode(',', $aj_albums_ids);
     foreach ($thumb_ids as $ids){
-      $album['images'][] = wp_get_attachment_url($ids);
+        $album['images'][] = array(
+          'src' => wp_get_attachment_url($ids),
+          'thumb' => wp_get_attachment_thumb_url($ids),
+          'subHtml' => "",
+        );
     }
   } 
   

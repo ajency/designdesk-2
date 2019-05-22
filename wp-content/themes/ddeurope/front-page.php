@@ -8,7 +8,16 @@ get_header();
 if ( have_posts() ) {
     while ( have_posts() ) {
         the_post(); 
+$args = array(
+    'post_type' => 'portfolio_gallery',
+    'post_status' => 'publish',
+    'posts_per_page' => 5,
+    'paged' => $paged
+);
+$posts_array = get_posts( $args ); 
+
 ?>
+
 
 <?php
     $default_sidebar_position = get_theme_mod( 'default_sidebar_position', 'right' );
