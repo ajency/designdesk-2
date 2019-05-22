@@ -84,7 +84,7 @@
   width: 100%; }
   .pp_pic_holder .ppt {
     position: absolute;
-    bottom: 18px;
+    bottom: 8px;
     text-align: center;
     color: black; }
   .pp_pic_holder .facebook, .pp_pic_holder .twitter {
@@ -93,5 +93,7 @@
     border: 1px solid #fff; }
   .pp_pic_holder #fullResImage {
     width: 100% !important; }
-  .pp_pic_holder .pp_details .pp_nav {
-    display: none; }
+  .pp_pic_holder .pp_details {
+    margin-top: 2px; }
+    .pp_pic_holder .pp_details .pp_nav {
+      display: none; }

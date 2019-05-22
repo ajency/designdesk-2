@@ -107,7 +107,7 @@
   width: 100%;
   .ppt{
     position: absolute;
-    bottom: 18px;
+    bottom: 8px;
     text-align: center;
     color: black;
   }
@@ -121,6 +121,7 @@
     width: 100% !important;
   }
   .pp_details{
+    margin-top: 2px;
     .pp_nav{
       display: none;
     }
