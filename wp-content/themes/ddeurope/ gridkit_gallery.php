@@ -31,7 +31,7 @@ if ( have_posts() ) {
 	</div>
 	<div class="gallery_content">
 		<div class="container">
-			<?php echo do_shortcode('[portfolio_gallery]'); ?>
+			<?php echo do_shortcode('[portfolio_gallery lightbox=true]'); ?>
 		</div>
 	</div>
 </div>

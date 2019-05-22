@@ -119,9 +119,32 @@ jQuery( document ).ready( function( $ ){
 	// 			inline_markup: '<div class="pp_inline">{content}</div>',
 	// 			custom_markup: "",
 	// 			social_tools: '<div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href={location_href}&layout=button_count&show_faces=true&width=500&action=like&font&colorscheme=light&height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div>'
-  // });
+	// });
+	
+	var url_string = window.location.href; //window.location.href
+	var url = new URL(url_string);
+	var c = url.searchParams.get("album");
+
+		var gal_id = c;
+		
+		if(gal_id){
+				jQuery.ajax({
+						url: ajAjax.ajaxurl,
+						type: 'POST',
+						data: 'action=get_gallery_album&pid=' + gal_id,      
+						dataType: 'json',
+						success: function (data) {
+							console.log(data);
+							if(data){
+								$.prettyPhoto.open(data.images,data.title,data.shortdesc);
+							}
+						}
+				});
+		}   
+	});
   
-  $(document).on('click', '.prettyphoto-btn', function(){
+  $(document).on('click', '.prettyphoto-btn', function(e){
+		e.preventDefault();
     var gal_id = $(this).data('galid');
     
     if(gal_id){

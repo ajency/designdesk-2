@@ -1,9 +1,11 @@
 <?php
 // Shortcode
+
+
 add_shortcode("portfolio_gallery", "aj_portfolio_gallery");
 
 function aj_portfolio_gallery($atts) {
-  
+  global $lightbox;
 	$html = '';
 	$post__in = array();
   $args = array();
@@ -12,7 +14,11 @@ function aj_portfolio_gallery($atts) {
 	if( $atts && isset($atts['post']) ){
 		$post__in = explode(',', $atts['post']);
     $pids = $atts['post'];
-	}
+  }
+
+  if(!isset($atts['lightbox']) ){
+    $lightbox = false;
+  }
 
   $paged = get_query_var('paged') ? : 1;
   
@@ -37,7 +43,6 @@ function aj_portfolio_gallery($atts) {
         echo '<div class="row aj-row">';
             while ( $aj_query->have_posts() ) {
                 $aj_query->the_post();
-
                 include plugin_dir_path(dirname(__FILE__)) . '/templates/grid-column-html.php';
             }
         echo '</div>';
@@ -115,7 +120,6 @@ function aj_load_more(){
   wp_die();
 }
 
-
 // End of Load More
 
 
@@ -148,6 +152,3 @@ function get_gallery_album(){
           
   wp_die();
 }
-
-// End of Load More
-
