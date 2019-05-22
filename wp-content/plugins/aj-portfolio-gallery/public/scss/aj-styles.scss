@@ -103,3 +103,26 @@
   }
 }  
 
+.pp_pic_holder {
+  width: 100%;
+  .ppt{
+    position: absolute;
+    bottom: 18px;
+    text-align: center;
+    color: black;
+  }
+  .facebook, .twitter{
+    display: none;
+  }
+  .pp_fade, .pp_gallery li.default a img {
+    border: 1px solid #fff;
+  }
+  #fullResImage{
+    width: 100% !important;
+  }
+  .pp_details{
+    .pp_nav{
+      display: none;
+    }
+  }
+}

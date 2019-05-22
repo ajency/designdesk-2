@@ -79,3 +79,19 @@
   @media (max-width: 625px) {
     .gallery_block .img-block {
       max-width: 100%; } }
+
+.pp_pic_holder {
+  width: 100%; }
+  .pp_pic_holder .ppt {
+    position: absolute;
+    bottom: 18px;
+    text-align: center;
+    color: black; }
+  .pp_pic_holder .facebook, .pp_pic_holder .twitter {
+    display: none; }
+  .pp_pic_holder .pp_fade, .pp_pic_holder .pp_gallery li.default a img {
+    border: 1px solid #fff; }
+  .pp_pic_holder #fullResImage {
+    width: 100% !important; }
+  .pp_pic_holder .pp_details .pp_nav {
+    display: none; }
