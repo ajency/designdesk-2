@@ -78,12 +78,12 @@
         font-size: 16px; }
       .gallery_block .img-block a .pg-title:hover {
         opacity: 1; }
-    @media (max-width: 991px) {
-      .gallery_block .img-block a {
-        max-width: 50%; } }
-    @media (max-width: 625px) {
-      .gallery_block .img-block a {
-        max-width: 100%; } }
+  @media (max-width: 991px) {
+    .gallery_block .img-block {
+      max-width: 50%; } }
+  @media (max-width: 625px) {
+    .gallery_block .img-block {
+      max-width: 100%; } }
 
 #lg-share, #lg-zoom-out, #lg-zoom-in, #lg-download, #lg-actual-size {
   display: none; }
