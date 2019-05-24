@@ -15,12 +15,13 @@ function aj_portfolio_gallery($atts) {
 		$post__in = explode(',', $atts['post']);
     $pids = $atts['post'];
   }
-
-  if(!isset($atts['lightbox']) ){
-    $lightbox = false;
-  } else {
+  
+  if( isset($atts['lightbox']) && $atts['lightbox'] == 'true' ){
     $lightbox = true;
+  } else {
+    $lightbox = false;
   }
+
 
   $paged = get_query_var('paged') ? : 1;
   
@@ -50,7 +51,7 @@ function aj_portfolio_gallery($atts) {
         echo '</div>';
 
         if($aj_query->max_num_pages > $paged){
-          echo '<div id="aj-loadmore" class="loading-done" data-p_in="'. $pids .'"></div>';
+          echo '<div id="aj-loadmore" class="loading-done" data-p_in="'. $pids .'" data-lightbox="'.$lightbox.'"></div>';
         }
         
     echo '</div>';  
@@ -79,8 +80,10 @@ add_action('wp_ajax_aj_load_more', 'aj_load_more');
 add_action('wp_ajax_nopriv_aj_load_more', 'aj_load_more');
 
 function aj_load_more(){ 
+  global $lightbox;
   $paged = isset($_POST['page_no']) ? $_POST['page_no'] : 1;
   $post__in = isset($_POST['attr']) ? $_POST['attr'] : array();
+  $lightbox = isset($_POST['lightbox']) ? $_POST['lightbox'] : false;
   $html;
   $last = false;
   
