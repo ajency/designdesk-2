@@ -31,7 +31,7 @@ if ( have_posts() ) {
 	</div>
 	<div class="gallery_content">
 		<div class="container">
-			<?php echo do_shortcode("[gmedia id=2]"); ?>
+			<?php echo do_shortcode("[portfolio_gallery]"); ?>
 		</div>
 	</div>
 </div>
