@@ -1,0 +1,29 @@
+
+
+#main-content{
+	margin: 12rem 0 6rem 0;
+    text-align: center;
+    .page-title{
+    	font-size: 45px;
+    }
+    .page-subtitle{
+    	font-size: 18px !important;
+    	color: #999;
+    }
+    .back_home{
+    	margin: 2rem 0;
+    	a{
+	    	color: $black;
+			border: 1px solid #f48e0c;
+			padding: 12px 34px;
+			border-radius: 0;
+			text-decoration: none;
+			transition: 0.6s;
+			font-weight:800;
+			&:hover{
+				background-color: #f48e0c;
+				color: #fff;
+			}
+		}
+    }
+}
