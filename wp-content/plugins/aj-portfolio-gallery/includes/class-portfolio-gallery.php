@@ -13,7 +13,6 @@ function enqueue_aj_scripts(){
     
     wp_register_script( 'aj-scripts', plugin_dir_url( dirname(__FILE__) ) . 'public/js/aj-scripts.js' ); 
     wp_localize_script( 'aj-scripts', 'ajAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));
-
     
     if ( ! wp_script_is( 'jquery', 'enqueued' )) {
         wp_enqueue_script('jquery');

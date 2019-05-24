@@ -71,7 +71,6 @@ jQuery( document ).ready( function( $ ){
 	});
 
 
-
 function aj_loadmore(pageNumber){
   
   var attr = '';
