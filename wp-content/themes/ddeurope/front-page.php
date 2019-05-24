@@ -8,14 +8,6 @@ get_header();
 if ( have_posts() ) {
     while ( have_posts() ) {
         the_post(); 
-$args = array(
-    'post_type' => 'portfolio_gallery',
-    'post_status' => 'publish',
-    'posts_per_page' => 5,
-    'paged' => $paged
-);
-$posts_array = get_posts( $args ); 
-
 ?>
 
 
@@ -65,7 +57,7 @@ $posts_array = get_posts( $args );
 <div class="gallery_block">
     <div class="container">
         <div class="row">
-            <?php echo do_shortcode('[portfolio_gallery]'); ?>
+            <?php echo do_shortcode('[portfolio_gallery album="299,298,297,296"]'); ?>
             <div class="view_gallery m-auto">
             <a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View Gallery</a>
         </div>

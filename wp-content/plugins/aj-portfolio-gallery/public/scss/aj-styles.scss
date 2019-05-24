@@ -61,6 +61,10 @@
     max-width: 25%;
     position: relative;
     padding: 0.5%; 
+    a{
+      display: block;
+      position: relative;
+      margin-bottom: 0;
     .pg-thumbnail {
       position: relative; 
       &:after {
@@ -101,7 +105,16 @@
       max-width: 100%; 
     } 
   }
+  }
 }
 #lg-share, #lg-zoom-out, #lg-zoom-in, #lg-download, #lg-actual-size{
   display: none;
+}
+
+.lg-sub-html p {
+    font-size: 13px !important;
+    font-weight: bold;
+}
+.lg-sub-html,.lg-toolbar{
+  background-color:rgba(0,0,0,.70) !important;
 }
