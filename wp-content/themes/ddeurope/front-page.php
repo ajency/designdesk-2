@@ -54,6 +54,7 @@ if ( have_posts() ) {
 </div>
 <!-- End of Text -->
 
+<!-- Gallery -->
 <div class="gallery_block">
     <div class="container">
         <div class="row">
@@ -64,84 +65,7 @@ if ( have_posts() ) {
         </div>
     </div>
 </div>
-
-<!-- Gallery -->
-<!-- <div class="gallery_block">
-    <div class="container">
-        <div class="row">
-            <div class="img-block">
-                <a href="" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ACG_ACHEMA_1.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">ACG ACHEMA</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/ATEF_SIFER_2019_1.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">ATEF SIFER</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/BIRLA-CELLULOSE_IDEA_2019_1.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">BIRLA CELLULOSE IDEA</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/DYNEMIC_FI-ASIA_2014_1.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">DYNEMIC FI ASIA</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/RELIANCE_RUBBER-&-TYRE_2017.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">RELIANCE RUBBER-&-TYRE</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/SHALCO_STAINLESS_2015_2.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">SHALCO STAINLESS</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/EASTMAN_EIMA_2018_2.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">EASTMAN EIMA</h6>
-                    </div>
-                </a>
-            </div>
-            <div class="img-block">
-                <a href="#" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/800x500/TH_BOROSIL_ACHEMA_2018_1.jpg" class="img-fluid">
-                    <div class="overlay">
-                        <h6 class="grid-title">TH BOROSIL ACHEMA</h6>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="view_gallery">
-            <a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View Gallery</a>
-        </div>
-    </div>
-</div> -->
 <!-- End of Gallery -->
-
-
 
 <!-- /.our why-choose-us -->
 <div class="why_choose_us">
@@ -252,35 +176,33 @@ if ( have_posts() ) {
     <div class="container position-relative">
         <h2 class="section_title"> Trusted by Brands like </h2>
         <ul id="scroller">
-            <li ><img src="<?php echo get_template_directory_uri(); ?>/assets/images/1-Swarovski-logo.png" alt="Swarovski"></li>
+            <li ><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/1-Swarovski-logo.png" alt="Swarovski"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/2-ACG-01.png" alt="ACG"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/2-ACG-01.png" alt="ACG"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/3-RIL-logo-1.png" alt="RIL"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/3-RIL-logo-1.png" alt="RIL"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/4-Aditya-Birla-Group.png" alt="Aditya Birla Group"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/4-Aditya-Birla-Group.png" alt="Aditya Birla Group"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/5-Mistubishi_Logo.png" alt="Mistubishi"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/5-Mistubishi_Logo.png" alt="Mistubishi"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/6-CISCO-logo-1.png" alt="Cisco"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/6-CISCO-logo-1.png" alt="Cisco"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/7-ATEF-Logo-2019-01.png" alt="ATEF"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/7-ATEF-Logo-2019-01.png" alt="ATEF"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/8-GEA-Final-Logo.png" alt="GEA"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/8-GEA-Final-Logo.png" alt="GEA"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/9--Hitachi.png" alt="Hitachi"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/9--Hitachi.png" alt="Hitachi"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/10-BOROSIL-1.png" alt="Borosil"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/10-BOROSIL-1.png" alt="Borosil"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/11-ROTEX-01.png" alt="Rotex"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/11-ROTEX-01.png" alt="Rotex"></li>
 
-            <li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/12-SPETS.png" alt="Spets"></li>
+            <li><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/12-SPETS.png" alt="Spets"></li>
         </ul>
     </div>
 </div>
 <!-- Auto Scroll -->
-
-
 
 
 <!-- cta -->
