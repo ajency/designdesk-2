@@ -48,10 +48,10 @@
     <div class="members-of text-center mt-4">
       <h6 class="text-center text-muted pt-2">Members of</h6>
       <a href="#">
-        <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/IFES-logo.png'; ?>" />
+        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri() . '/assets/images/IFES-logo.png'; ?>" alt="IFES-logo" />
       </a>
       <a href="#">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/EDPA-logo.png'; ?>" alt="" />
+        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri() . '/assets/images/EDPA-logo.png'; ?>" alt="EDPA-logo" />
       </a>
     </div>
     <!-- end of Member -->

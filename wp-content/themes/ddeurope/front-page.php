@@ -54,6 +54,7 @@ if ( have_posts() ) {
 </div>
 <!-- End of Text -->
 
+
 <!-- Gallery -->
 <div class="gallery_block">
     <div class="container">
@@ -65,7 +66,10 @@ if ( have_posts() ) {
         </div>
     </div>
 </div>
+
 <!-- End of Gallery -->
+
+
 
 <!-- /.our why-choose-us -->
 <div class="why_choose_us">
