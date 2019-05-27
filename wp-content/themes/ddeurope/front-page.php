@@ -20,7 +20,7 @@ if ( have_posts() ) {
 <div class="home-carousel">
     <div class="carousel is-hidden">
         <div class="carousel-cell active">
-            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
         </div>
         <div class="carousel-cell">
             <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
