@@ -1,7 +1,7 @@
 <?php
 
 function enqueue_aj_admin_scripts(){
-    wp_register_style( 'aj-admin-css', plugin_dir_url( __FILE__ ) . 'css/aj-admin.css', false, '1.0.0' );
+    wp_register_style( 'aj-admin-css', plugin_dir_url( __FILE__ ) . 'css/aj-admin.css', false, filemtime(get_theme_file_path(plugin_dir_url( __FILE__ ) . 'css/aj-admin.css')));
     wp_enqueue_style( 'aj-admin-css' );
 
     //wp_enqueue_script( 'my_script', plugin_dir_url( __FILE__ ) . 'my_script.js' );   
