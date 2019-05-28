@@ -7285,28 +7285,28 @@ a.text-cancel:hover, a.text-cancel:focus {
           display: none; } }
     .site-footer .action_block .email_text, .site-footer .action_block .num_text {
       margin-right: 5rem; }
-  .site-footer .address {
+  .site-footer #bg-image {
     background: url("../images/footer-image.jpg");
     position: relative; }
-    .site-footer .address .address_block1 {
+    .site-footer #bg-image .address_block1 {
       color: #fff;
       padding: 16px 0; }
-      .site-footer .address .address_block1 .main-info {
+      .site-footer #bg-image .address_block1 .main-info {
         text-transform: uppercase;
         color: #f39100;
         font-weight: bold; }
-        .site-footer .address .address_block1 .main-info .sub-info {
+        .site-footer #bg-image .address_block1 .main-info .sub-info {
           font-size: 14px; }
-    .site-footer .address .address_block2 {
+    .site-footer #bg-image .address_block2 {
       color: #fff;
       padding: 16px 0; }
-      .site-footer .address .address_block2 .main-info {
+      .site-footer #bg-image .address_block2 .main-info {
         text-transform: uppercase;
         color: #f39100;
         font-weight: bold; }
-        .site-footer .address .address_block2 .main-info .sub-info {
+        .site-footer #bg-image .address_block2 .main-info .sub-info {
           font-size: 14px; }
-    .site-footer .address:before {
+    .site-footer #bg-image:before {
       content: '';
       display: block;
       background: rgba(17, 17, 17, 0.93);
@@ -7316,6 +7316,9 @@ a.text-cancel:hover, a.text-cancel:focus {
       top: 0;
       left: 0;
       right: 0; }
+    .site-footer #bg-image .lazy {
+      background-image: none;
+      background-color: #F1F1FA; }
   .site-footer .form .form-header .contact_title {
     margin-top: 20px;
     text-transform: uppercase;
@@ -7462,17 +7465,20 @@ p {
 .why_choose_us {
   margin: 1.5rem 0 0 0;
   position: relative; }
-  .why_choose_us .left-side {
+  .why_choose_us #bg-image {
     background: url("../../assets/images/4reasons-banner.jpg") no-repeat;
     background-size: cover;
     width: 50%; }
-    .why_choose_us .left-side:after {
+    .why_choose_us #bg-image:after {
       content: '';
       display: block;
       clear: both; }
     @media (max-width: 991px) {
-      .why_choose_us .left-side {
+      .why_choose_us #bg-image {
         display: none; } }
+    .why_choose_us #bg-image .lazy {
+      background-image: none;
+      background-color: #F1F1FA; }
   .why_choose_us .right-side {
     background: #f8f8f8;
     width: 50%;

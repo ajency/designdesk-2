@@ -74,7 +74,7 @@ if ( have_posts() ) {
 <!-- /.our why-choose-us -->
 <div class="why_choose_us">
     <div class="container d-flex">
-        <div class="left-side"></div>
+        <div id="bg-image" class="left-side lazy"></div>
         <div class="right-side">
             <div class="opacity">
                 <h2 class="choose_us_title"> 4 Reasons to choose us </h2>

@@ -18,7 +18,7 @@
     <a href="tel:+49 123456789"><span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 123456789 </span></a>
   </div>
 
-  <div class="footer-widgets address">
+  <div id="bg-image" class="footer-widgets address lazy">
     <div class="container">
       <div class="row">
         <div class="col-1g-6 col-md-6 address_block1">

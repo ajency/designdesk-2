@@ -39,7 +39,7 @@
 		}
 	}
 
-	.address{
+	#bg-image{
 		background: url('../images/footer-image.jpg');
 		position: relative;
 		.address_block1{
@@ -76,6 +76,10 @@
 			top:0;
 			left:0;
 			right:0;
+		}
+		.lazy {
+		   background-image: none;
+		   background-color: #F1F1FA;
 		}
 	}
 	.form{

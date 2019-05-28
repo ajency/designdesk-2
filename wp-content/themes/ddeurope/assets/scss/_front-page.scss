@@ -122,7 +122,7 @@ p{
 .why_choose_us{
 	margin: 1.5rem 0 0 0;
 	position: relative;
-	.left-side{
+	#bg-image{
 		background: url('../../assets/images/4reasons-banner.jpg') no-repeat;
 		background-size:cover;
 		width: 50%;
@@ -134,7 +134,12 @@ p{
 		@media (max-width: 991px){
 			display:none;
 		}
+		.lazy {
+		   background-image: none;
+		   background-color: #F1F1FA;
+		}
 	}
+
 	.right-side{
 		background: #f8f8f8;
 		width: 50%;
