@@ -35,6 +35,10 @@
           opacity: 1; 
         }
       }
+      .lazy{
+        background-image: none;
+        background-color: #F1F1FA;
+      }
     }
     &-title {
       padding: 10px 5px;

@@ -28,6 +28,9 @@
       opacity: 0; }
     .img-block .pg-thumbnail:hover:after {
       opacity: 1; }
+    .img-block .pg-thumbnail .lazy {
+      background-image: none;
+      background-color: #F1F1FA; }
   .img-block .pg-title {
     padding: 10px 5px;
     border: 1px solid #eee;

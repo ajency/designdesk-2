@@ -173,7 +173,6 @@ imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
 } } }
 window.onload = init;
 
-
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages;    
 
