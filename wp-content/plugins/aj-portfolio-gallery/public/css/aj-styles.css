@@ -96,21 +96,25 @@
         left: 0;
         right: 0;
         font-size: 16px; }
-      /* line 103, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+        @media (max-width: 767px) and (min-width: 626px) {
+          /* line 96, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+          .gallery_block .img-block a .pg-title label {
+            top: 36%; } }
+      /* line 106, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title .location {
         display: inline-block;
         position: absolute;
         top: 65%;
         left: 0;
         right: 0; }
-      /* line 110, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+      /* line 113, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title .area {
         display: inline-block;
         position: absolute;
         top: 79%;
         left: 0;
         right: 0; }
-      /* line 117, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+      /* line 120, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title:hover {
         opacity: 1; }
   @media (max-width: 991px) {
@@ -122,16 +126,16 @@
     .gallery_block .img-block {
       max-width: 100%; } }
 
-/* line 130, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+/* line 133, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 #lg-share, #lg-zoom-out, #lg-zoom-in, #lg-download, #lg-actual-size {
   display: none; }
 
-/* line 134, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+/* line 137, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 .lg-sub-html p {
   font-size: 13px !important;
   font-weight: bold; }
 
-/* line 138, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
+/* line 141, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 .lg-sub-html, .lg-toolbar {
   background-color: rgba(0, 0, 0, 0.7) !important; }
 

@@ -57,15 +57,13 @@ if ( have_posts() ) {
 					<div class="address_block">
 						<div class="row">
 							<div class="address_1 text-center mt-1 align-items-center">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">
-								    <div class="addr_text1">
+								<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/frankfrut-image.png">						<div class="addr_text1">
 		       							<h3 class="main-info">GERMANY</h3>
 		          						<p class="sub-info">Westend fair, Friedrich Ebert <br> Anlage 36,60325 Frankfurt</p>
 		          					</div>
 							</div>
 							<div class="address_2 text-center mt-1">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mumbai_image.jpg">
-								    <div class="addr_text2">
+								<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/mumbai_image.jpg">								    <div class="addr_text2">
 								        <h3 class="main-info">INDIA</h3>
 		          						<p class="sub-info">702 Crescent Business,<br> Kandivali (E),  400101 Mumbai
 		          						</p>

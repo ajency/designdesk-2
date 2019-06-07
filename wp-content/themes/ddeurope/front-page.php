@@ -59,9 +59,9 @@ if ( have_posts() ) {
 <div class="gallery_block">
     <div class="container">
         <div class="row">
-            <?php echo do_shortcode('[portfolio_gallery post="499,498,496,497,494,493,492,491"]'); ?>
+            <?php echo do_shortcode('[portfolio_gallery post="343,408,366,496,353,478,367,363"]'); ?>
             <div class="view_gallery m-auto">
-            <a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View Gallery</a>
+            <a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View More Projects </a>
         </div>
         </div>
     </div>

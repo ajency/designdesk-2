@@ -99,6 +99,9 @@
           left: 0;
           right: 0;
           font-size: 16px; 
+          @media (max-width: 767px) and (min-width:626px){
+            top: 36%;
+          }
         }
         .location{
           display: inline-block;
