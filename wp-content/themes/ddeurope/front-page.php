@@ -60,6 +60,7 @@ if ( have_posts() ) {
     <div class="container">
         <div class="row">
             <?php echo do_shortcode('[portfolio_gallery post="343,408,366,496,353,478,367,363"]'); ?>
+          <!--   <?php echo do_shortcode('[portfolio_gallery post="295,299,284,294" orderby="post_in"]'); ?> -->
             <div class="view_gallery m-auto">
             <a class="nectar-button  see-through" data-color-override="false" href="<?php echo get_site_url(); ?>/exhibition-stands-gallery" target="_blank"> View More Projects </a>
         </div>

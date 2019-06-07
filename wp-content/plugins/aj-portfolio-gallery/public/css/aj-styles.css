@@ -1,18 +1,14 @@
-/* line 1, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 .img-block {
   margin-bottom: 30px; }
-  /* line 4, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
   .img-block .pg-wrapper {
     cursor: pointer;
     margin-bottom: 30px; }
-  /* line 8, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
   .img-block .pg-thumbnail {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 65%;
     position: relative; }
-    /* line 15, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .img-block .pg-thumbnail:after {
       content: "+";
       position: absolute;
@@ -30,14 +26,11 @@
       -webkit-transition: .3s ease;
       transition: .3s ease;
       opacity: 0; }
-    /* line 34, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .img-block .pg-thumbnail:hover:after {
       opacity: 1; }
-    /* line 38, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .img-block .pg-thumbnail .lazy {
       background-image: none;
       background-color: #F1F1FA; }
-  /* line 43, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
   .img-block .pg-title {
     padding: 10px 5px;
     border: 1px solid #eee;
@@ -46,35 +39,28 @@
     background: #fff;
     color: #000;
     box-shadow: 1px 0px 4px 0px #e8e8e8; }
-    /* line 52, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .img-block .pg-title label {
       font-weight: 400;
       margin-bottom: 0;
       font-size: 18px;
       text-transform: uppercase; }
-    /* line 58, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .img-block .pg-title .location, .img-block .pg-title .area {
       display: none; }
 
-/* line 66, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 .gallery_block .img-block {
   margin-bottom: 0;
   max-width: 25%;
   position: relative;
   padding: 0.5%; }
-  /* line 71, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
   .gallery_block .img-block a {
     display: block;
     position: relative;
     margin-bottom: 0; }
-    /* line 75, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .gallery_block .img-block a .pg-thumbnail {
       position: relative; }
-      /* line 77, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-thumbnail:after {
         content: "";
         background: transparent; }
-    /* line 82, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .gallery_block .img-block a .pg-title {
       border: none;
       min-height: 0;
@@ -89,54 +75,39 @@
       opacity: 0;
       -webkit-transition: .3s ease;
       transition: .3s ease; }
-      /* line 96, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title label {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 0;
         right: 0;
         font-size: 16px; }
-        @media (max-width: 767px) and (min-width: 626px) {
-          /* line 96, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
-          .gallery_block .img-block a .pg-title label {
-            top: 36%; } }
-      /* line 106, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title .location {
         display: inline-block;
         position: absolute;
         top: 65%;
         left: 0;
         right: 0; }
-      /* line 113, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title .area {
         display: inline-block;
         position: absolute;
         top: 79%;
         left: 0;
         right: 0; }
-      /* line 120, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
       .gallery_block .img-block a .pg-title:hover {
         opacity: 1; }
   @media (max-width: 991px) {
-    /* line 66, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .gallery_block .img-block {
       max-width: 50%; } }
   @media (max-width: 625px) {
-    /* line 66, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
     .gallery_block .img-block {
       max-width: 100%; } }
 
-/* line 133, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 #lg-share, #lg-zoom-out, #lg-zoom-in, #lg-download, #lg-actual-size {
   display: none; }
 
-/* line 137, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 .lg-sub-html p {
   font-size: 13px !important;
   font-weight: bold; }
 
-/* line 141, ../../../../var/www/html/designdesk-2/wp-content/plugins/aj-portfolio-gallery/public/scss/aj-styles.scss */
 .lg-sub-html, .lg-toolbar {
   background-color: rgba(0, 0, 0, 0.7) !important; }
-
-/*# sourceMappingURL=aj-styles.css.map */
