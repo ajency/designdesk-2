@@ -81,18 +81,6 @@
         left: 0;
         right: 0;
         font-size: 16px; }
-      .gallery_block .img-block a .pg-title .location {
-        display: inline-block;
-        position: absolute;
-        top: 65%;
-        left: 0;
-        right: 0; }
-      .gallery_block .img-block a .pg-title .area {
-        display: inline-block;
-        position: absolute;
-        top: 79%;
-        left: 0;
-        right: 0; }
       .gallery_block .img-block a .pg-title:hover {
         opacity: 1; }
   @media (max-width: 991px) {
