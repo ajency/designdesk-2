@@ -100,20 +100,20 @@
           right: 0;
           font-size: 16px; 
         }
-        //.location{
-        //  display: inline-block;
-        //  position: absolute;
-        //  top: 65%;
-        //  left: 0;
-        //  right: 0;
-        //}
-        //.area{
-        //  display: inline-block;
-        //  position: absolute;
-        //  top: 79%;
-        //  left: 0;
-        //  right: 0;
-       // }
+        .location{
+          display: inline-block;
+          position: absolute;
+          top: 65%;
+          left: 0;
+          right: 0;
+        }
+        .area{
+          display: inline-block;
+          position: absolute;
+          top: 79%;
+          left: 0;
+          right: 0;
+        }
         &:hover {
           opacity: 1; 
         }
