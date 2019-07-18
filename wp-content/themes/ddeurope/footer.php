@@ -15,7 +15,7 @@
 <footer id="colophon" class="site-footer text-center">
   <div class="footer-widgets action_block">
     <a href="mailto:hello@dd-europe.com"><span class="email_text"><i class="far fa-envelope"></i>  &nbsp hello@dd-europe.com</span></a>
-    <a href="tel:+49 123456789"><span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 123456789 </span></a>
+    <a href="tel:+49 15145695340"><span class="num_text"> <i class="fas fa-mobile-alt"></i>  &nbsp +49 15145695340 </span></a>
   </div>
 
   <div id="bg-image" class="footer-widgets address lazy">
@@ -48,10 +48,7 @@
     <div class="members-of text-center mt-4">
       <h6 class="text-center text-muted pt-2">Members of</h6>
       <a href="#">
-        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri() . '/assets/images/IFES-logo.png'; ?>" alt="IFES-logo" />
-      </a>
-      <a href="#">
-        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri() . '/assets/images/EDPA-logo.png'; ?>" alt="EDPA-logo" />
+        <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri() . '/assets/images/ahk_logo.png'; ?>" alt="AHK-logo" width="130"/>
       </a>
     </div>
     <!-- end of Member -->
