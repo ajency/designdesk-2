@@ -99,7 +99,9 @@
 						margin-top: 2rem;
 					}
 				}
-
+			}
+			@media (max-width: 991px){
+				flex-direction: column-reverse;
 			}
 		}
 		.action_block{

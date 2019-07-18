@@ -187,27 +187,27 @@ if ( have_posts() ) {
 <div class="counter_in_home">
     <div class="container">
         <div class="row text-center">
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="counter">
                     <h2 class="timer count-title count-number" data-to="14" data-speed="1200"></h2>
                     <div class="count-separator"><span class="bottom-line"></span></div>
                     <p class="count-text ">YEARS IN BUSINESS</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="counter">
                     <h2 class="timer count-title count-number" data-to="1200" data-speed="1200"></h2>
                     <div class="count-separator"><span class="bottom-line"></span></div> <p class="count-text ">PROJECTS DELIVERED</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="counter">
                     <h2 class="timer count-title count-number" data-to="45" data-speed="1200"></h2>
                     <div class="count-separator"><span class="bottom-line"></span></div>
                     <p class="count-text ">MEMBER TEAM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="counter">
                     <h2 class="timer count-title count-number" data-to="26" data-speed="1200"></h2>
                     <div class="count-separator"><span class="bottom-line"></span></div>
