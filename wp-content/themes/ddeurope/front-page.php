@@ -44,11 +44,38 @@ if ( have_posts() ) {
 <div class="main-text">
     <div class="container">
         <div>
-            <h1 class="main-text-header">LOOKING FOR A EXHIBITION STAND DESIGN & BUILD PARTNER IN EUROPE?<h1>
+            <h1 class="main-text-header">NOT JUST GREAT LOOKING EXHIBITION STANDS…<h1>
         </div>
         <div class="main-text-subtext">
-            Design Desk specialises in Design & Build of world-class exhibition stands across Europe & the World. 
-            With our offices in Germany & India, we bring together a winning combination of expertise, professionalism & cost effectiveness.
+            <p><strong>Design Desk brings you a rare combination of creativity, service and cost effectiveness!</strong></p>
+            <p>We like to think of ourselves not only as designers or contractors – but as Partners in our clients exhibiting success. With this belief & focus we have bought success at exhibitions in over 26 countries in the past 14yrs.</p>
+            <div class="try_us_btn p-0">
+                <div class="container">
+                    <!-- Pop up button -->
+                    <div>
+                        <a href="" class="nectar-button  see-through" data-toggle="modal" data-target="#exampleModalCenter">Try Us - Contact now for a free proposal</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-primary" id="exampleModalLongTitle">Contact now for a free proposal
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <?php echo do_shortcode("[formidable id=5]"); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Modal -->
         </div>
     </div>
 </div>
