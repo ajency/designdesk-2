@@ -57,7 +57,8 @@ if ( have_posts() ) {
 			</div>
 			<div class="row logo_significance">
 				<div class="left col-lg-6 col-md-12 col-sm-12 text-center">
-					<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_bnw.png">				</div>
+					<img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/ddeurope_logo_bnw.png">				
+				</div>
 				<div class="right col-lg-6 col-md-12 col-sm-12">
 					<h4 class="heading">Our Logo is much more than a symbol!</h4>
 					<p>The 3 inward directing arrows represent the 3 departments at Design Desk – Design, Project Supervision & Client Servicing.</p>

@@ -25,7 +25,7 @@
 			<nav id="site-navigation" class="main-navigation navbar navbar-expand-lg">
 				<div id="logo">
         			<a href="<?php echo get_site_url(); ?>/" class="image-logo">
-            			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/design_desk_logo_white_new.png" class="alt-logo" alt="<?php wp_title(); ?>">
+            			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ddeurop_New_Logo.png" class="dd-europe logo" alt="<?php wp_title(); ?>">
           			</a>
         		</div>
 
