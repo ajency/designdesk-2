@@ -33,14 +33,14 @@ if ( have_posts() ) {
 	<div class="contact_us_content">
 		<div class="container">
 			<div class="row mr-0 ml-0">
-				<div class="contact_form col-lg-8 col-md-8 col-sm-12 pr-0 pl-0">
+				<div class="contact_form col-lg-8 col-md-12 col-sm-12 pr-0 pl-0">
 					<div class="form_header">
 						<h2 class="form_title alignleft"> Leave A Message </h2>
 						<p class="form_subtitle">Drop an email to know more about what we can do for your next big event.</p>
 					</div>
 					<?php echo do_shortcode("[formidable id=1]"); ?>
 				</div>
-				<div class=" col-lg-4 col-md-4 col-sm-12 pr-0 pl-0">
+				<div class=" col-lg-4 col-md-12 col-sm-12 pr-0 pl-0">
 					<hr class="seperator">
 					<div class="aside_header">
 						<h2 class="aside_title alignleft"> Contact Us </h2>
