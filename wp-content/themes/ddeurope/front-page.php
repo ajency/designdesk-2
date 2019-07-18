@@ -330,7 +330,7 @@ if ( have_posts() ) {
                 <div id="collapseFive5" class="collapse" role="tabpanel" aria-labelledby="headingFive5"
                   data-parent="#accordionEx">
                     <div class="card-body">
-                        Just drop us an email with your requirements on hello@dd-europe.com & we will get back to you within 24hours! Or call on +49 123456789
+                        Just drop us an email with your requirements on hello@dd-europe.com & we will get back to you within 24hours! Or call on +49 15145695340
                     </div>
                 </div>
             </div>

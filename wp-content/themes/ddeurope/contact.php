@@ -51,7 +51,7 @@ if ( have_posts() ) {
 							<span><i class="far fa-envelope"></i> &nbsp E-mail: <a href="mailto:hello@dd-europe.com">hello@dd-europe.com</a></span>
 						</div>
 						<div class="icon_block">
-							<span><i class="fas fa-phone"></i> &nbsp Phone: <a href="tel:+49 123456789"> +49 123456789</a></span>
+							<span><i class="fas fa-phone"></i> &nbsp Phone: <a href="tel:+49 15145695340"> +49 15145695340</a></span>
 						</div> 
 					</div>
 					<div class="address_block">
