@@ -40,7 +40,7 @@
 	}
 }
 .blog_post{
-	padding: 2rem 0;
+	padding: 1rem 0rem 4rem;
 	.blog_featured_img > img{
 		width: 100% !important;
 		height: auto !important;
@@ -88,6 +88,10 @@
 	    padding-bottom: 70px;
 	    border-left: solid 1px #ebebeb;
 	    margin-bottom: 0!important;
+	    display: block !important;
+	    @media (max-width: 768px){
+	    	display: none !important;
+	    }
     }
 }
 

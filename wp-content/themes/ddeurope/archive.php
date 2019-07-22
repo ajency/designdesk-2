@@ -34,7 +34,7 @@ get_header();
 		<div class="blog_post">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-9">
+					<div class="col-lg-9 col-md-8 col-sm-12">
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<div class="blog_featured_img">
 								<?php
@@ -58,7 +58,7 @@ get_header();
 							</div>
 						</article>
 					</div>
-					<div class="col-md-3 post-sidebar">
+					<div class="col-lg-3 col-md-4 post-sidebar">
 						<?php get_sidebar(); ?>
 					</div>
 				</div>
@@ -76,7 +76,6 @@ get_header();
 	<?php endif; ?>
 
 <?php
-//get_sidebar();
 get_footer();
 
 ?>
