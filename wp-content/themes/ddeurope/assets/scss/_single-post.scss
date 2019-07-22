@@ -16,9 +16,10 @@
 			}
 		} 
 		.breadcrumbs-inside{
-			float: right;
-			margin-top: -1.6rem;
-			font-size: 13px;
+		    font-size: 13px;
+		    position: absolute;
+		    right: 0;
+		    top: -40px;
 			a{
 				color: $white;
 			}

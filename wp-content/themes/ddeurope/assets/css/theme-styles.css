@@ -8012,9 +8012,10 @@ p {
         .single-post .header .title {
           font-size: 18px; } }
     .single-post .header .breadcrumbs-inside {
-      float: right;
-      margin-top: -1.6rem;
-      font-size: 13px; }
+      font-size: 13px;
+      position: absolute;
+      right: 0;
+      top: -40px; }
       .single-post .header .breadcrumbs-inside a {
         color: #fff; }
       .single-post .header .breadcrumbs-inside:not(.sep-icon) {
