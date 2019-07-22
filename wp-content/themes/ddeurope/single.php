@@ -11,11 +11,11 @@ get_header();
 	<div class="header_image position-relative">
 		<div class="header">
 			<div class="container">
-				<h2 class="title"></h2>
+				<h2 class="title"><?php the_title(); ?></h2>
 				<div class="breadcrumbs-wrapper">
       				<div class="breadcrumbs-inside">
   						<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span> 
-  						<span></span>
+  						<span><a class="mr-1" href="<?php echo get_site_url(); ?>/blog">blog</a><span class="sep-icon"><i class="fa fa-angle-right"></i></span> <?php the_title(); ?></span>
   					</div>
   				</div>
 			</div>
