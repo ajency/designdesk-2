@@ -7983,6 +7983,19 @@ p {
     border-left: solid 1px #ebebeb;
     margin-bottom: 0 !important; }
 
+.sidebar .widget-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center; }
+
+.sidebar li {
+  list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f39100; }
+  .sidebar li a {
+    color: #000;
+    font-size: 14px; }
+
 .single-post {
   margin: 9rem 0 0; }
   .single-post .header {
