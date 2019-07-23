@@ -99,50 +99,20 @@ if ( have_posts() ) {
 
 <!-- Flat World Benefit -->
 
-<!-- <div class="flat_world_benefit">
+ <div class="flat_world_benefit">
     <div class="container">
-        <div class="row flat_world_bg mx-0">
-            <div class="block">
-                <div class="span4">
-                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/India-Germany-Flag.png" alt="india-germany flag" class="img-left">
-                    <div class="content">
-                        <h2 class="section_title mb-0 text-left">THE ‘FLAT WORLD’ BENEFIT </h2>
-                        <p>With our Project management office in Frankfurt & Design studio in Mumbai – our operations are equally efficient on skills & costs!</p>
-                    </div>
-                </div>
+        <div class="row flat_world_bg">
+            <div class="img_title">
+                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="<?php echo get_template_directory_uri(); ?>/assets/images/India-Germany-Flag.png" alt="india-germany flag" height="80">
+                <h2 class="section_title">THE ‘FLAT WORLD’ BENEFIT </h2>
             </div>
-                <div class="popup_btn m-auto">
-                    <div class="container"> -->
-                    <!-- Pop up button -->
-                       <!--  <div>
-                            <a href="" class="nectar-button  see-through" data-toggle="modal" data-target="#exampleModalCenter">Get The Advantage</a>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- Modal -->
-                <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-primary" id="exampleModalLongTitle">Contact now to get the advantage
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <?php echo do_shortcode("[formidable id=5]"); ?>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- End of Modal -->
-
-<!--         </div>
+            <div class="content text-center">
+                <p class="mb-1">With our Project management office in Frankfurt & Design studio in Mumbai – our operations are equally efficient on skills & costs!</p>
+                <a href="" class="nectar-button  see-through" data-toggle="modal" data-target="#exampleModalCenter">Get The Advantage</a>
+            </div>
+        </div>
     </div>
 </div>
- -->
 <!-- End of Flat World Benefit -->
 
 
