@@ -11107,6 +11107,10 @@ p {
   background: #f9bc23;
 }
 
+.single-post .single_post_page .recent-post-title {
+  margin: 2.5rem 0;
+}
+
 .single-post .single_post_page .recent_posts {
   margin: 2rem 0 3.5rem 0;
 }

@@ -29,7 +29,6 @@ get_header();
 				while ( have_posts() ) :
 				  the_post();
 				?>
-				
 					<div class="blog_featured_img">
 						<?php
 						if ( has_post_thumbnail() ) :
@@ -43,7 +42,38 @@ get_header();
 						<span class="category"><?php the_category(' , '); ?> </span>
 					</header>
 					<div class="entry-content"><?php the_content(); ?></div>  
+					<span class="entry-tags"><?php the_tags( null, ''); ?></span>
+					<hr>
 
+					<h4 class="recent-post-title text-center"> You also might be interested in</h4>
+
+					<div class="row recent_posts">
+						<?php 
+							// the query
+							$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
+								<?php if ( $wpb_all_query->have_posts() ) : ?>
+									<!-- the loop -->
+									<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+										<div class="col-lg-4 col-md-4 col-sm-12">
+											<div class="recent-post_featured-img">
+												<?php
+												if ( has_post_thumbnail() ) :
+												the_post_thumbnail( '' );
+												endif;
+												?>
+											</div>
+											<div class="recent-post-bg">
+												<div class="recent-post_header my-4">
+													<h2 class="entry-title"><?php the_title(); ?></h2>
+													<span class="entry-date"><?php echo get_the_date(); ?></span>
+												</div>
+												<p><?php echo wp_trim_words(get_the_content(), 15, '...'); ?></p>
+											</div>
+										</div>
+									<?php endwhile; ?>
+								<?php endif; ?>
+					</div>
+					<hr>
 				<?php endwhile; ?>
 			<?php endif; ?>
 		</div>
