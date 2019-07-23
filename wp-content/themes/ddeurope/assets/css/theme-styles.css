@@ -11007,11 +11007,6 @@ p {
   font-size: 14px;
 }
 
-img {
-  width: 100% !important;
-  height: auto !important;
-}
-
 .single-post {
   margin: 9rem 0 0;
 }
@@ -11160,6 +11155,11 @@ img {
 .single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-date {
   color: #888;
   font-size: 12px;
+}
+
+.single-post img {
+  width: 100% !important;
+  height: auto !important;
 }
 
 .contact_us {
