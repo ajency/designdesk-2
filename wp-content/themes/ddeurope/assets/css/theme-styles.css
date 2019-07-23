@@ -10910,7 +10910,7 @@ p {
 
 .blog_post .single_post {
   padding: 1rem 2rem;
-  background: #fff;
+  background: white;
   box-shadow: 0px 4px 4px 0px #dedede;
 }
 
@@ -10961,7 +10961,7 @@ p {
 }
 
 .blog_post .single_post .post-inner .single_post_link a {
-  color: #000;
+  color: black;
   border: 1px solid #f48e0c;
   padding: 9px 20px !important;
   border-radius: 0;
@@ -10972,7 +10972,7 @@ p {
 
 .blog_post .single_post .post-inner .single_post_link a:hover {
   background-color: #f48e0c;
-  color: #fff;
+  color: white;
 }
 
 .blog_post .post-sidebar {
@@ -11003,7 +11003,7 @@ p {
 }
 
 .sidebar li a {
-  color: #000;
+  color: black;
   font-size: 14px;
 }
 
@@ -11149,6 +11149,7 @@ p {
 
 .single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-title {
   font-size: 22px;
+  color: #f39100;
 }
 
 .single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-date {
