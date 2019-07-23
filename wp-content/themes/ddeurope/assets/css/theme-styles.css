@@ -10939,7 +10939,7 @@ p {
 }
 
 .blog_post .single_post .post-inner {
-  margin-left: 75px;
+  margin-left: 75px !important;
 }
 
 .blog_post .single_post .post-inner .entry-title {
@@ -11005,6 +11005,11 @@ p {
 .sidebar li a {
   color: black;
   font-size: 14px;
+}
+
+img {
+  width: 100% !important;
+  height: auto !important;
 }
 
 .single-post {
