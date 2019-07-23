@@ -44,15 +44,20 @@ get_header();
 								?>
 							</div>
 							<div class="single_post">
-								<header class="entry-header my-4">
-									<h3 class="entry-title"><?php the_title(); ?></h3>
-									<span class="entry-date px-1"><?php echo get_the_date(); ?></span>
-									<span class="category"><?php the_category(' , '); ?> </span>
-								</header>
-								<div class="entry-content">
-									<?php echo wp_trim_words(get_the_content(), 40, '...'); ?><br>
-									<div class="single_post_link">
-										<a href="<?php the_permalink(); ?>">Read More</a>
+								<div class="post-date float-left">
+									<span class="day"><?php echo get_the_date('d'); ?></span> 
+									<span class="month"><?php echo get_the_date('M'); ?></span>
+								</div>
+								<div class="post-inner">
+									<header class="entry-header">
+										<h3 class="entry-title"><?php the_title(); ?></h3>
+										<span class="category"><?php the_category(' , '); ?> </span>
+									</header>
+									<div class="entry-content">
+										<?php echo wp_trim_words(get_the_content(), 40, '...'); ?><br>
+										<div class="single_post_link">
+											<a href="<?php the_permalink(); ?>">Read More</a>
+										</div>
 									</div>
 								</div>
 							</div>
