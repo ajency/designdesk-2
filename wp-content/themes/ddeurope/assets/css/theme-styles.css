@@ -10905,7 +10905,7 @@ p {
 }
 
 .blog_post {
-  padding: 1rem 0rem 4rem;
+  padding: 1rem 0rem 0.5rem;
 }
 
 .blog_post .blog_featured_img a > img {
@@ -11017,6 +11017,24 @@ p {
 .sidebar li a {
   color: black;
   font-size: 14px;
+}
+
+.pagination_nav {
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.pagination_nav .page-numbers {
+  color: white;
+  background: #f39100;
+  padding: 8px 16px;
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  .pagination_nav {
+    text-align: center;
+  }
 }
 
 .single-post {

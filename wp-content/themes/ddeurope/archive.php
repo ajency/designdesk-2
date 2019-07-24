@@ -1,9 +1,11 @@
 <?php
 /*
-	* Template Name: Blog
+* Template Name: Blog
 */
 
 get_header(); 
+
+global $wp_query;
 
 ?>
 
@@ -24,8 +26,9 @@ get_header();
 		
 
 		<?php 
+		$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		// the query
-		$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>8 , 'paged' => $paged)); ?>
+		$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=> 3 , 'paged' => $paged)); ?>
 
 		<?php if ( $wpb_all_query->have_posts() ) : ?>
 
@@ -75,8 +78,19 @@ get_header();
 
 		<?php endwhile; ?>
 		<!-- end of the loop -->
+		<div class="container pagination_nav">
+			<?php
 
+				$big = 999999999; // need an unlikely integer
 
+				echo paginate_links( array(
+					'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+					'format' => '?paged=%#%',
+					'current' => max( 1, get_query_var('paged') ),
+					'total' => $wpb_all_query->max_num_pages
+				) );
+			?>
+		</div>
 	</div>
 	<?php wp_reset_postdata(); ?>
 
