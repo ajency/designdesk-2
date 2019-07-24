@@ -21,10 +21,11 @@ get_header();
 				</div>
 			</div>
 		</div>
+		
 
 		<?php 
 		// the query
-		$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>8)); ?>
+		$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>8 , 'paged' => $paged)); ?>
 
 		<?php if ( $wpb_all_query->have_posts() ) : ?>
 
@@ -37,11 +38,13 @@ get_header();
 					<div class="col-lg-9 col-md-8 col-sm-12">
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<div class="blog_featured_img">
-								<?php
-								if ( has_post_thumbnail() ) :
-								the_post_thumbnail( '' );
-								endif;
-								?>
+								<a href="<?php the_permalink(); ?>">
+									<?php
+									if ( has_post_thumbnail() ) :
+									the_post_thumbnail( array('auto',400) );
+									endif;
+									?>
+								</a>
 							</div>
 							<div class="single_post">
 								<div class="post-date float-left">
@@ -49,8 +52,8 @@ get_header();
 									<span class="month"><?php echo get_the_date('M'); ?></span>
 								</div>
 								<div class="post-inner">
-									<header class="entry-header">
-										<h3 class="entry-title"><?php the_title(); ?></h3>
+									<header class="entry-header mb-4">
+										<h3 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 										<span class="category"><?php the_category(' , '); ?> </span>
 									</header>
 									<div class="entry-content">
@@ -72,6 +75,7 @@ get_header();
 
 		<?php endwhile; ?>
 		<!-- end of the loop -->
+
 
 	</div>
 	<?php wp_reset_postdata(); ?>

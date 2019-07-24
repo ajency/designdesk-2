@@ -10837,6 +10837,11 @@ p {
   }
 }
 
+.category > a {
+  color: #888;
+  font-size: 12px;
+}
+
 .blog {
   margin: 9rem 0 0;
 }
@@ -10903,9 +10908,16 @@ p {
   padding: 1rem 0rem 4rem;
 }
 
-.blog_post .blog_featured_img > img {
+.blog_post .blog_featured_img a > img {
   width: 100% !important;
-  height: auto !important;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 575px) {
+  .blog_post .blog_featured_img a > img {
+    height: auto;
+  }
 }
 
 .blog_post .single_post {
@@ -10942,14 +10954,14 @@ p {
   margin-left: 75px !important;
 }
 
-.blog_post .single_post .post-inner .entry-title {
+.blog_post .single_post .post-inner .entry-title a {
   color: #f39100;
   font-size: 24px;
+  margin-bottom: 0;
 }
 
-.blog_post .single_post .post-inner .category > a {
-  color: #888;
-  font-size: 12px;
+.blog_post .single_post .post-inner .entry-title a:hover {
+  text-decoration: none;
 }
 
 .blog_post .single_post .post-inner .entry-content {
@@ -10984,7 +10996,7 @@ p {
   display: block !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .blog_post .post-sidebar {
     display: none !important;
   }
@@ -11083,6 +11095,8 @@ p {
 .single-post .single_post_page .blog_featured_img > img {
   width: 100% !important;
   height: auto;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 .single-post .single_post_page .entry-header {
@@ -11093,11 +11107,6 @@ p {
   color: #888;
   font-size: 12px;
   border-right: 1px solid #444;
-}
-
-.single-post .single_post_page .entry-header .category > a {
-  color: #888;
-  font-size: 12px;
 }
 
 .single-post .single_post_page .entry-content {
@@ -11137,9 +11146,9 @@ p {
   margin: 2rem 0 3.5rem 0;
 }
 
-.single-post .single_post_page .recent_posts .recent-post_featured-img img {
+.single-post .single_post_page .recent_posts .recent-post_featured-img a > img {
   width: 100% !important;
-  height: 250px;
+  height: 250px !important;
 }
 
 .single-post .single_post_page .recent_posts .recent-post-bg {
@@ -11147,9 +11156,13 @@ p {
   padding: 2px 20px;
 }
 
-.single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-title {
+.single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-title a {
   font-size: 22px;
   color: #f39100;
+}
+
+.single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-title a:hover {
+  text-decoration: none;
 }
 
 .single-post .single_post_page .recent_posts .recent-post-bg .recent-post_header .entry-date {
