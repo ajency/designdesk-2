@@ -50,7 +50,8 @@ get_header();
 					<div class="row recent_posts">
 						<?php 
 							// the query
-							$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3)); ?>
+							$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>3,'post__not_in' => array( get_the_ID() )
+)); ?>
 								<?php if ( $wpb_all_query->have_posts() ) : ?>
 									<!-- the loop -->
 									<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
