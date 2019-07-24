@@ -11024,9 +11024,16 @@ p {
   text-align: left;
 }
 
-.pagination_nav .page-numbers {
+.pagination_nav a {
   color: white;
   background: #f39100;
+  padding: 8px 16px;
+  font-weight: 800;
+}
+
+.pagination_nav span {
+  color: white;
+  background: #00aeef;
   padding: 8px 16px;
   font-weight: 800;
 }
