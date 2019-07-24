@@ -11093,7 +11093,7 @@ p {
 }
 
 .single-post .single_post_page .blog_featured_img > img {
-  width: 100% !important;
+  width: 80% !important;
   height: auto;
   max-height: 400px;
   object-fit: cover;

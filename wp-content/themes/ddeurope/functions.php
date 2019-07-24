@@ -29,6 +29,9 @@ function enqueue_theme_scripts() {
 }
 add_action("wp_enqueue_scripts", "enqueue_theme_scripts");
 
+
+ /* REGISTER  SIDEBAR
+================================================== */
 add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {
     /* Register the 'primary' sidebar. */
@@ -45,3 +48,19 @@ function my_register_sidebars() {
     );
     /* Repeat register_sidebar() code for additional sidebars. */
 }
+
+ /* Custom login page logo
+================================================== */
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url('wp-content/themes/ddeurope/assets/images/ddeurop_New_Logo.png');
+            height:65px;
+            width:320px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
