@@ -54,7 +54,7 @@ get_header();
 								<?php if ( $wpb_all_query->have_posts() ) : ?>
 									<!-- the loop -->
 									<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
-										<div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+										<div class="col-lg-4 col-md-12 col-sm-12 mb-4">
 											<div class="recent-post_featured-img">
 												<a href="<?php the_permalink(); ?>">
 													<?php

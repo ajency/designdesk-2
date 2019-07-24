@@ -11151,6 +11151,12 @@ p {
   height: 250px !important;
 }
 
+@media (max-width: 991px) {
+  .single-post .single_post_page .recent_posts .recent-post_featured-img a > img {
+    height: auto !important;
+  }
+}
+
 .single-post .single_post_page .recent_posts .recent-post-bg {
   background: white;
   padding: 2px 20px;

@@ -96,6 +96,9 @@
 			.recent-post_featured-img a > img{
 				width: 100% !important;
 				height: 250px !important;
+				@media (max-width: 991px){
+					height: auto !important;
+				}
 			}
 			.recent-post-bg{
 				background: white;
