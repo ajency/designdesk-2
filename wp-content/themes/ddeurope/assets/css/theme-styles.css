@@ -11033,7 +11033,7 @@ p {
 
 .pagination_nav span {
   color: white;
-  background: #00aeef;
+  background: #0671b5;
   padding: 8px 16px;
   font-weight: 800;
 }
@@ -11202,7 +11202,7 @@ p {
 }
 
 .single-post .single_post_page img {
-  width: 100% !important;
+  max-width: 100% !important;
   height: auto !important;
 }
 
