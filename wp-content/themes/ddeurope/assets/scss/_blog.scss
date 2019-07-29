@@ -114,20 +114,25 @@
 		}
 	}
 	.post-sidebar{
-		margin-top: -50px;
-	    padding-top: 50px;
-	    padding-bottom: 70px;
-	    border-left: solid 1px #ebebeb;
-	    margin-bottom: 0!important;
-	    display: block !important;
-	    @media (max-width: 767px){
-	    	display: none !important;
-	    }
-    }
+		@media (max-width: 768px){
+			display: none !important;
+		}
+	}
 }
 
 //sidebar
-
+.post-sidebar{
+	margin-top: -44px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-left: solid 1px #ebebeb;
+    margin-bottom: 0!important;
+    display: block !important;
+    @media (max-width: 768px){
+    	border-left: 0;
+	    padding-left: 0;
+    }
+}
 .sidebar{
 	.widget-title{
 	    text-transform: uppercase;
