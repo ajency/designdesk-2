@@ -47,6 +47,9 @@
                				<a class="nav-link" href="<?php echo get_site_url(); ?>/exhibition-stand-designers-builders-europe"> About Us </a>
 						</li>
 						<li class="nav-item">
+               				<a class="nav-link" href="<?php echo get_site_url(); ?>/exhibiting-advice"> Exhibiting Advice </a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="<?php echo get_site_url(); ?>/contact-exhibition-stall-designs"> Contact </a>
 						</li>
 					</ul>						  
@@ -67,6 +70,9 @@
 						</li>		
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo get_site_url(); ?>/exhibition-stand-designers-builders-europe"> About Us </a>
+						</li>
+						<li class="nav-item">
+               				<a class="nav-link" href="<?php echo get_site_url(); ?>/exhibiting-advice"> Exhibiting Advice </a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="<?php echo get_site_url(); ?>/contact-exhibition-stall-designs"> Contact </a>

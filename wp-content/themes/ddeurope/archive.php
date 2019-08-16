@@ -13,11 +13,11 @@ global $wp_query;
 		<div class="header_image position-relative">
 			<div class="header">
 				<div class="container">
-					<h2 class="title">Blog</h2>
+					<h2 class="title"> Exhibiting Advice </h2>
 					<div class="breadcrumbs-wrapper">
 						<div class="breadcrumbs-inside">
 							<a href="<?php echo get_site_url(); ?>/">Home</a> <span class="sep-icon"><i class="fa fa-angle-right"></i></span>
-							<span>blog</span>
+							<span>Exhibiting Advice</span>
 						</div>
 					</div>
 				</div>
