@@ -11368,8 +11368,10 @@ p {
   color: #888;
 }
 
-.exhibition_tips .home-carousel {
-  padding-top: 40%;
+@media (min-width: 991px) {
+  .exhibition_tips .home-carousel {
+    padding-top: 40%;
+  }
 }
 
 .category-tag-page {
