@@ -50,9 +50,7 @@ if ( have_posts() ) {
 			<h2 class="section_title"> Here are some large product stands produced by Design Desk: </h2>
 
 			<!-- Slider ACG Interpack-->
-			<p> ACG Worldwide at Interpack 2017 - Dusseldorf, Germany (306 sqm)</p>
-					<!-- 	<?php echo do_shortcode("[portfolio_gallery lightbox=true]"); ?> -->
-
+			<?php echo do_shortcode('[portfolio_gallery post="396" lightbox=true]'); ?>
 			<strong>Key Features: </strong>
 			<ul>
 				<li class="lists"> Open & inviting outlook </li>
@@ -63,9 +61,7 @@ if ( have_posts() ) {
 			</ul>
 
 			<!-- Slider Achema 2018 -->
-			<p> ACG Worldwide at Achema 2018 - Frankfurt, Germany (220 sqm) </p>
-<!-- 						<?php echo do_shortcode("[portfolio_gallery lightbox=true]"); ?>
- -->
+			<?php echo do_shortcode('[portfolio_gallery post="499" lightbox=true]'); ?>
 			<strong>Key Features: </strong>
 			<ul>
 				<li class="lists"> Dominating presence & private display strategy </li>
@@ -77,10 +73,9 @@ if ( have_posts() ) {
 
 
 			<!-- Slider Reshmi from Portfolio-->
-			<p> Reshmi Industries at ITMA 2019 - Barcelona, Spain (78 sqm) </p>
-<!-- 									<?php echo do_shortcode("[portfolio_gallery lightbox=true]"); ?>
- -->
-			<strong>Key Features: </strong>
+			<p> Reshmi Industries at ITMA 2019 - Barcelona, Spain (78 sqm)</p>
+<!-- 			<?php echo do_shortcode('[portfolio_gallery post="396" lightbox=true]'); ?>
+ -->			<strong>Key Features: </strong>
 			<ul>
 				<li class="lists"> Open layout with light construction  </li>
 				<li class="lists"> High walls with graphics serve as backdrop to exhibits </li>
