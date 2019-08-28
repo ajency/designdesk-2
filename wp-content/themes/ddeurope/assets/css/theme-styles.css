@@ -11213,6 +11213,144 @@ p {
   height: auto !important;
 }
 
+.page_content {
+  margin: 9rem 0 3rem;
+}
+
+.page_content .header {
+  background: #f39100;
+  height: 75px;
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+}
+
+.page_content .header .title {
+  color: #fff;
+  font-size: 26px;
+  line-height: 3;
+}
+
+@media (max-width: 475px) {
+  .page_content .header .title {
+    font-size: 18px;
+  }
+}
+
+.page_content .header .breadcrumbs-inside {
+  float: right;
+  margin-top: -5%;
+  font-size: 13px;
+}
+
+.page_content .header .breadcrumbs-inside a {
+  color: #fff;
+}
+
+.page_content .header .breadcrumbs-inside:not(.sep-icon) {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .page_content .header .breadcrumbs-inside {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+  .page_content .header {
+    margin-top: -1.3rem;
+  }
+}
+
+@media (max-width: 575px) and (min-width: 476px) {
+  .page_content .header {
+    margin-top: -1.9rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .page_content .header {
+    margin-top: -3.8rem;
+    height: 50px;
+  }
+}
+
+.lists {
+  font-size: 14px;
+}
+
+.exhibition_tips .head_text .title {
+  text-align: center;
+  color: #323436;
+  margin: 1.5rem 0;
+  font-size: 28px;
+}
+
+.exhibition_tips .head_text .title span {
+  font-weight: 600;
+  color: #f39100;
+}
+
+.exhibition_tips h4 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.exhibition_tips .section_title {
+  text-align: left;
+}
+
+.exhibition_tips .experts_tips span {
+  font-weight: 600;
+}
+
+.exhibition_tips .about-dd .right {
+  align-self: center;
+}
+
+.exhibition_tips .about-dd .right span {
+  color: black;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
+  margin: auto;
+  padding-right: 22px;
+}
+
+.exhibition_tips .about-dd .right span:hover {
+  text-decoration: none;
+}
+
+.exhibition_tips .about-dd .right .btn > a {
+  color: black;
+  border: 1px solid #f48e0c;
+  padding: 8px 24px;
+  border-radius: 0;
+  text-decoration: none;
+  transition: 0.6s;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.exhibition_tips .about-dd .right .btn > a:hover {
+  background: #f39100;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .exhibition_tips .about-dd .right {
+    padding-top: 1.5rem;
+  }
+}
+
+.exhibition_tips .lists-section {
+  padding-top: 3rem;
+  color: black;
+  font-size: 14px;
+}
+
 .category-tag-page {
   margin: 9rem 0 0;
 }
