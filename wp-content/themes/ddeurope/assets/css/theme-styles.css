@@ -11283,12 +11283,11 @@ p {
   text-align: center;
   color: #323436;
   margin: 1.5rem 0;
-  font-size: 28px;
+  font-size: 38px;
 }
 
 .exhibition_tips .head_text .title span {
   font-weight: 600;
-  color: #f39100;
 }
 
 .exhibition_tips h4 {
@@ -11296,6 +11295,7 @@ p {
   font-size: 18px;
   margin-bottom: 1.5rem;
   text-align: center;
+  color: #f39100;
 }
 
 .exhibition_tips .section_title {
@@ -11345,10 +11345,31 @@ p {
   }
 }
 
+.exhibition_tips .portfolio-slider .aj-row {
+  justify-content: center;
+}
+
+.exhibition_tips .portfolio-slider .features {
+  display: flex;
+  justify-content: center;
+}
+
 .exhibition_tips .lists-section {
   padding-top: 3rem;
   color: black;
   font-size: 14px;
+}
+
+.exhibition_tips .lists-section li {
+  padding: 0.5rem 0;
+}
+
+.exhibition_tips .lists-section li a {
+  color: #888;
+}
+
+.exhibition_tips .home-carousel {
+  padding-top: 40%;
 }
 
 .category-tag-page {

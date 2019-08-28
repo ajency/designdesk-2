@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Exhibition Tips
+ * Template Name: Exhibition Tips v.2
  */
 
 get_header(); 
@@ -49,7 +49,19 @@ if ( have_posts() ) {
 			<div class="portfolio-slider">
 					<h4> Here are some large product stands produced by Design Desk: </h4>
 					<!-- Slider ACG Interpack-->
-					<?php echo do_shortcode('[portfolio_gallery post="1739" lightbox=true]'); ?>
+					<div class="home-carousel row">
+					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
+					        <div class="carousel-cell active">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					    </div>
+					</div>
 					<div class="features">
 						<strong>Key Features: </strong>
 						<ul>
@@ -61,8 +73,19 @@ if ( have_posts() ) {
 						</ul>
 					</div>
 					<!-- Slider Achema 2018 -->
-					<?php echo do_shortcode('[portfolio_gallery post="1739" lightbox=true]'); ?>
-					<div class="features">
+					<div class="home-carousel row">
+					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
+					        <div class="carousel-cell active">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					    </div>
+					</div>					<div class="features">
 						<strong>Key Features: </strong>
 						<ul>
 							<li class="lists"> Dominating presence & private display strategy </li>
@@ -74,8 +97,19 @@ if ( have_posts() ) {
 					</div>
 
 					<!-- Slider Reshmi from Portfolio-->
-		 				<?php echo do_shortcode('[portfolio_gallery post="1739" lightbox=true]'); ?>
-						<div class="features">
+					<div class="home-carousel row">
+					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
+					        <div class="carousel-cell active">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					    </div>
+					</div>						<div class="features">
 				 			<strong>Key Features: </strong>
 							<ul>
 								<li class="lists"> Open layout with light construction  </li>
