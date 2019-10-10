@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Exhibition Tips v.2
+ * Template Name: Exhibition Tips v.3
  */
 
 get_header(); 
@@ -18,7 +18,7 @@ if ( have_posts() ) {
 
 <div class="page_content">
 	<div class="header_image position-relative">
-		<div class="header">
+		<div class="header mb-0">
 			<div class="container">
 				<h2 class="title">Tips for Exhibition Stands</h2>
 				<div class="breadcrumbs-wrapper">
@@ -29,6 +29,22 @@ if ( have_posts() ) {
   				</div>
 			</div>
 		</div>
+	</div>
+	<div class="portfolio-slider">
+	<!-- Slider ACG Interpack-->
+		<div class="home-carousel">
+		    <div class="carousel is-hidden">
+		        <div class="carousel-cell active">
+		            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+		        </div>
+		        <div class="carousel-cell">
+		            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+		        </div>
+		        <div class="carousel-cell">
+		            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+		        </div>
+		    </div>
+		</div>									
 	</div>
 	<div class="exhibition_tips">
 		<div class="container">
@@ -45,81 +61,6 @@ if ( have_posts() ) {
 					<li class="lists"><span> Proper overhead lighting </span> is essential – angular lights focused on exhibits may create shadows & dark spots. If hanging lights are not permitted at the venue, then a solution using overhead canopies or light poles may need to be worked out. </li>
 					<li class="lists"><span> Flooring could be a critical element </span> when displaying heavy weight products -  if using a raised floor then it must be able to support the weight & also pass through any utilities like power or air cables. A detailed setup schedule is also critical for move-in & move-out of heavy exhibits to be in sync with stand building activities. </li>
 				</ul>
-			</div>
-			<div class="portfolio-slider">
-					<h4> Here are some large product stands produced by Design Desk: </h4>
-					<!-- Slider ACG Interpack-->
-					<div class="home-carousel row">
-					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
-					        <div class="carousel-cell active">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					        <div class="carousel-cell">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					        <div class="carousel-cell">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					    </div>
-					</div>
-					<div class="features">
-						<strong>Key Features: </strong>
-						<ul>
-							<li class="lists"> Open & inviting outlook </li>
-							<li class="lists"> High walls with creative design features </li>
-							<li class="lists"> LED screen at central & prominent location </li>
-							<li class="lists"> Large hanging sign complete with bright illumination </li>
-							<li class="lists"> Heavy load flooring with power & air cables passing underneath </li>
-						</ul>
-					</div>
-					<!-- Slider Achema 2018 -->
-					<div class="home-carousel row">
-					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
-					        <div class="carousel-cell active">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					        <div class="carousel-cell">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					        <div class="carousel-cell">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					    </div>
-					</div>					<div class="features">
-						<strong>Key Features: </strong>
-						<ul>
-							<li class="lists"> Dominating presence & private display strategy </li>
-							<li class="lists"> Full height façade & walls to create a fortress like ambience </li>
-							<li class="lists"> Integrated LED walls for dynamic content & messaging </li>
-							<li class="lists"> Excellent illumination facility using overhead trussing </li>
-							<li class="lists"> Heavy load flooring with power & air cables passing underneath </li>
-						</ul>
-					</div>
-
-					<!-- Slider Reshmi from Portfolio-->
-					<div class="home-carousel row">
-					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
-					        <div class="carousel-cell active">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					        <div class="carousel-cell">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					        <div class="carousel-cell">
-					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-					        </div>
-					    </div>
-					</div>						<div class="features">
-				 			<strong>Key Features: </strong>
-							<ul>
-								<li class="lists"> Open layout with light construction  </li>
-								<li class="lists"> High walls with graphics serve as backdrop to exhibits </li>
-								<li class="lists"> Centralized logo with lighting for easy identification of Brand </li>
-								<li class="lists"> Suspended truss for illumination of products </li>
-								<li class="lists"> Heavy load flooring with power & air cables passing underneath </li>
-								<li class="lists"> Supporting information stands for each product  </li>
-							</ul>
-						</div>
 			</div>
 		</div>
 

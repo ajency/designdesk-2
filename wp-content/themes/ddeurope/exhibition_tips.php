@@ -15,7 +15,7 @@ if ( have_posts() ) {
 
 	$default_sidebar_position = get_theme_mod( 'default_sidebar_position', 'right' );
 ?>
-
+<?php the_content(); ?>
 <div class="page_content">
 	<div class="header_image position-relative">
 		<div class="header">
@@ -155,4 +155,6 @@ if ( have_posts() ) {
 	}
 } 
 get_footer();
+
+?>
 
