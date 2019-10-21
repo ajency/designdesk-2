@@ -18,7 +18,7 @@ if ( have_posts() ) {
 
 <div class="page_content">
 	<div class="header_image position-relative">
-		<div class="header mb-0">
+		<div class="header">
 			<div class="container">
 				<h2 class="title">Tips for Exhibition Stands</h2>
 				<div class="breadcrumbs-wrapper">
@@ -30,30 +30,30 @@ if ( have_posts() ) {
 			</div>
 		</div>
 	</div>
-	<div class="portfolio-slider">
-	<!-- Slider ACG Interpack-->
-		<div class="home-carousel">
-		    <div class="carousel is-hidden">
-		        <div class="carousel-cell active">
-		            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-		        </div>
-		        <div class="carousel-cell">
-		            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-		        </div>
-		        <div class="carousel-cell">
-		            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
-		        </div>
-		    </div>
-		</div>									
-	</div>
 	<div class="exhibition_tips">
 		<div class="container">
 			<div class="head_text">
-				<h2 class="title"> Expert Tips for Exhibition Stands with <br/><span>Big Products or Large Size Exhibits</span> </h2>
+				<h2 class="title"> <span>Expert Tips for Exhibition Stands with <br/>Big Products or Large Size Exhibits</span> </h2>
 				<h4>Are you going to exhibit heavy machinery or large size products at your next trade show ?</h4>
+				<h4> Consider these tips from our experts: </h4>
+			</div>
+			<div class="portfolio-slider">
+					<!-- Slider ACG Interpack-->
+					<div class="home-carousel row">
+					    <div class="carousel is-hidden col-lg-8 col-md-12 col-md-12 m-auto">
+					        <div class="carousel-cell active">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/01-SOEX Dortmund Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/ACG Frankfurt Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					        <div class="carousel-cell">
+					            <img data-flickity-lazyload="<?php echo get_template_directory_uri(); ?>/assets/images/RKFL Hannover Germany.jpg" class="carousel-cell-image" alt="Exhibition stand design at Germany">
+					        </div>
+					    </div>
+					</div>
 			</div>
 			<div class="row experts_tips justify-content-center">
-				<h4> Consider these tips from our experts: </h4>
 				<ul>
 					<li class="lists"><span>Start with layout planning</span> of your stand area i.e. decide the position of your exhibits within the stand as the 1st step. Work with your stand designer to finalize the layout plan & then commence the design of the stand elements </li>
 					<li class="lists">Consider the <span>height of the products</span> while making this plan – taller products block the line of vision & are best placed against high backdrops or walls. Give the most prominent location to the most popular or attractive exhibits.</li>
