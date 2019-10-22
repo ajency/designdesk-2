@@ -111,7 +111,7 @@ if ( have_posts() ) {
 	            	</div>
 	            </div>
 	        </div>
-
+<!--this is the links section-->
 	        <div class="lists-section container">
 	        	<h5 class=""><strong> Also read: </strong></h5>
 		        <ol>
@@ -123,7 +123,6 @@ if ( have_posts() ) {
 	    	</div>
 	</div>
 </div>
-
 
  
 <?php
