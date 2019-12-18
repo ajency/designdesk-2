@@ -193,7 +193,37 @@ if ( have_posts() ) {
 
 <!-- end of Counter -->
 
-
+<!-- Featured Videos -->
+<div class="flat_world_benefit">
+    <div class="container">
+        <div class="row flat_world_bg">
+            <div class="img_title">
+                <h2 class="section_title">Featured Videos</h2>
+            </div>
+            <div class="row aj-row" style="margin:auto;">
+                <div class="col-lg-6 col-md-6 col-sm-12 img-block">
+                    <a href="https://www.youtube.com/watch?v=HRlnIIcbjOY" target="_blank">
+                        <div id="bg-image" class="pg-thumbnail" style="background-image: url(https://dd-europe.com/wp-content/uploads/2019/12/Reliance-at-K-2019-Germany-by-Design-Desk.png)">
+                        </div>
+                        <div class="pg-title">
+                            <label>Reliance at K 2019, Germany - by Design Desk</label>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 img-block">
+                    <a href="https://www.youtube.com/watch?v=FX9h8Yg1h1Q" target="_blank">
+                        <div id="bg-image" class="pg-thumbnail" style="background-image: url(https://dd-europe.com/wp-content/uploads/2019/12/MSN-Pharma-at-CPHI-WW-2019.png)">
+                        </div>
+                        <div class="pg-title">
+                            <label>MSN Pharma at CPHI Worldwide 2019</label>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Featured Videos -->
 
 
 <!-- World Map -->
